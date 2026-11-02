@@ -1,0 +1,1575 @@
+{
+  "schema_version": 5,
+  "assignment_id": "product-logo-refresh-v4",
+  "topic_slug": "product-logo-refresh-v4",
+  "brief_version": 19,
+  "date": "2026-11-01",
+  "invocation_started": "2026-11-01T05:53:32.478-06:00",
+  "pre_review_completion_invocation": "2026-11-01T06:27:35.394-06:00",
+  "final_mechanical_evidence_invocation": "2026-11-01T06:51:53.547-06:00",
+  "authorized_training_revision_invocation": "2026-11-01T08:11:30.009-06:00",
+  "brief_delta_assessment": "GRANT-LOGOS-V4-02 supplies direct caller authorization for GitHub Copilot, Word, PowerPoint, Teams and Defender in official Microsoft training/local review. Seventeen exact files now support nineteen IDs. Fourteen prior mappings unchanged; five former holds/interim plain-name entries replaced for this scope. No public redistribution license, employee agreement, artwork alteration permission or self-approval inferred.",
+  "report_relative_path": "research/2026-11-01-product-logo-refresh-v4.md",
+  "asset_directory_relative_path": "research/assets/microsoft-ai-product-logos-v4",
+  "manifest_status": "FULL_AUTHORIZED_TRAINING_CATALOG_PROVISIONED_PENDING_R2",
+  "build_consumable": true,
+  "selected_asset_contract_build_consumable": true,
+  "selected_asset_contract_complete": true,
+  "asset_selection_semantics": "Every assets[] entry is a selected exact original for the authorized training scope; all seventeen are provisioned. New R2 review gate applies to adopting this revised catalog.",
+  "base_approval_provenance": "Unchanged eleven originals/fourteen mappings: old microsoft-ai-product-logos catalog R2 plus this product-logo-refresh-v4 canonical R1. R2 strings in base permission_status refer to that old collection approval, not self-approval of this revision.",
+  "build_consumable_scope": "Technical usability only: all seventeen local originals and nineteen authorized-training mappings. Adopting the revised catalog requires caller-managed R2 paired approval; this flag is not self-approval or public relicensing.",
+  "runtime_usable_semantics": "Eligible original bytes for declared authorized training scope, subject to the global R2 use gate; not an artifact-review verdict.",
+  "use_gate": "Caller-managed canonical overall R2 acceptance before downstream adoption of the six added files/revised full mapping. Prior R1 approval and unchanged eleven originals remain valid.",
+  "review_status": "PENDING_CALLER_MANAGED_CANONICAL_R2",
+  "prior_review_verdict": "APPROVED",
+  "canonical_review_rounds_completed": 1,
+  "prior_review_brief_version": 17,
+  "review_cycle": "NEW_POST_APPROVAL",
+  "prepared_review_round": 2,
+  "prepared_cycle_review_round": 1,
+  "review_cycle_rounds_consumed": 0,
+  "review_cap": 3,
+  "self_approved": false,
+  "future_reviewer_relative_path": "agent-reviews/2026-11-01-ms-docs-research-reviewer-product-logo-refresh-v4.md",
+  "required_mcp": {
+    "server": "microsoft-learn",
+    "status": "verified",
+    "successful_tools": [
+      "microsoft_docs_search",
+      "microsoft_docs_fetch"
+    ],
+    "preflight_search": "Microsoft Fabric product workload item icons training slide decks terms unmodified icons",
+    "preflight_full_document": "https://learn.microsoft.com/fabric/fundamentals/icons",
+    "response_validation": "Independent successful search and meaningful complete guidelines, terms and official download link returned.",
+    "retries": 0,
+    "code_sample_search": "not applicable"
+  },
+  "reference_counts": {
+    "microsoft_learn_pages": 15,
+    "official_github_repositories": 1,
+    "code_samples": 0,
+    "other_official_web_pages": 15,
+    "official_pdf_guidelines": 1,
+    "first_party_original_asset_urls": 6,
+    "total": 38
+  },
+  "confirmed_visible_product_count": 19,
+  "selected_asset_count": 17,
+  "selected_svg_count": 11,
+  "selected_png_count": 6,
+  "selected_product_glyph_file_count": 15,
+  "selected_complete_lockup_variant_file_count": 2,
+  "permission_resolved_product_mapping_count": 19,
+  "authorized_training_product_mapping_count": 19,
+  "authorization_resolution_scope": "Official Microsoft training/local review only",
+  "unresolved_graphical_product_count": 0,
+  "name_only_product_count": 0,
+  "copied_asset_count": 17,
+  "new_target_hash_measured_count": 17,
+  "new_target_hash_measurement_owner": "caller mechanical provisioning, not researcher",
+  "selected_asset_provisioning_complete": true,
+  "all_confirmed_products_have_permission_resolved_graphics": true,
+  "selected_assets_with_transparent_outer_canvas_count": 17,
+  "selected_assets_without_full_intrinsic_item_tile_count": 16,
+  "selected_assets_with_intrinsic_item_tile_count": 1,
+  "new_standalone_transparent_app_source_discoveries": 3,
+  "new_authorized_original_file_count": 6,
+  "new_authorized_product_id_count": 5,
+  "github_isolated_current_full_lockup_download_route_established": true,
+  "github_reference_svg_archive_byte_equality_verified": true,
+  "github_mechanical_source_gap_resolved": true,
+  "github_full_black_original_source_established": true,
+  "github_complete_raw_lockup_variant_hash_count_recorded": 2,
+  "name_only_fallback_approved_by_this_report": false,
+  "unresolved_product_ids": [],
+  "historical_hold_product_ids_resolved_by_caller_grant": [
+    "github-copilot",
+    "microsoft-word",
+    "microsoft-powerpoint",
+    "microsoft-teams",
+    "microsoft-defender"
+  ],
+  "excluded_product_ids": [
+    "foundry-toolkit",
+    "microsoft-outlook",
+    "microsoft-excel",
+    "microsoft-copilot-app"
+  ],
+  "exclusion_basis": "Foundry Toolkit and Microsoft Copilot app are outside confirmed V3 reuse; Outlook/Excel notes-only. GitHub Copilot app is the approved GitHub service client surface, not Microsoft Copilot app or GitHub Desktop. Fabric data agent stays visible at V4 31. Foundry named in V4 16 maps only to platform label, not generic harness.",
+  "source_hash_evidence": {
+    "measurement_owner": "caller mechanical provisioning, not this researcher's independent hash computation",
+    "old_recorded_verification_utc": "2026-11-01T01:58:32Z",
+    "old_record_path": "[local-user]\\.copilot\\session-state\\[local-session]\\files\\logo-assets-provision-20261101\\results\\copy.json",
+    "prior_record_path": "[local-user]\\.copilot\\session-state\\[local-session]\\files\\v4-logo-provision\\copy-results.json",
+    "record_path": "[local-user]\\.copilot\\session-state\\[local-session]\\files\\v4-authorized-logos\\asset-results.json",
+    "new_recorded_verification_utc": "2026-11-01T14:10:13Z",
+    "old_manifest_relative_path": "research/assets/microsoft-ai-product-logos/logo-source-map.json",
+    "new_target_evidence": "All seventeen actual target SHA-256/bytes supplied at 14:10:13Z. Eleven base hashes unchanged; three local new copies have supplied source-target equality; three curl SVG responses have original_response_bytes_preserved true, without a separate source-file hash measurement. No researcher-computed hashes. Verification UTC is not relabeled as an unsupplied download/copy event UTC.",
+    "preservation": "Old catalogs, raw packs and builds were read-only. No new rehash claim for prior builds."
+  },
+  "inspection_evidence": {
+    "selected_pngs": "Six PNGs have supplied RGBA, alpha extrema [0,255] and four [0,0,0,0] corners. Five are 512x512; Defender is 256x256. Native light/dark target render inspected; Fabric data-agent intrinsic tile retained.",
+    "selected_svgs": "Eleven original SVGs: six base, three current app originals, two complete GitHub lockups. New five SVG targets read in full; all retain unpainted outer canvases, native shapes/colors and internal clipping.",
+    "native_render_path": "[local-user]\\.copilot\\session-state\\[local-session]\\files\\v4-authorized-logos\\native-previews.png",
+    "native_render_inspected": true,
+    "native_color_inspected_asset_count": 17,
+    "hub_comparisons": [
+      "work-iq",
+      "fabric-iq"
+    ],
+    "new_app_original_inspection": "Actual Word/PowerPoint/Teams targets read as complete SVG and viewed in native target render. Word uses A04 bytes, not A01 byte equality. SHA/byte measurements are caller-supplied; curl HTTP MIME not captured, detected SVG MIME comes from parsed XML."
+  },
+  "global_source_conditions": [
+    "Copy/distribute/display exact collection icons only for permitted architecture, training or documentation use; other rights reserved.",
+    "Do not crop, flip, rotate, distort or change icon shape.",
+    "Do not use Microsoft product icons as your own product/service identity.",
+    "Entra icons must not be used in marketing communications."
+  ],
+  "binding_implementation_conditions": [
+    "Remove surrounding CSS plate, border and icon-tile shadow; never erase intrinsic artwork or background pixels.",
+    "Preserve exact selected bytes, colors, gradients, original aspect ratio and full canvas.",
+    "Use local catalog images beside actual visible product names; no runtime hotlinks.",
+    "No recoloring, filters, brand animation, fabricated lockups, generic shields, mascots or code-icon substitutes.",
+    "Parent glyphs are disclosed visual representations, not identical functionality or distinct logos for each alias.",
+    "Azure AI Search accessible label must use its product name, not embedded title Icon-web-44.",
+    "Only assets[].target_file_path and product_coverage variant rules supply runtime images. Historical pre-authorization assessments, archives, raw packs and previews are non-runtime.",
+    "Five prior holds are withdrawn only for GRANT-LOGOS-V4-02 training/local scope. Do not extend authorization to external/public publication or relabel it as a Learn grant.",
+    "Do not create arbitrary model/provider or separate generic harness marks."
+  ],
+  "authorization": {
+    "basis": "SUPPLIED_DIRECT_CALLER_AUTHORIZATION",
+    "grant_reference": "GRANT-LOGOS-V4-02",
+    "brief_relative_path": "brief.md",
+    "brief_version": 19,
+    "authorized_product_ids": [
+      "m365-copilot",
+      "copilot-cowork",
+      "copilot-studio",
+      "github-copilot",
+      "microsoft-foundry",
+      "work-iq",
+      "fabric-iq",
+      "foundry-iq",
+      "copilot-chat",
+      "microsoft-word",
+      "microsoft-powerpoint",
+      "microsoft-teams",
+      "azure-ai-search",
+      "power-bi",
+      "microsoft-entra",
+      "microsoft-purview",
+      "microsoft-defender",
+      "microsoft-agent-365",
+      "fabric-data-agent"
+    ],
+    "newly_resolved_product_ids": [
+      "github-copilot",
+      "microsoft-word",
+      "microsoft-powerpoint",
+      "microsoft-teams",
+      "microsoft-defender"
+    ],
+    "scope": "Official Microsoft training/local review, originals beside the named products",
+    "not_a_microsoft_learn_finding": true,
+    "not_an_inferred_employee_agreement": true,
+    "not_a_public_publishing_or_general_relicensing_grant": true,
+    "not_permission_to_alter_artwork": true,
+    "further_agreement_request_in_this_scope": false
+  },
+  "runtime_contract": {
+    "coverage_source": "product_coverage",
+    "asset_source": "assets[].target_file_path only",
+    "gitHub_light_variant_asset_id": "github-copilot-lockup-black",
+    "gitHub_dark_variant_asset_id": "github-copilot-lockup-white",
+    "variant_choice": "Actual surrounding surface contrast, not theme name alone",
+    "lockup_layout": "Complete 734:95 lockup, not square icon. Preserve ratio and allocate readable horizontal width/clear space; do not crop, squeeze, recolor or extract the Invertocat.",
+    "name_only_fallback": "Withdrawn for these nineteen IDs in this authorized training scope after R2 approval",
+    "non_runtime_sections": [
+      "authorization_history",
+      "github_archive_provisioning",
+      "additional_unselected_leads",
+      "inspection_evidence"
+    ],
+    "unknown_product_policy": "Return a scope mismatch; never invent a logo or mapping."
+  },
+  "format_mime_semantics": "Format and detected MIME are based on parsed original SVG XML or measured PNG format, not invented transport headers. The three curl-download HTTP MIME values were not captured.",
+  "advisory_style_guidance": {
+    "references": [
+      "P01"
+    ],
+    "classification": "Product-glyph label colors, healthy clear space and equal longest-side sizing are advisory style, not collection license conditions. Equal-longest-side/square-icon sizing does not apply to the complete GitHub lockups; use their dedicated 734:95 width/contrast rules."
+  },
+  "collections": {
+    "entra": {
+      "reference": "L06",
+      "source_url": "https://download.microsoft.com/download/3/1/a/31a56038-856a-4489-88e4-ee5a1c4352be/Microsoft%20Entra%20architecture%20icons%20-%20Oct%202023.zip?wt.mc_id=microsoftentraicons_downloadmicrosoftentraicons_content_cnl_csasci",
+      "source_retrieved_utc_supplied": "2026-11-01T01:09:48Z"
+    },
+    "azure": {
+      "reference": "L04",
+      "source_url": "https://arch-center.azureedge.net/icons/Azure_Public_Service_Icons_V24.zip",
+      "source_retrieved_utc_supplied": "2026-11-01T01:09:51Z"
+    },
+    "power_platform": {
+      "reference": "L05",
+      "source_url": "https://download.microsoft.com/download/498606aa-6d27-4f13-aa5c-1401078c153b/Power-Platform-icons-scalable.zip",
+      "source_retrieved_utc_supplied": "2026-11-01T01:10:26Z"
+    },
+    "fabric": {
+      "references": [
+        "L01",
+        "G01"
+      ],
+      "source_url": "https://github.com/microsoft/fabric-samples/raw/refs/heads/main/docs-samples/Icons.zip",
+      "source_retrieved_utc_supplied": "2026-11-01T01:35:35Z",
+      "actual_archive_sha256_supplied": "fc22e71b0545ed15e22c53f16bf4fb06ffe72daabd3c90a947a6e481c9675e6b",
+      "scope_interpretation": "Exact these-icons collection training grant applied to named original Copilot/Purview/Power BI members; unchanged old R2 approval, not permission for separately hosted site files."
+    }
+  },
+  "assets": [
+    {
+      "asset_id": "microsoft-entra",
+      "publisher": "Microsoft",
+      "collection_id": "entra",
+      "archive_member": "Microsoft Entra architecture icons - Oct 2023/Microsoft Entra color icons SVG/Microsoft Entra Product Family.svg",
+      "source_file_path": "[local-user]\\OneDrive - Microsoft\\Desktop\\Repositories\\20261030_Microsoft_AI_ecosystem\\research\\assets\\microsoft-ai-product-logos\\microsoft-entra.svg",
+      "target_relative_path": "research/assets/microsoft-ai-product-logos-v4/microsoft-entra.svg",
+      "target_file_path": "[local-user]\\OneDrive - Microsoft\\Desktop\\Repositories\\20261030_Microsoft_AI_ecosystem\\research\\assets\\microsoft-ai-product-logos-v4\\microsoft-entra.svg",
+      "source_sha256_actual_supplied": "6d7f94e6132c025cb0304d0b1ad0a8beb968b1b6ce0e22f33609b86fa64a450f",
+      "source_bytes_actual_supplied": 5239,
+      "target_bytes_actual_supplied": 5239,
+      "svg_geometry_attributes_supplied": {
+        "width": "96",
+        "height": "96",
+        "viewBox": "0 0 96 96",
+        "fill": "none"
+      },
+      "format": "SVG",
+      "width": 96,
+      "height": 96,
+      "transparent_outer_canvas": true,
+      "intrinsic_background": "Unpainted; white full rectangles are clipping definitions, not visible white canvases.",
+      "identity": "Microsoft Entra product family, not Entra ID or Azure AD.",
+      "permission_status": "UNCHANGED_R2_APPROVED_COLLECTION_TRAINING_DOCUMENTATION",
+      "provisioning_status": "COPIED_HASH_EQUAL_NATIVE_LIGHT_DARK_INSPECTED",
+      "target_sha256_actual": "6d7f94e6132c025cb0304d0b1ad0a8beb968b1b6ce0e22f33609b86fa64a450f",
+      "target_exists_verified": true,
+      "source_target_hash_equal_supplied": true,
+      "verified_utc": "2026-11-01T14:10:13Z",
+      "actual_copied_utc": null,
+      "selected": true,
+      "native_color_inspected": true,
+      "runtime_usable": true,
+      "references": [
+        "L06"
+      ]
+    },
+    {
+      "asset_id": "copilot-studio",
+      "publisher": "Microsoft",
+      "collection_id": "power_platform",
+      "archive_member": "CopilotStudio_scalable.svg",
+      "source_file_path": "[local-user]\\OneDrive - Microsoft\\Desktop\\Repositories\\20261030_Microsoft_AI_ecosystem\\research\\assets\\microsoft-ai-product-logos\\copilot-studio.svg",
+      "target_relative_path": "research/assets/microsoft-ai-product-logos-v4/copilot-studio.svg",
+      "target_file_path": "[local-user]\\OneDrive - Microsoft\\Desktop\\Repositories\\20261030_Microsoft_AI_ecosystem\\research\\assets\\microsoft-ai-product-logos-v4\\copilot-studio.svg",
+      "source_sha256_actual_supplied": "c614fa6b9b7d33048c6c4efcdd508e5b7818d296cbd1cd7d8848bb2dd1be4fd0",
+      "source_bytes_actual_supplied": 9738,
+      "target_bytes_actual_supplied": 9738,
+      "svg_geometry_attributes_supplied": {
+        "width": "96",
+        "height": "96",
+        "viewBox": "0 0 96 96",
+        "fill": "none"
+      },
+      "format": "SVG",
+      "width": 96,
+      "height": 96,
+      "transparent_outer_canvas": true,
+      "intrinsic_background": "Unpainted; colorful layered product form and native gradients retained.",
+      "identity": "Direct Microsoft Copilot Studio product glyph.",
+      "permission_status": "UNCHANGED_R2_APPROVED_COLLECTION_TRAINING_DOCUMENTATION",
+      "provisioning_status": "COPIED_HASH_EQUAL_NATIVE_LIGHT_DARK_INSPECTED",
+      "target_sha256_actual": "c614fa6b9b7d33048c6c4efcdd508e5b7818d296cbd1cd7d8848bb2dd1be4fd0",
+      "target_exists_verified": true,
+      "source_target_hash_equal_supplied": true,
+      "verified_utc": "2026-11-01T14:10:13Z",
+      "actual_copied_utc": null,
+      "selected": true,
+      "native_color_inspected": true,
+      "runtime_usable": true,
+      "references": [
+        "L05"
+      ]
+    },
+    {
+      "asset_id": "microsoft-agent-365",
+      "publisher": "Microsoft",
+      "collection_id": "power_platform",
+      "archive_member": "Agent365_scalable.svg",
+      "source_file_path": "[local-user]\\OneDrive - Microsoft\\Desktop\\Repositories\\20261030_Microsoft_AI_ecosystem\\research\\assets\\microsoft-ai-product-logos\\microsoft-agent-365.svg",
+      "target_relative_path": "research/assets/microsoft-ai-product-logos-v4/microsoft-agent-365.svg",
+      "target_file_path": "[local-user]\\OneDrive - Microsoft\\Desktop\\Repositories\\20261030_Microsoft_AI_ecosystem\\research\\assets\\microsoft-ai-product-logos-v4\\microsoft-agent-365.svg",
+      "source_sha256_actual_supplied": "7d7988f5d29d3d3b425bdbb1ebacdd32d74a3e0819a177ed389a99ed73cb0ed9",
+      "source_bytes_actual_supplied": 3523,
+      "target_bytes_actual_supplied": 3523,
+      "svg_geometry_attributes_supplied": {
+        "width": "96",
+        "height": "96",
+        "viewBox": "0 0 96 96",
+        "fill": "none"
+      },
+      "format": "SVG",
+      "width": 96,
+      "height": 96,
+      "transparent_outer_canvas": true,
+      "intrinsic_background": "Unpainted; white clipping rectangles do not paint a canvas.",
+      "identity": "Direct Agent 365 product glyph, documented December 2025 collection addition.",
+      "permission_status": "UNCHANGED_R2_APPROVED_COLLECTION_TRAINING_DOCUMENTATION",
+      "provisioning_status": "COPIED_HASH_EQUAL_NATIVE_LIGHT_DARK_INSPECTED",
+      "target_sha256_actual": "7d7988f5d29d3d3b425bdbb1ebacdd32d74a3e0819a177ed389a99ed73cb0ed9",
+      "target_exists_verified": true,
+      "source_target_hash_equal_supplied": true,
+      "verified_utc": "2026-11-01T14:10:13Z",
+      "actual_copied_utc": null,
+      "selected": true,
+      "native_color_inspected": true,
+      "runtime_usable": true,
+      "references": [
+        "L05"
+      ]
+    },
+    {
+      "asset_id": "microsoft-foundry",
+      "publisher": "Microsoft",
+      "collection_id": "azure",
+      "archive_member": "Azure_Public_Service_Icons/Icons/ai + machine learning/035746832-icon-service-AI-Foundry.svg",
+      "source_file_path": "[local-user]\\OneDrive - Microsoft\\Desktop\\Repositories\\20261030_Microsoft_AI_ecosystem\\research\\assets\\microsoft-ai-product-logos\\microsoft-foundry.svg",
+      "target_relative_path": "research/assets/microsoft-ai-product-logos-v4/microsoft-foundry.svg",
+      "target_file_path": "[local-user]\\OneDrive - Microsoft\\Desktop\\Repositories\\20261030_Microsoft_AI_ecosystem\\research\\assets\\microsoft-ai-product-logos-v4\\microsoft-foundry.svg",
+      "source_sha256_actual_supplied": "fab039a771f72780ae34e59065d61c66a02d3c347d50923ef2956f34912ea02c",
+      "source_bytes_actual_supplied": 2824,
+      "target_bytes_actual_supplied": 2824,
+      "svg_geometry_attributes_supplied": {
+        "width": "18",
+        "height": "18",
+        "viewBox": "0 0 18 18"
+      },
+      "format": "SVG",
+      "width": 18,
+      "height": 18,
+      "transparent_outer_canvas": true,
+      "intrinsic_background": "Unpainted; pale gradient highlight is native artwork.",
+      "identity": "Current collection platform glyph with retained AI-Foundry filename; not projects, models or Toolkit.",
+      "permission_status": "UNCHANGED_R2_APPROVED_COLLECTION_TRAINING_DOCUMENTATION",
+      "provisioning_status": "COPIED_HASH_EQUAL_NATIVE_LIGHT_DARK_INSPECTED",
+      "target_sha256_actual": "fab039a771f72780ae34e59065d61c66a02d3c347d50923ef2956f34912ea02c",
+      "target_exists_verified": true,
+      "source_target_hash_equal_supplied": true,
+      "verified_utc": "2026-11-01T14:10:13Z",
+      "actual_copied_utc": null,
+      "selected": true,
+      "native_color_inspected": true,
+      "runtime_usable": true,
+      "references": [
+        "L04",
+        "L12"
+      ]
+    },
+    {
+      "asset_id": "foundry-iq",
+      "publisher": "Microsoft",
+      "collection_id": "azure",
+      "archive_member": "Azure_Public_Service_Icons/Icons/ai + machine learning/038470497-icon-service-Azure-AI-Foundry-IQ.svg",
+      "source_file_path": "[local-user]\\OneDrive - Microsoft\\Desktop\\Repositories\\20261030_Microsoft_AI_ecosystem\\research\\assets\\microsoft-ai-product-logos\\foundry-iq.svg",
+      "target_relative_path": "research/assets/microsoft-ai-product-logos-v4/foundry-iq.svg",
+      "target_file_path": "[local-user]\\OneDrive - Microsoft\\Desktop\\Repositories\\20261030_Microsoft_AI_ecosystem\\research\\assets\\microsoft-ai-product-logos-v4\\foundry-iq.svg",
+      "source_sha256_actual_supplied": "245e33416ecc1c745bfff6f72ebf1ffa04cfee1cdd0c1b1b8970d0844409c9c7",
+      "source_bytes_actual_supplied": 4281,
+      "target_bytes_actual_supplied": 4281,
+      "svg_geometry_attributes_supplied": {
+        "width": "18",
+        "height": "18",
+        "viewBox": "0 0 18 18"
+      },
+      "format": "SVG",
+      "width": 18,
+      "height": 18,
+      "transparent_outer_canvas": true,
+      "intrinsic_background": "Unpainted; full rectangle uses fill none.",
+      "identity": "Distinct named Foundry IQ four-sided purple ring. No new separate hub-image comparison asserted.",
+      "permission_status": "UNCHANGED_R2_APPROVED_COLLECTION_TRAINING_DOCUMENTATION",
+      "provisioning_status": "COPIED_HASH_EQUAL_NATIVE_LIGHT_DARK_INSPECTED",
+      "target_sha256_actual": "245e33416ecc1c745bfff6f72ebf1ffa04cfee1cdd0c1b1b8970d0844409c9c7",
+      "target_exists_verified": true,
+      "source_target_hash_equal_supplied": true,
+      "verified_utc": "2026-11-01T14:10:13Z",
+      "actual_copied_utc": null,
+      "selected": true,
+      "native_color_inspected": true,
+      "runtime_usable": true,
+      "references": [
+        "L04",
+        "L08"
+      ]
+    },
+    {
+      "asset_id": "azure-ai-search",
+      "publisher": "Microsoft",
+      "collection_id": "azure",
+      "archive_member": "Azure_Public_Service_Icons/Icons/ai + machine learning/10044-icon-service-Cognitive-Search.svg",
+      "source_file_path": "[local-user]\\OneDrive - Microsoft\\Desktop\\Repositories\\20261030_Microsoft_AI_ecosystem\\research\\assets\\microsoft-ai-product-logos\\azure-ai-search.svg",
+      "target_relative_path": "research/assets/microsoft-ai-product-logos-v4/azure-ai-search.svg",
+      "target_file_path": "[local-user]\\OneDrive - Microsoft\\Desktop\\Repositories\\20261030_Microsoft_AI_ecosystem\\research\\assets\\microsoft-ai-product-logos-v4\\azure-ai-search.svg",
+      "source_sha256_actual_supplied": "f7af1213ce089236593835cb5564d6d3f01358cba6488fe562aa8bbc8adc3b38",
+      "source_bytes_actual_supplied": 1146,
+      "target_bytes_actual_supplied": 1146,
+      "svg_geometry_attributes_supplied": {
+        "width": "18",
+        "height": "18",
+        "viewBox": "0 0 18 18"
+      },
+      "format": "SVG",
+      "width": 18,
+      "height": 18,
+      "transparent_outer_canvas": true,
+      "intrinsic_background": "Unpainted; pale magnifier is native artwork, not background.",
+      "identity": "Explicit same-product rename, Azure Cognitive Search to Azure AI Search; not Foundry IQ.",
+      "permission_status": "UNCHANGED_R2_APPROVED_COLLECTION_TRAINING_DOCUMENTATION",
+      "provisioning_status": "COPIED_HASH_EQUAL_NATIVE_LIGHT_DARK_INSPECTED",
+      "target_sha256_actual": "f7af1213ce089236593835cb5564d6d3f01358cba6488fe562aa8bbc8adc3b38",
+      "target_exists_verified": true,
+      "source_target_hash_equal_supplied": true,
+      "verified_utc": "2026-11-01T14:10:13Z",
+      "actual_copied_utc": null,
+      "selected": true,
+      "native_color_inspected": true,
+      "runtime_usable": true,
+      "references": [
+        "L04",
+        "L13"
+      ]
+    },
+    {
+      "asset_id": "copilot-family",
+      "publisher": "Microsoft",
+      "collection_id": "fabric",
+      "archive_member": "v6.1.0/package/dist/png/copilot_48_color.png",
+      "source_file_path": "[local-user]\\OneDrive - Microsoft\\Desktop\\Repositories\\20261030_Microsoft_AI_ecosystem\\research\\assets\\microsoft-ai-product-logos\\copilot-family.png",
+      "target_relative_path": "research/assets/microsoft-ai-product-logos-v4/copilot-family.png",
+      "target_file_path": "[local-user]\\OneDrive - Microsoft\\Desktop\\Repositories\\20261030_Microsoft_AI_ecosystem\\research\\assets\\microsoft-ai-product-logos-v4\\copilot-family.png",
+      "source_sha256_actual_supplied": "aaca457a752ece84e9991099d0b9ec5cc8853898a9cfd6ac33d15a794ba3c62b",
+      "source_bytes_actual_supplied": 61013,
+      "target_bytes_actual_supplied": 61013,
+      "format": "PNG",
+      "width": 512,
+      "height": 512,
+      "mode_supplied": "RGBA",
+      "alpha_extrema_supplied": [
+        0,
+        255
+      ],
+      "corner_rgba_supplied": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "transparent_outer_canvas": true,
+      "transparent_corners": true,
+      "intrinsic_background": "Isolated multicolor ribbon; no full light plate.",
+      "identity": "Disclosed shared Copilot glyph for m365-copilot, copilot-cowork, copilot-chat and work-iq only in this scope.",
+      "permission_status": "UNCHANGED_R2_APPROVED_EXACT_FABRIC_COLLECTION_BYTES",
+      "provisioning_status": "COPIED_HASH_EQUAL_NATIVE_LIGHT_DARK_INSPECTED",
+      "target_sha256_actual": "aaca457a752ece84e9991099d0b9ec5cc8853898a9cfd6ac33d15a794ba3c62b",
+      "target_exists_verified": true,
+      "source_target_hash_equal_supplied": true,
+      "verified_utc": "2026-11-01T14:10:13Z",
+      "actual_copied_utc": null,
+      "selected": true,
+      "native_color_inspected": true,
+      "runtime_usable": true,
+      "references": [
+        "L01",
+        "L08",
+        "L10",
+        "L11",
+        "W14",
+        "W15",
+        "G01"
+      ]
+    },
+    {
+      "asset_id": "microsoft-purview",
+      "publisher": "Microsoft",
+      "collection_id": "fabric",
+      "archive_member": "v6.1.0/package/dist/png/purview_48_color.png",
+      "source_file_path": "[local-user]\\OneDrive - Microsoft\\Desktop\\Repositories\\20261030_Microsoft_AI_ecosystem\\research\\assets\\microsoft-ai-product-logos\\microsoft-purview.png",
+      "target_relative_path": "research/assets/microsoft-ai-product-logos-v4/microsoft-purview.png",
+      "target_file_path": "[local-user]\\OneDrive - Microsoft\\Desktop\\Repositories\\20261030_Microsoft_AI_ecosystem\\research\\assets\\microsoft-ai-product-logos-v4\\microsoft-purview.png",
+      "source_sha256_actual_supplied": "63f53d77e2bc690c64aca644716da0a5b177ec1a09a65f9f90b110787bc3a8b0",
+      "source_bytes_actual_supplied": 62878,
+      "target_bytes_actual_supplied": 62878,
+      "format": "PNG",
+      "width": 512,
+      "height": 512,
+      "mode_supplied": "RGBA",
+      "alpha_extrema_supplied": [
+        0,
+        255
+      ],
+      "corner_rgba_supplied": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "transparent_outer_canvas": true,
+      "transparent_corners": true,
+      "intrinsic_background": "Isolated triangular blue ribbon; no full light plate.",
+      "identity": "Purview family glyph from approved collection, not separate website image bytes.",
+      "permission_status": "UNCHANGED_R2_APPROVED_EXACT_FABRIC_COLLECTION_BYTES",
+      "provisioning_status": "COPIED_HASH_EQUAL_NATIVE_LIGHT_DARK_INSPECTED",
+      "target_sha256_actual": "63f53d77e2bc690c64aca644716da0a5b177ec1a09a65f9f90b110787bc3a8b0",
+      "target_exists_verified": true,
+      "source_target_hash_equal_supplied": true,
+      "verified_utc": "2026-11-01T14:10:13Z",
+      "actual_copied_utc": null,
+      "selected": true,
+      "native_color_inspected": true,
+      "runtime_usable": true,
+      "references": [
+        "L01",
+        "L07",
+        "G01"
+      ]
+    },
+    {
+      "asset_id": "fabric-iq",
+      "publisher": "Microsoft",
+      "collection_id": "fabric",
+      "archive_member": "v6.1.0/package/dist/png/fabric_48_color.png",
+      "source_file_path": "[local-user]\\OneDrive - Microsoft\\Desktop\\Repositories\\20261030_Microsoft_AI_ecosystem\\research\\assets\\microsoft-ai-product-logos\\fabric-iq.png",
+      "target_relative_path": "research/assets/microsoft-ai-product-logos-v4/fabric-iq.png",
+      "target_file_path": "[local-user]\\OneDrive - Microsoft\\Desktop\\Repositories\\20261030_Microsoft_AI_ecosystem\\research\\assets\\microsoft-ai-product-logos-v4\\fabric-iq.png",
+      "source_sha256_actual_supplied": "6e399ad51ab21fa754a162823ded222b08214f880a8cedf49226bf21b9883fc9",
+      "source_bytes_actual_supplied": 55468,
+      "target_bytes_actual_supplied": 55468,
+      "format": "PNG",
+      "width": 512,
+      "height": 512,
+      "mode_supplied": "RGBA",
+      "alpha_extrema_supplied": [
+        0,
+        255
+      ],
+      "corner_rgba_supplied": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "transparent_outer_canvas": true,
+      "transparent_corners": true,
+      "intrinsic_background": "Isolated folded green F; no full light plate.",
+      "identity": "Disclosed Fabric parent glyph for Fabric IQ, not distinct IQ identity or Azure Service Fabric.",
+      "permission_status": "UNCHANGED_R2_APPROVED_EXACT_FABRIC_COLLECTION_BYTES",
+      "provisioning_status": "COPIED_HASH_EQUAL_NATIVE_LIGHT_DARK_INSPECTED",
+      "target_sha256_actual": "6e399ad51ab21fa754a162823ded222b08214f880a8cedf49226bf21b9883fc9",
+      "target_exists_verified": true,
+      "source_target_hash_equal_supplied": true,
+      "verified_utc": "2026-11-01T14:10:13Z",
+      "actual_copied_utc": null,
+      "selected": true,
+      "native_color_inspected": true,
+      "runtime_usable": true,
+      "references": [
+        "L01",
+        "L08",
+        "G01"
+      ]
+    },
+    {
+      "asset_id": "power-bi",
+      "publisher": "Microsoft",
+      "collection_id": "fabric",
+      "archive_member": "v6.1.0/package/dist/png/power_bi_48_color.png",
+      "source_file_path": "[local-user]\\OneDrive - Microsoft\\Desktop\\Repositories\\20261030_Microsoft_AI_ecosystem\\research\\assets\\microsoft-ai-product-logos\\power-bi.png",
+      "target_relative_path": "research/assets/microsoft-ai-product-logos-v4/power-bi.png",
+      "target_file_path": "[local-user]\\OneDrive - Microsoft\\Desktop\\Repositories\\20261030_Microsoft_AI_ecosystem\\research\\assets\\microsoft-ai-product-logos-v4\\power-bi.png",
+      "source_sha256_actual_supplied": "6cc771fa8a9693ed9397701be7fc2150ad4eb3dfea99715c8dd750b9bb20fe64",
+      "source_bytes_actual_supplied": 19787,
+      "target_bytes_actual_supplied": 19787,
+      "format": "PNG",
+      "width": 512,
+      "height": 512,
+      "mode_supplied": "RGBA",
+      "alpha_extrema_supplied": [
+        0,
+        255
+      ],
+      "corner_rgba_supplied": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "transparent_outer_canvas": true,
+      "transparent_corners": true,
+      "intrinsic_background": "Isolated ascending gold bars; no full light plate.",
+      "identity": "Power BI product glyph for named reports/semantic models, not Embedded or item-specific icon.",
+      "permission_status": "UNCHANGED_R2_APPROVED_EXACT_FABRIC_COLLECTION_BYTES",
+      "provisioning_status": "COPIED_HASH_EQUAL_NATIVE_LIGHT_DARK_INSPECTED",
+      "target_sha256_actual": "6cc771fa8a9693ed9397701be7fc2150ad4eb3dfea99715c8dd750b9bb20fe64",
+      "target_exists_verified": true,
+      "source_target_hash_equal_supplied": true,
+      "verified_utc": "2026-11-01T14:10:13Z",
+      "actual_copied_utc": null,
+      "selected": true,
+      "native_color_inspected": true,
+      "runtime_usable": true,
+      "references": [
+        "L01",
+        "G01"
+      ]
+    },
+    {
+      "asset_id": "fabric-data-agent",
+      "publisher": "Microsoft",
+      "collection_id": "fabric",
+      "archive_member": "v6.1.0/package/dist/png/data_agent_48_item.png",
+      "source_file_path": "[local-user]\\OneDrive - Microsoft\\Desktop\\Repositories\\20261030_Microsoft_AI_ecosystem\\research\\assets\\microsoft-ai-product-logos\\fabric-data-agent.png",
+      "target_relative_path": "research/assets/microsoft-ai-product-logos-v4/fabric-data-agent.png",
+      "target_file_path": "[local-user]\\OneDrive - Microsoft\\Desktop\\Repositories\\20261030_Microsoft_AI_ecosystem\\research\\assets\\microsoft-ai-product-logos-v4\\fabric-data-agent.png",
+      "source_sha256_actual_supplied": "e94ac87cebdd96c424fe84504182b5d306ab6047d8e026bb2eec9b99c6346d59",
+      "source_bytes_actual_supplied": 24843,
+      "target_bytes_actual_supplied": 24843,
+      "format": "PNG",
+      "width": 512,
+      "height": 512,
+      "mode_supplied": "RGBA",
+      "alpha_extrema_supplied": [
+        0,
+        255
+      ],
+      "corner_rgba_supplied": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "transparent_outer_canvas": true,
+      "transparent_corners": true,
+      "intrinsic_background": "YES: white/light-gray rounded item tile and gray edge are baked in; keep them. No surface-free variant established.",
+      "identity": "Named Fabric data-agent item icon, not a generic agent/tool mark.",
+      "permission_status": "UNCHANGED_R2_APPROVED_EXACT_FABRIC_COLLECTION_BYTES",
+      "provisioning_status": "COPIED_HASH_EQUAL_NATIVE_LIGHT_DARK_INSPECTED",
+      "target_sha256_actual": "e94ac87cebdd96c424fe84504182b5d306ab6047d8e026bb2eec9b99c6346d59",
+      "target_exists_verified": true,
+      "source_target_hash_equal_supplied": true,
+      "verified_utc": "2026-11-01T14:10:13Z",
+      "actual_copied_utc": null,
+      "selected": true,
+      "native_color_inspected": true,
+      "runtime_usable": true,
+      "references": [
+        "L01",
+        "G01"
+      ]
+    },
+    {
+      "asset_id": "microsoft-word",
+      "publisher": "Microsoft",
+      "product_id": "microsoft-word",
+      "display_name": "Microsoft Word",
+      "aliases": [
+        "Word"
+      ],
+      "asset_kind": "PRODUCT_GLYPH",
+      "official_direct_asset_url": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Word-Icon-FY26?resMode=sharp2&op_usm=1.5,0.65,15,0&qlt=85",
+      "source_reference": "A04",
+      "containing_official_page_references": [
+        "W12"
+      ],
+      "source_file_path": "[local-user]\\.copilot\\session-state\\[local-session]\\files\\v4-authorized-logos\\download-word.svg",
+      "target_relative_path": "research/assets/microsoft-ai-product-logos-v4/microsoft-word.svg",
+      "target_file_path": "[local-user]\\OneDrive - Microsoft\\Desktop\\Repositories\\20261030_Microsoft_AI_ecosystem\\research\\assets\\microsoft-ai-product-logos-v4\\microsoft-word.svg",
+      "target_sha256_actual": "02bf3ae7245c5f4288e5135a31aa27c458e39ae431dc93d2d8847e5a7c123fdf",
+      "target_bytes_actual_supplied": 3867,
+      "source_sha256_actual_supplied": null,
+      "source_target_hash_equal_supplied": null,
+      "original_response_bytes_preserved_supplied": true,
+      "source_byte_evidence": "Original curl response preserved; target hash supplied. No independently measured source-download hash pair or A01 equality asserted.",
+      "transport": "curl after urllib timeout",
+      "http_mime_not_recorded": true,
+      "transport_mime_type": null,
+      "detected_mime_type": "image/svg+xml",
+      "detected_mime_evidence": "Parsed original SVG XML/root, not captured HTTP header",
+      "format": "SVG",
+      "width": 48,
+      "height": 48,
+      "svg_geometry_attributes_supplied": {
+        "width": "48",
+        "height": "48",
+        "viewBox": "0 0 48 48",
+        "fill": "none"
+      },
+      "transparent_outer_canvas": true,
+      "intrinsic_background": "No full canvas plate. Blue layered form and original W letter tile retained.",
+      "identity": "Exact current original Word FY26 glyph from A04. A01 is historical alternative discovery only.",
+      "permission_status": "CALLER_AUTHORIZED_OFFICIAL_TRAINING",
+      "authorization_ref": "GRANT-LOGOS-V4-02",
+      "provisioning_status": "SELECTED_ORIGINAL_TARGET_HASH_RECORDED_NATIVE_INSPECTED_PENDING_R2",
+      "verified_utc": "2026-11-01T14:10:13Z",
+      "actual_copied_utc": null,
+      "target_exists_verified": true,
+      "native_color_inspected": true,
+      "selected": true,
+      "runtime_usable": true,
+      "references": [
+        "A04",
+        "W03",
+        "W12"
+      ]
+    },
+    {
+      "asset_id": "microsoft-powerpoint",
+      "publisher": "Microsoft",
+      "product_id": "microsoft-powerpoint",
+      "display_name": "Microsoft PowerPoint",
+      "aliases": [
+        "PowerPoint"
+      ],
+      "asset_kind": "PRODUCT_GLYPH",
+      "official_direct_asset_url": "https://www.microsoft.com/content/dam/microsoft/bade/images/icons/en-us/m365-app-icons-fy26/PowerPoint-Icon-FY26.svg",
+      "source_reference": "A03",
+      "containing_official_page_references": [
+        "W11",
+        "W12"
+      ],
+      "source_file_path": "[local-user]\\.copilot\\session-state\\[local-session]\\files\\v4-authorized-logos\\download-powerpoint.svg",
+      "target_relative_path": "research/assets/microsoft-ai-product-logos-v4/microsoft-powerpoint.svg",
+      "target_file_path": "[local-user]\\OneDrive - Microsoft\\Desktop\\Repositories\\20261030_Microsoft_AI_ecosystem\\research\\assets\\microsoft-ai-product-logos-v4\\microsoft-powerpoint.svg",
+      "target_sha256_actual": "9bdf04481c14b24f419bad93903daff9884ad5a4b957a77241ddc0294ce5b423",
+      "target_bytes_actual_supplied": 6088,
+      "source_sha256_actual_supplied": null,
+      "source_target_hash_equal_supplied": null,
+      "original_response_bytes_preserved_supplied": true,
+      "source_byte_evidence": "Original curl response preserved; target hash supplied, no separate source-file hash measurement claimed.",
+      "transport": "curl after urllib timeout",
+      "http_mime_not_recorded": true,
+      "transport_mime_type": null,
+      "detected_mime_type": "image/svg+xml",
+      "detected_mime_evidence": "Parsed original SVG XML/root, not captured HTTP header",
+      "format": "SVG",
+      "width": 48,
+      "height": 48,
+      "svg_geometry_attributes_supplied": {
+        "width": "48",
+        "height": "48",
+        "viewBox": "0 0 48 48",
+        "fill": "none"
+      },
+      "transparent_outer_canvas": true,
+      "intrinsic_background": "No full canvas plate. Orange/pink circular form and original P letter tile retained.",
+      "identity": "Exact current original PowerPoint FY26 glyph from A03.",
+      "permission_status": "CALLER_AUTHORIZED_OFFICIAL_TRAINING",
+      "authorization_ref": "GRANT-LOGOS-V4-02",
+      "provisioning_status": "SELECTED_ORIGINAL_TARGET_HASH_RECORDED_NATIVE_INSPECTED_PENDING_R2",
+      "verified_utc": "2026-11-01T14:10:13Z",
+      "actual_copied_utc": null,
+      "target_exists_verified": true,
+      "native_color_inspected": true,
+      "selected": true,
+      "runtime_usable": true,
+      "references": [
+        "A03",
+        "W03",
+        "W11",
+        "W12"
+      ]
+    },
+    {
+      "asset_id": "microsoft-teams",
+      "publisher": "Microsoft",
+      "product_id": "microsoft-teams",
+      "display_name": "Microsoft Teams",
+      "aliases": [
+        "Teams"
+      ],
+      "asset_kind": "PRODUCT_GLYPH",
+      "official_direct_asset_url": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Teams-Icon-FY26?resMode=sharp2&op_usm=1.5,0.65,15,0&qlt=85",
+      "source_reference": "A02",
+      "containing_official_page_references": [
+        "W12"
+      ],
+      "source_file_path": "[local-user]\\.copilot\\session-state\\[local-session]\\files\\v4-authorized-logos\\download-teams.svg",
+      "target_relative_path": "research/assets/microsoft-ai-product-logos-v4/microsoft-teams.svg",
+      "target_file_path": "[local-user]\\OneDrive - Microsoft\\Desktop\\Repositories\\20261030_Microsoft_AI_ecosystem\\research\\assets\\microsoft-ai-product-logos-v4\\microsoft-teams.svg",
+      "target_sha256_actual": "6a33d49f19d1be2bcdf86921935a2171e5c18c3b11abe297ca03d5f4f302ba3a",
+      "target_bytes_actual_supplied": 6359,
+      "source_sha256_actual_supplied": null,
+      "source_target_hash_equal_supplied": null,
+      "original_response_bytes_preserved_supplied": true,
+      "source_byte_evidence": "Original curl response preserved; target hash supplied, no separate source-file hash measurement claimed.",
+      "transport": "curl after urllib timeout",
+      "http_mime_not_recorded": true,
+      "transport_mime_type": null,
+      "detected_mime_type": "image/svg+xml",
+      "detected_mime_evidence": "Parsed original SVG XML/root, not captured HTTP header",
+      "format": "SVG",
+      "width": 48,
+      "height": 48,
+      "svg_geometry_attributes_supplied": {
+        "width": "48",
+        "height": "48",
+        "viewBox": "0 0 48 48",
+        "fill": "none"
+      },
+      "transparent_outer_canvas": true,
+      "intrinsic_background": "No full canvas plate. Purple/blue people form and original T letter tile retained.",
+      "identity": "Exact current original Teams FY26 glyph from A02; not generic Teams Purple palette or old Adoption PNG.",
+      "permission_status": "CALLER_AUTHORIZED_OFFICIAL_TRAINING",
+      "authorization_ref": "GRANT-LOGOS-V4-02",
+      "provisioning_status": "SELECTED_ORIGINAL_TARGET_HASH_RECORDED_NATIVE_INSPECTED_PENDING_R2",
+      "verified_utc": "2026-11-01T14:10:13Z",
+      "actual_copied_utc": null,
+      "target_exists_verified": true,
+      "native_color_inspected": true,
+      "selected": true,
+      "runtime_usable": true,
+      "references": [
+        "A02",
+        "W03",
+        "W12"
+      ]
+    },
+    {
+      "asset_id": "microsoft-defender",
+      "publisher": "Microsoft",
+      "product_id": "microsoft-defender",
+      "display_name": "Microsoft Defender",
+      "aliases": [
+        "Defender"
+      ],
+      "asset_kind": "PRODUCT_FAMILY_GLYPH",
+      "official_direct_asset_url": "https://learn.microsoft.com/en-us/security/media/security-hub/defender-icon-2026.png",
+      "containing_official_page_references": [
+        "L07"
+      ],
+      "source_file_path": "[local-user]\\.copilot\\session-state\\[local-session]\\files\\logo-assets-provision-20261101\\raw-images\\microsoft-defender.png",
+      "source_retrieved_utc_supplied": "2026-11-01T01:35:34Z",
+      "source_sha256_actual_supplied": "634d49e309ecee0f3f3bae00fe12f66991a2554ab5e28af533eec6a410be25e5",
+      "source_target_hash_equal_supplied": true,
+      "target_relative_path": "research/assets/microsoft-ai-product-logos-v4/microsoft-defender.png",
+      "target_file_path": "[local-user]\\OneDrive - Microsoft\\Desktop\\Repositories\\20261030_Microsoft_AI_ecosystem\\research\\assets\\microsoft-ai-product-logos-v4\\microsoft-defender.png",
+      "target_sha256_actual": "634d49e309ecee0f3f3bae00fe12f66991a2554ab5e28af533eec6a410be25e5",
+      "target_bytes_actual_supplied": 15105,
+      "transport": "local-byte-copy",
+      "detected_mime_type": "image/png",
+      "format": "PNG",
+      "mode_supplied": "RGBA",
+      "width": 256,
+      "height": 256,
+      "alpha_extrema_supplied": [
+        0,
+        255
+      ],
+      "corner_rgba_supplied": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "transparent_outer_canvas": true,
+      "transparent_corners": true,
+      "intrinsic_background": "Isolated blue family ribbon/shield; original broad transparent margins retained.",
+      "identity": "Identified Microsoft Defender enterprise family source, not consumer app, Defender for Cloud, XDR-only or generic shield substitution.",
+      "permission_status": "CALLER_AUTHORIZED_OFFICIAL_TRAINING",
+      "authorization_ref": "GRANT-LOGOS-V4-02",
+      "provisioning_status": "SELECTED_COPIED_HASH_EQUAL_NATIVE_INSPECTED_PENDING_R2",
+      "verified_utc": "2026-11-01T14:10:13Z",
+      "actual_copied_utc": null,
+      "target_exists_verified": true,
+      "native_color_inspected": true,
+      "selected": true,
+      "runtime_usable": true,
+      "references": [
+        "L07"
+      ]
+    },
+    {
+      "asset_id": "github-copilot-lockup-black",
+      "publisher": "GitHub",
+      "product_id": "github-copilot",
+      "display_name": "GitHub Copilot",
+      "asset_kind": "COMPLETE_PRODUCT_LOCKUP",
+      "variant": "black-for-light",
+      "official_original_archive_url": "https://brand.github.com/GitHub_Logos.zip",
+      "archive_member": "GitHub Logos/SVG/GitHub_Copilot_Lockup_Black.svg",
+      "source_file_path": "[local-user]\\.copilot\\session-state\\[local-session]\\files\\v4-logo-provision\\raw-GitHub_Copilot_Lockup_Black.svg",
+      "source_sha256_actual_supplied": "204fcf55a8e36a3e233483561ec80d4c025c997d04cd37a13941b8fe2c976f1b",
+      "source_target_hash_equal_supplied": true,
+      "target_relative_path": "research/assets/microsoft-ai-product-logos-v4/github-copilot-lockup-black.svg",
+      "target_file_path": "[local-user]\\OneDrive - Microsoft\\Desktop\\Repositories\\20261030_Microsoft_AI_ecosystem\\research\\assets\\microsoft-ai-product-logos-v4\\github-copilot-lockup-black.svg",
+      "target_sha256_actual": "204fcf55a8e36a3e233483561ec80d4c025c997d04cd37a13941b8fe2c976f1b",
+      "target_bytes_actual_supplied": 9620,
+      "transport": "local-byte-copy",
+      "detected_mime_type": "image/svg+xml",
+      "format": "SVG",
+      "width": 734,
+      "height": 95,
+      "svg_geometry_attributes_supplied": {
+        "width": "734",
+        "height": "95",
+        "viewBox": "0 0 734 95",
+        "fill": "none"
+      },
+      "transparent_outer_canvas": true,
+      "intrinsic_background": "Unpainted canvas. White clip rectangles are clipping geometry, not a painted plate.",
+      "identity": "Complete original Invertocat + GitHub Copilot wordmark lockup, not square icon, deprecated head or navigation-only mark.",
+      "layout": "Preserve 734:95 ratio, approximately 7.726:1. Allocate readable horizontal width/clear space, not longest-side square-icon sizing.",
+      "permission_status": "CALLER_AUTHORIZED_OFFICIAL_TRAINING",
+      "authorization_ref": "GRANT-LOGOS-V4-02",
+      "provisioning_status": "SELECTED_COPIED_HASH_EQUAL_NATIVE_INSPECTED_PENDING_R2",
+      "verified_utc": "2026-11-01T14:10:13Z",
+      "actual_copied_utc": null,
+      "target_exists_verified": true,
+      "native_color_inspected": true,
+      "selected": true,
+      "runtime_usable": true,
+      "references": [
+        "W02",
+        "W04",
+        "A05"
+      ]
+    },
+    {
+      "asset_id": "github-copilot-lockup-white",
+      "publisher": "GitHub",
+      "product_id": "github-copilot",
+      "display_name": "GitHub Copilot",
+      "asset_kind": "COMPLETE_PRODUCT_LOCKUP",
+      "variant": "white-for-dark",
+      "official_original_archive_url": "https://brand.github.com/GitHub_Logos.zip",
+      "archive_member": "GitHub Logos/SVG/GitHub_Copilot_Lockup_White.svg",
+      "source_file_path": "[local-user]\\.copilot\\session-state\\[local-session]\\files\\v4-logo-provision\\raw-GitHub_Copilot_Lockup_White.svg",
+      "source_sha256_actual_supplied": "e5cebbd6ebaa4dcc11ffb1f400e1e0fa2b319395e88d084f17464d412fed2a96",
+      "source_target_hash_equal_supplied": true,
+      "reference_file_path": "[local-user]\\OneDrive - Microsoft\\Desktop\\Repositories\\20261006_multi_agent_deck\\presentation-images\\github-copilot-lockup-white.svg",
+      "source_archive_reference_equality_supplied": true,
+      "target_relative_path": "research/assets/microsoft-ai-product-logos-v4/github-copilot-lockup-white.svg",
+      "target_file_path": "[local-user]\\OneDrive - Microsoft\\Desktop\\Repositories\\20261030_Microsoft_AI_ecosystem\\research\\assets\\microsoft-ai-product-logos-v4\\github-copilot-lockup-white.svg",
+      "target_sha256_actual": "e5cebbd6ebaa4dcc11ffb1f400e1e0fa2b319395e88d084f17464d412fed2a96",
+      "target_bytes_actual_supplied": 9620,
+      "transport": "local-byte-copy",
+      "detected_mime_type": "image/svg+xml",
+      "format": "SVG",
+      "width": 734,
+      "height": 95,
+      "svg_geometry_attributes_supplied": {
+        "width": "734",
+        "height": "95",
+        "viewBox": "0 0 734 95",
+        "fill": "none"
+      },
+      "transparent_outer_canvas": true,
+      "intrinsic_background": "Unpainted canvas. White clip rectangles are clipping geometry, not a painted plate.",
+      "identity": "Complete original white GitHub Copilot product lockup, not a recolored black file or extracted icon.",
+      "layout": "Preserve 734:95 ratio, approximately 7.726:1. Allocate readable horizontal width/clear space, not square-icon sizing.",
+      "permission_status": "CALLER_AUTHORIZED_OFFICIAL_TRAINING",
+      "authorization_ref": "GRANT-LOGOS-V4-02",
+      "provisioning_status": "SELECTED_COPIED_HASH_EQUAL_NATIVE_INSPECTED_PENDING_R2",
+      "verified_utc": "2026-11-01T14:10:13Z",
+      "actual_copied_utc": null,
+      "target_exists_verified": true,
+      "native_color_inspected": true,
+      "selected": true,
+      "runtime_usable": true,
+      "references": [
+        "W02",
+        "W04",
+        "A05"
+      ]
+    }
+  ],
+  "product_coverage": [
+    {
+      "product_id": "m365-copilot",
+      "display_name": "Microsoft 365 Copilot",
+      "aliases": [
+        "M365 Copilot"
+      ],
+      "asset_id": "copilot-family",
+      "requested_render_mode": "image",
+      "render_mode": "image",
+      "mapping": "DISCLOSED_COPILOT_FAMILY_GLYPH",
+      "v4_slide_checkpoints": [
+        22,
+        23,
+        25,
+        34
+      ]
+    },
+    {
+      "product_id": "copilot-cowork",
+      "display_name": "Microsoft Copilot Cowork",
+      "aliases": [
+        "Copilot Cowork",
+        "Cowork"
+      ],
+      "asset_id": "copilot-family",
+      "requested_render_mode": "image",
+      "render_mode": "image",
+      "mapping": "DISCLOSED_PARENT_NOT_DISTINCT_COWORK_MARK",
+      "v4_slide_checkpoints": [
+        24,
+        25,
+        34
+      ]
+    },
+    {
+      "product_id": "copilot-studio",
+      "display_name": "Microsoft Copilot Studio",
+      "aliases": [
+        "Copilot Studio"
+      ],
+      "asset_id": "copilot-studio",
+      "requested_render_mode": "image",
+      "render_mode": "image",
+      "mapping": "DIRECT_PRODUCT_GLYPH",
+      "v4_slide_checkpoints": [
+        22,
+        26,
+        34
+      ]
+    },
+    {
+      "product_id": "github-copilot",
+      "display_name": "GitHub Copilot",
+      "aliases": [],
+      "surface_labels": [
+        "GitHub Copilot app"
+      ],
+      "surface_mapping_note": "Service/client identification with complete product lockup; not a separate app-launch badge or GitHub Desktop mark.",
+      "asset_id": "github-copilot-lockup-black",
+      "asset_variants": {
+        "light": "github-copilot-lockup-black",
+        "dark": "github-copilot-lockup-white"
+      },
+      "asset_kind": "COMPLETE_PRODUCT_LOCKUP",
+      "requested_render_mode": "image",
+      "render_mode": "image",
+      "mapping": "COMPLETE_CURRENT_PRODUCT_LOCKUP_WITH_ORIGINAL_VARIANTS",
+      "authorization_ref": "GRANT-LOGOS-V4-02",
+      "v4_slide_checkpoints": [
+        22,
+        27,
+        34
+      ]
+    },
+    {
+      "product_id": "microsoft-foundry",
+      "display_name": "Microsoft Foundry",
+      "aliases": [
+        "Foundry"
+      ],
+      "asset_id": "microsoft-foundry",
+      "requested_render_mode": "image",
+      "render_mode": "image",
+      "mapping": "CURRENT_COLLECTION_PLATFORM_LEGACY_FILENAME",
+      "v4_slide_checkpoints": [
+        16,
+        22,
+        28,
+        34
+      ],
+      "harness_boundary": "V4 16 names Microsoft Foundry in Microsoft Copilot harness in Microsoft Foundry. Mark represents Foundry only, not an invented harness identity or Microsoft Copilot app."
+    },
+    {
+      "product_id": "work-iq",
+      "display_name": "Work IQ",
+      "aliases": [],
+      "asset_id": "copilot-family",
+      "requested_render_mode": "image",
+      "render_mode": "image",
+      "mapping": "OFFICIALLY_DISPLAYED_SHARED_COPILOT_GLYPH_NOT_DISTINCT_IQ_MARK",
+      "v4_slide_checkpoints": [
+        29,
+        30
+      ]
+    },
+    {
+      "product_id": "fabric-iq",
+      "display_name": "Fabric IQ",
+      "aliases": [],
+      "asset_id": "fabric-iq",
+      "requested_render_mode": "image",
+      "render_mode": "image",
+      "mapping": "DISCLOSED_FABRIC_PARENT_GLYPH",
+      "v4_slide_checkpoints": [
+        29,
+        31
+      ]
+    },
+    {
+      "product_id": "foundry-iq",
+      "display_name": "Foundry IQ",
+      "aliases": [],
+      "asset_id": "foundry-iq",
+      "requested_render_mode": "image",
+      "render_mode": "image",
+      "mapping": "DISTINCT_NAMED_IQ_COLLECTION_MEMBER",
+      "v4_slide_checkpoints": [
+        29,
+        32
+      ]
+    },
+    {
+      "product_id": "copilot-chat",
+      "display_name": "Microsoft Copilot Chat",
+      "aliases": [
+        "Copilot Chat"
+      ],
+      "asset_id": "copilot-family",
+      "requested_render_mode": "image",
+      "render_mode": "image",
+      "mapping": "DISCLOSED_PARENT_EXPERIENCE_GLYPH_NOT_DISTINCT_CHAT_LOGO",
+      "v4_slide_checkpoints": [
+        33
+      ]
+    },
+    {
+      "product_id": "microsoft-word",
+      "display_name": "Microsoft Word",
+      "aliases": [
+        "Word"
+      ],
+      "asset_id": "microsoft-word",
+      "requested_render_mode": "image",
+      "render_mode": "image",
+      "mapping": "EXACT_CURRENT_A04_WORD_CDN_ORIGINAL",
+      "authorization_ref": "GRANT-LOGOS-V4-02",
+      "v4_slide_checkpoints": [
+        25
+      ]
+    },
+    {
+      "product_id": "microsoft-powerpoint",
+      "display_name": "Microsoft PowerPoint",
+      "aliases": [
+        "PowerPoint"
+      ],
+      "asset_id": "microsoft-powerpoint",
+      "requested_render_mode": "image",
+      "render_mode": "image",
+      "mapping": "EXACT_CURRENT_A03_POWERPOINT_ORIGINAL",
+      "authorization_ref": "GRANT-LOGOS-V4-02",
+      "v4_slide_checkpoints": [
+        25
+      ]
+    },
+    {
+      "product_id": "microsoft-teams",
+      "display_name": "Microsoft Teams",
+      "aliases": [
+        "Teams"
+      ],
+      "asset_id": "microsoft-teams",
+      "requested_render_mode": "image",
+      "render_mode": "image",
+      "mapping": "EXACT_CURRENT_A02_TEAMS_CDN_ORIGINAL",
+      "authorization_ref": "GRANT-LOGOS-V4-02",
+      "v4_slide_checkpoints": [
+        25
+      ]
+    },
+    {
+      "product_id": "azure-ai-search",
+      "display_name": "Azure AI Search",
+      "aliases": [],
+      "asset_id": "azure-ai-search",
+      "requested_render_mode": "image",
+      "render_mode": "image",
+      "mapping": "EXPLICIT_SAME_PRODUCT_RENAME",
+      "v4_slide_checkpoints": [
+        32
+      ]
+    },
+    {
+      "product_id": "power-bi",
+      "display_name": "Power BI",
+      "aliases": [
+        "Power BI reports",
+        "Power BI semantic models"
+      ],
+      "asset_id": "power-bi",
+      "requested_render_mode": "image",
+      "render_mode": "image",
+      "mapping": "PRODUCT_PARENT_NOT_ITEM_SPECIFIC",
+      "v4_slide_checkpoints": [
+        31,
+        33
+      ]
+    },
+    {
+      "product_id": "microsoft-entra",
+      "display_name": "Microsoft Entra",
+      "aliases": [
+        "Entra"
+      ],
+      "asset_id": "microsoft-entra",
+      "requested_render_mode": "image",
+      "render_mode": "image",
+      "mapping": "PRODUCT_FAMILY",
+      "v4_slide_checkpoints": [
+        21
+      ]
+    },
+    {
+      "product_id": "microsoft-purview",
+      "display_name": "Microsoft Purview",
+      "aliases": [
+        "Purview"
+      ],
+      "asset_id": "microsoft-purview",
+      "requested_render_mode": "image",
+      "render_mode": "image",
+      "mapping": "APPROVED_COLLECTION_FAMILY_GLYPH",
+      "v4_slide_checkpoints": [
+        21
+      ]
+    },
+    {
+      "product_id": "microsoft-defender",
+      "display_name": "Microsoft Defender",
+      "aliases": [
+        "Defender"
+      ],
+      "asset_id": "microsoft-defender",
+      "requested_render_mode": "image",
+      "render_mode": "image",
+      "mapping": "EXACT_IDENTIFIED_ENTERPRISE_FAMILY_GLYPH",
+      "authorization_ref": "GRANT-LOGOS-V4-02",
+      "v4_slide_checkpoints": [
+        21
+      ]
+    },
+    {
+      "product_id": "microsoft-agent-365",
+      "display_name": "Microsoft Agent 365",
+      "aliases": [
+        "Agent 365"
+      ],
+      "asset_id": "microsoft-agent-365",
+      "requested_render_mode": "image",
+      "render_mode": "image",
+      "mapping": "DIRECT_PRODUCT_GLYPH",
+      "v4_slide_checkpoints": [
+        21
+      ]
+    },
+    {
+      "product_id": "fabric-data-agent",
+      "display_name": "Fabric data agent",
+      "aliases": [
+        "Published Fabric data agent"
+      ],
+      "asset_id": "fabric-data-agent",
+      "requested_render_mode": "image",
+      "render_mode": "image",
+      "mapping": "OFFICIAL_ITEM_ICON_WITH_INTRINSIC_SURFACE",
+      "v4_slide_checkpoints": [
+        31
+      ]
+    }
+  ],
+  "authorization_history": {
+    "prior_brief_version": 17,
+    "prior_review": "agent-reviews/2026-11-01-ms-docs-research-reviewer-product-logo-refresh-v4.md#review-round-1---2026-11-01",
+    "prior_approved_original_count": 11,
+    "prior_approved_mapping_count": 14,
+    "former_hold_product_ids": [
+      "microsoft-word",
+      "microsoft-powerpoint",
+      "microsoft-teams",
+      "microsoft-defender",
+      "github-copilot"
+    ],
+    "superseded_by": "GRANT-LOGOS-V4-02 / brief19",
+    "all_former_holds_withdrawn_in_current_training_scope": true,
+    "current_hold_entries": [],
+    "runtime_source": false,
+    "note": "Historical inquiry is retained in the read-only R1 review, not as active candidate records, empty image slots or outstanding agreement requests."
+  },
+  "usage_assessment": {
+    "intended_use": "Official Microsoft training/local review with authentic originals beside the named products.",
+    "collection_conclusion": "Fourteen unchanged mappings retain express collection training/documentation grants and valid prior approval.",
+    "new_five_product_conclusion": "GRANT-LOGOS-V4-02 supplies caller authorization. Current exact-use holds and interim plain-name state are withdrawn for this training/local scope. No new agreement or permission loop is requested.",
+    "authorization_source": "brief.md brief19 / direct caller instruction, not Microsoft Learn, inferred employment or an invented agreement.",
+    "endpoint_finding": "Local/loopback use only; HTML technology alone is not Internet publication. No external/public publishing or unrestricted redistribution rights inferred.",
+    "github_conclusion": "Both exact complete original lockups are selected and source-target hash-equal. Archive/reference equality is provenance; caller grant supplies current use authorization.",
+    "external_public_boundary": "If a later endpoint requests external/public publication or a different reuse purpose, reassess applicable terms/authorization for that new scope. Not a blocker or new permission request for this training.",
+    "artwork_constraints": "No crop, recolor, distortion, animation, icon extraction, invented lockup or manual background removal; preserve every original canvas and native colors.",
+    "context_only_references": [
+      "W01",
+      "W05",
+      "W06",
+      "W08",
+      "W10",
+      "W13",
+      "P01"
+    ],
+    "collection_and_style_references": [
+      "L01",
+      "L04",
+      "L05",
+      "L06",
+      "W02",
+      "W03",
+      "W04"
+    ]
+  },
+  "mechanical_handoff": {
+    "source_root": "[local-user]\\OneDrive - Microsoft\\Desktop\\Repositories\\20261030_Microsoft_AI_ecosystem\\research\\assets\\microsoft-ai-product-logos",
+    "destination_root": "[local-user]\\OneDrive - Microsoft\\Desktop\\Repositories\\20261030_Microsoft_AI_ecosystem\\research\\assets\\microsoft-ai-product-logos-v4",
+    "copy_instruction": "Completed by caller: seventeen exact selected originals verified at 2026-11-01T14:10:13Z. Three curl response preservations and three new source-target copy equalities are explicitly classified in asset-results.json. No repeat download/copy request.",
+    "exact_copy_count": 17,
+    "evidence_required_after_copy": [],
+    "copy_time_limit": "Verification UTC supplied; exact copy-event UTC not separately supplied.",
+    "remaining_source_bridge": null,
+    "completed_github_source_bridge": "Both exact complete white/black original lockups now copied to selected local targets and hash-equal to source. White/archive/reference equality retained. GRANT-LOGOS-V4-02 supplies training authorization; R2 artifact approval pending.",
+    "further_provisioning_required": false,
+    "current_use_authorized": true,
+    "same_objective_completion_available": true,
+    "provisioning_does_not_resolve_rights": true
+  },
+  "github_archive_provisioning": {
+    "reference": "A05",
+    "source_url": "https://brand.github.com/GitHub_Logos.zip",
+    "archive_file_path": "[local-user]\\.copilot\\session-state\\[local-session]\\files\\v4-logo-provision\\github-logos-source.zip",
+    "evidence_file_path": "[local-user]\\.copilot\\session-state\\[local-session]\\files\\v4-logo-provision\\github-source-provision.json",
+    "archive_bytes_actual_supplied": 499228,
+    "archive_sha256_actual_supplied": "e2a67d6cc51d990a52c46c1cf6bcab688db4830982174bca50e0be7a5c2f3194",
+    "archive_retrieved_utc_supplied": "2026-11-01T12:46:53Z",
+    "inventoried_copilot_svg_original_count": 12,
+    "appledouble_resource_forks_excluded": true,
+    "terms_readme_license_files": [],
+    "hash_measurement_owner": "caller mechanical provisioning, not researcher",
+    "selected": false,
+    "runtime_usable": false,
+    "permission_status": "ARCHIVE_IS_SOURCE_EVIDENCE_NOT_A_GENERAL_LICENSE; SELECTED_LOCKUPS_CALLER_AUTHORIZED_FOR_TRAINING"
+  },
+  "additional_unselected_leads": [
+    {
+      "reference": "L03",
+      "url": "https://go.microsoft.com/fwlink/?linkid=2056186",
+      "final_url": "https://download.microsoft.com/download/2/F/3/2F346655-1F7E-4F5E-BE78-82DA3D507F3A/2024-microsoft-365-content-VisioTemplates.zip",
+      "actual_sha256_supplied": "5ed0a9938b0e286656d3db7fa3f57a24f8579f6229a1a576df7d5f900826ef22",
+      "bytes_supplied": 5454095,
+      "retrieved_utc_supplied": "2026-11-01T12:20:00Z",
+      "outer_member_count_supplied": 24,
+      "master_metadata_count_supplied": 1044,
+      "status": "BOUNDED_STENCIL_AVENUE_COMPLETED_NO_NEW_PRODUCT_MARK_SELECTED",
+      "inspection": "Reviewed outer inventory and all 65 productcolors-miscellaneous master metadata entries/TitlesOfParts; actual building and settings ShapeSheet geometries confirm generic metaphors, not service marks. Master parts have no ForeignData image payloads; master-list Rel entries only identify native master XML. Five hidden palettes are not Teams logos. No exhaustive render/absence claim for all 1044 masters.",
+      "no_selected_archive_member": true
+    },
+    {
+      "reference": "L14",
+      "url": "https://download.microsoft.com/download/956f9359-e6d5-4e77-a36c-117f94620eb3/MCRA-April-2025.pptx",
+      "status": "COMPLETE_REFERENCE_DECK_LEARNING_USE_NOT_ISOLATED_DEFENDER_FAMILY_LICENSE",
+      "no_selected_archive_member": true
+    }
+  ],
+  "research_limitations": [
+    "Researcher performed no download, binary rewrite, independent hash computation, build or prior-build rehash. Caller supplied all seventeen verified targets.",
+    "All seventeen target hashes/bytes and exact verification UTC supplied. Distinct download/copy event UTC is not separately supplied and is not invented.",
+    "HTTP MIME was not captured for three curl SVG downloads; detected MIME/format derives from parsed original XML. Response preservation is supplied, but no separately measured source-file hash pair is claimed for these three.",
+    "Word selection is A04 CDN original, not A01 byte equality. A01 remains historical discovery only.",
+    "All six official data_agent_20/24/32/40/48/64_item.svg source variants were actually read; every variant paints a white/light-gray rounded tile and border. No tile-free selection or manual stripping.",
+    "Entra archive branding playbook/separate terms and fresh Entra/Foundry IQ hub-image comparisons not completed; old approved collection evidence retained.",
+    "Fourteen prior mappings unchanged, excluding old Microsoft Copilot app mapping (fifteen minus one). GitHub Copilot app remains a client-surface label, not a separate invented badge. Generic harness/model/provider concepts receive no arbitrary mark.",
+    "Current authorization is supplied caller grant for official training/local review only, not public general relicensing or a new Learn finding.",
+    "authorization_history records prior R1 scope and resolved IDs only. Old active candidate/hold entries were removed; no current holds or agreement requests remain.",
+    "R1 was valid APPROVED for prior eleven originals/fourteen mappings/gap register. This new post-approval cycle starts zero with next canonical overall R2, not self-approval.",
+    "No nested agents, reviewer invocation, brief/status/content/build edits or source-pack writes."
+  ],
+  "fabric_svg_variant_assessment": {
+    "source_directory": "[local-user]\\.copilot\\session-state\\[local-session]\\files\\logo-assets-provision-20261101\\fabric-icons\\v6.1.0\\package\\dist\\svg",
+    "archive_members_read": [
+      "v6.1.0/package/dist/svg/data_agent_20_item.svg",
+      "v6.1.0/package/dist/svg/data_agent_24_item.svg",
+      "v6.1.0/package/dist/svg/data_agent_32_item.svg",
+      "v6.1.0/package/dist/svg/data_agent_40_item.svg",
+      "v6.1.0/package/dist/svg/data_agent_48_item.svg",
+      "v6.1.0/package/dist/svg/data_agent_64_item.svg"
+    ],
+    "tile_free_variant_found": false,
+    "terms": "L01 covers exact collection originals for training/documentation. All six variants include intrinsic light tile and gray border; terms do not permit manually deleting it.",
+    "new_asset_selected": false,
+    "mechanical_copy_needed": false,
+    "references": [
+      "L01",
+      "G01"
+    ]
+  },
+  "references": {
+    "L01": "https://learn.microsoft.com/fabric/fundamentals/icons",
+    "L02": "https://learn.microsoft.com/microsoft-365/cloud-storage-partner-program/online/branding",
+    "L03": "https://learn.microsoft.com/microsoft-365/solutions/architecture-icons-templates",
+    "L04": "https://learn.microsoft.com/azure/architecture/icons/",
+    "L05": "https://learn.microsoft.com/power-platform/guidance/icons",
+    "L06": "https://learn.microsoft.com/entra/architecture/architecture-icons",
+    "L07": "https://learn.microsoft.com/security/",
+    "L08": "https://learn.microsoft.com/microsoft-iq",
+    "L09": "https://learn.microsoft.com/microsoft-365/",
+    "L10": "https://learn.microsoft.com/copilot/overview",
+    "L11": "https://learn.microsoft.com/copilot/cowork/",
+    "L12": "https://learn.microsoft.com/azure/foundry/what-is-foundry",
+    "L13": "https://learn.microsoft.com/azure/search/search-faq-frequently-asked-questions",
+    "L14": "https://learn.microsoft.com/security/adoption/mcra",
+    "L15": "https://learn.microsoft.com/security/zero-trust/zero-trust-partner-kit",
+    "W01": "https://www.microsoft.com/en-us/legal/intellectualproperty/copyright/permissions",
+    "W02": "https://brand.github.com/brand-identity/copilot",
+    "W03": "https://fluent2.microsoft.design/iconography",
+    "W04": "https://brand.github.com/foundations/logo",
+    "W05": "https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks",
+    "W06": "https://brand.github.com/guides/getting-started",
+    "W07": "https://github.com/features/copilot",
+    "W08": "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service#g-intellectual-property-notice",
+    "W09": "https://docs.github.com/en/copilot/get-started/where-to-use-github-copilot",
+    "W10": "https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/publications",
+    "W11": "https://www.microsoft.com/en-us/microsoft-365/word",
+    "W12": "https://www.microsoft.com/en-us/microsoft-365/powerpoint",
+    "W13": "https://adoption.microsoft.com/en-us/copilot/user-engagement-tools-and-templates/",
+    "W14": "https://adoption.microsoft.com/en-us/copilot/cowork/ai-user/",
+    "W15": "https://adoption.microsoft.com/en-us/copilot/",
+    "P01": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/mscle/documents/presentations/FY27_Microsft_365_Trademark_Guidelines.pdf",
+    "G01": "https://github.com/microsoft/fabric-samples/blob/main/docs-samples/Icons.zip",
+    "A01": "https://www.microsoft.com/content/dam/microsoft/bade/images/icons/en-us/m365-app-icons-fy26/Word-Icon-FY26.svg",
+    "A02": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Teams-Icon-FY26?resMode=sharp2&op_usm=1.5,0.65,15,0&qlt=85",
+    "A03": "https://www.microsoft.com/content/dam/microsoft/bade/images/icons/en-us/m365-app-icons-fy26/PowerPoint-Icon-FY26.svg",
+    "A04": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Word-Icon-FY26?resMode=sharp2&op_usm=1.5,0.65,15,0&qlt=85",
+    "A05": "https://brand.github.com/GitHub_Logos.zip",
+    "A06": "https://download.microsoft.com/download/2/F/3/2F346655-1F7E-4F5E-BE78-82DA3D507F3A/2024-microsoft-365-content-VisioTemplates.zip"
+  }
+}

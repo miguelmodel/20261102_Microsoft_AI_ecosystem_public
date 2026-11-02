@@ -1,0 +1,177 @@
+{
+  "assignment_id": "agent-security-governance",
+  "topic_slug": "agent-security-governance",
+  "research_date": "2026-10-31",
+  "invocation_started_utc": "2026-10-31T22:35:44.035Z",
+  "manifest_status": "INCOMPLETE_ASSET_GAPS",
+  "build_consumable": false,
+  "asset_directory": "[local-user]\\OneDrive - Microsoft\\Desktop\\Repositories\\20261030_Microsoft_AI_ecosystem\\research\\assets\\2026-10-31-agent-security",
+  "report_path": "[local-user]\\OneDrive - Microsoft\\Desktop\\Repositories\\20261030_Microsoft_AI_ecosystem\\research\\2026-10-31-agent-security-governance.md",
+  "required_mcp": {
+    "server": "microsoft-learn",
+    "status": "verified",
+    "successful_tools": [
+      "microsoft_docs_search",
+      "microsoft_docs_fetch"
+    ]
+  },
+  "downloaded_asset_count": 0,
+  "selected_logo_count": 0,
+  "integrity_status": "NOT_PERFORMED_NO_ASSET_BYTES",
+  "capability_gap": "No byte-preserving binary download, archive extraction, or SHA256 computation tool is exposed in this invocation. No logo files were created. Collection URLs are discovery references, not downloaded image assets.",
+  "permission_gap": "Official icon terms permit architectural diagrams, training materials, and documentation. Entra additionally prohibits Marketing communications. Confirm that the actual presentation use is covered, or obtain appropriate Microsoft brand permission.",
+  "assets": [
+    {
+      "service_name": "Microsoft Entra",
+      "requested_basename": "entra",
+      "status": "NOT_RETRIEVED",
+      "file_name": null,
+      "file_path": null,
+      "brand_variant": null,
+      "requested_brand_variant": "Microsoft Entra parent-family symbol",
+      "official_source_asset_url": null,
+      "containing_official_page": null,
+      "publisher": null,
+      "actual_retrieved_utc": null,
+      "mime_type": null,
+      "format": null,
+      "sha256": null,
+      "actual_file_inspection": "NOT_PERFORMED_NO_FILE",
+      "use_guidance_url": "https://learn.microsoft.com/entra/architecture/architecture-icons",
+      "restrictions": [
+        "Permitted icon uses are architectural diagrams, training materials, and documentation; all other rights are reserved.",
+        "Do not use Microsoft product icons in Marketing communications.",
+        "Do not crop, flip, rotate, distort, recolor, or use the icon to represent a customer's own product or service."
+      ],
+      "variant_caveat": "The official October 2023 Entra collection is documented, but its members were not inspected. Select the parent Entra brand, not legacy Azure Active Directory or a narrower Agent ID symbol, unless the label is explicitly changed.",
+      "discovery_references": [
+        {
+          "official_page": "https://learn.microsoft.com/entra/architecture/architecture-icons",
+          "collection_url": "https://download.microsoft.com/download/3/1/a/31a56038-856a-4489-88e4-ee5a1c4352be/Microsoft%20Entra%20architecture%20icons%20-%20Oct%202023.zip?wt.mc_id=microsoftentraicons_downloadmicrosoftentraicons_content_cnl_csasci",
+          "collection_publisher": "Microsoft",
+          "evidence": "Page documents Entra product icons, a Microsoft Security branding playbook, and terms. No individual file or exact variant verified."
+        }
+      ]
+    },
+    {
+      "service_name": "Microsoft Purview",
+      "requested_basename": "purview",
+      "status": "EXACT_LOGO_SOURCE_NOT_ESTABLISHED_AND_NOT_RETRIEVED",
+      "file_name": null,
+      "file_path": null,
+      "brand_variant": null,
+      "requested_brand_variant": "Microsoft Purview parent-family symbol",
+      "official_source_asset_url": null,
+      "containing_official_page": null,
+      "publisher": null,
+      "actual_retrieved_utc": null,
+      "mime_type": null,
+      "format": null,
+      "sha256": null,
+      "actual_file_inspection": "NOT_PERFORMED_NO_FILE",
+      "use_guidance_url": null,
+      "restrictions": [
+        "Exact logo-specific use guidance is not established until an authentic source asset is selected.",
+        "Official collection terms permit only the listed architecture, training, and documentation uses; review the selected collection's terms.",
+        "Do not synthesize, recolor, crop, or substitute generic imagery."
+      ],
+      "variant_caveat": "Do not substitute legacy Azure Purview, a data-catalog component, an information-protection subfeature icon, or a generic shield. The retrieved collection pages do not establish a Purview family logo member.",
+      "discovery_references": [
+        {
+          "official_page": "https://learn.microsoft.com/entra/architecture/architecture-icons",
+          "collection_url": "https://download.microsoft.com/download/3/1/a/31a56038-856a-4489-88e4-ee5a1c4352be/Microsoft%20Entra%20architecture%20icons%20-%20Oct%202023.zip?wt.mc_id=microsoftentraicons_downloadmicrosoftentraicons_content_cnl_csasci",
+          "collection_publisher": "Microsoft",
+          "evidence": "Security branding playbook is a discovery lead only. Purview image inclusion not established."
+        },
+        {
+          "official_page": "https://learn.microsoft.com/azure/architecture/icons/",
+          "collection_url": "https://arch-center.azureedge.net/icons/Azure_Public_Service_Icons_V24.zip",
+          "collection_publisher": "Microsoft",
+          "evidence": "Official SVG collection discovery lead only. Correct Purview family member not established."
+        },
+        {
+          "official_page": "https://learn.microsoft.com/microsoft-365/solutions/architecture-icons-templates",
+          "collection_url": "https://go.microsoft.com/fwlink/?linkid=869455",
+          "collection_publisher": "Microsoft",
+          "evidence": "Official SVG collection discovery lead only. Download redirect and correct Purview family member not retrieved."
+        }
+      ]
+    },
+    {
+      "service_name": "Microsoft Defender",
+      "requested_basename": "defender",
+      "status": "EXACT_LOGO_SOURCE_NOT_ESTABLISHED_AND_NOT_RETRIEVED",
+      "file_name": null,
+      "file_path": null,
+      "brand_variant": null,
+      "requested_brand_variant": "Microsoft Defender parent-family symbol",
+      "official_source_asset_url": null,
+      "containing_official_page": null,
+      "publisher": null,
+      "actual_retrieved_utc": null,
+      "mime_type": null,
+      "format": null,
+      "sha256": null,
+      "actual_file_inspection": "NOT_PERFORMED_NO_FILE",
+      "use_guidance_url": null,
+      "restrictions": [
+        "Exact logo-specific use guidance is not established until an authentic source asset is selected.",
+        "Official collection terms permit only the listed architecture, training, and documentation uses; review the selected collection's terms.",
+        "Do not synthesize, recolor, crop, or substitute generic imagery."
+      ],
+      "variant_caveat": "Do not substitute Defender for Cloud, Defender for Endpoint, Windows antivirus, or an unbranded shield for the requested Defender family brand. The retrieved collection pages do not establish a Defender family logo member.",
+      "discovery_references": [
+        {
+          "official_page": "https://learn.microsoft.com/entra/architecture/architecture-icons",
+          "collection_url": "https://download.microsoft.com/download/3/1/a/31a56038-856a-4489-88e4-ee5a1c4352be/Microsoft%20Entra%20architecture%20icons%20-%20Oct%202023.zip?wt.mc_id=microsoftentraicons_downloadmicrosoftentraicons_content_cnl_csasci",
+          "collection_publisher": "Microsoft",
+          "evidence": "Security branding playbook is a discovery lead only. Defender image inclusion not established."
+        },
+        {
+          "official_page": "https://learn.microsoft.com/azure/architecture/icons/",
+          "collection_url": "https://arch-center.azureedge.net/icons/Azure_Public_Service_Icons_V24.zip",
+          "collection_publisher": "Microsoft",
+          "evidence": "Official SVG collection discovery lead only. Correct Defender family member not established."
+        },
+        {
+          "official_page": "https://learn.microsoft.com/microsoft-365/solutions/architecture-icons-templates",
+          "collection_url": "https://go.microsoft.com/fwlink/?linkid=869455",
+          "collection_publisher": "Microsoft",
+          "evidence": "Official SVG collection discovery lead only. Download redirect and correct Defender family member not retrieved."
+        }
+      ]
+    },
+    {
+      "service_name": "Microsoft Agent 365",
+      "requested_basename": "agent-365",
+      "status": "OFFICIAL_ICON_COLLECTION_CONFIRMED_NOT_RETRIEVED",
+      "file_name": null,
+      "file_path": null,
+      "brand_variant": null,
+      "requested_brand_variant": "Microsoft Agent 365 product symbol from the official Power Platform SVG icon collection",
+      "official_source_asset_url": null,
+      "containing_official_page": null,
+      "publisher": null,
+      "actual_retrieved_utc": null,
+      "mime_type": null,
+      "format": null,
+      "sha256": null,
+      "actual_file_inspection": "NOT_PERFORMED_NO_FILE",
+      "use_guidance_url": "https://learn.microsoft.com/power-platform/guidance/icons",
+      "restrictions": [
+        "Permitted icon uses are architectural diagrams, training materials, and documentation; all other rights are reserved.",
+        "Do not crop, flip, rotate, distort, recolor, or use the icon to represent a customer's own product or service.",
+        "Keep the appropriate service name near the icon."
+      ],
+      "variant_caveat": "The official page explicitly documents Agent 365 icon inclusion in the December 2025 update. The exact archive member remains uninspected. Do not substitute Copilot or Copilot Studio, or crop promotional artwork.",
+      "discovery_references": [
+        {
+          "official_page": "https://learn.microsoft.com/power-platform/guidance/icons",
+          "collection_url": "https://download.microsoft.com/download/498606aa-6d27-4f13-aa5c-1401078c153b/Power-Platform-icons-scalable.zip",
+          "collection_publisher": "Microsoft",
+          "evidence": "December 2025 icon-update row explicitly says Microsoft Agent 365 was added. No individual file, actual MIME, retrieval timestamp, or hash verified."
+        }
+      ]
+    }
+  ]
+}

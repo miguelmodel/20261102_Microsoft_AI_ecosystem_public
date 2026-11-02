@@ -1,0 +1,29 @@
+<!-- HAND-CRAFTED OVERRIDE — do not regenerate -->
+<article class="slide foundation" data-number="17" data-type="list" data-section="Seven production foundations">
+  <div class="slide-bg"></div>
+  <div class="slide-content">
+    <header class="header"><h1 class="slide-title"><span class="gradient-text">Harness</span></h1></header>
+    <div class="foundation-body">
+      <svg class="part-illustration scene-art" data-art-part="chassis" viewBox="520 245 630 300" aria-hidden="true" data-enter><g xmlns="http://www.w3.org/2000/svg" id="s16-chassis" data-part="chassis" class="scene-part">
+    <path class="mid" d="m550 423 455-157 16 11-456 158Z" />
+    <path class="deep" d="m565 435 456-158v20L565 454Z" />
+    <path class="mid" d="m648 485 455-157 16 11-456 158Z" />
+    <path class="deep" d="m663 497 456-158v20L663 517Z" />
+    <path class="light" d="m609 403 18-6 106 64-18 7Zm113-39 18-6 106 64-18 7Zm113-39 18-6 106 64-18 7Zm113-39 18-6 106 64-18 7Z" />
+    <path class="edge" data-draw="true" d="m550 423 455-157 114 73v20L663 517 550 443Zm15 12 456-158M663 497l456-158" />
+    <path class="detail" d="m646 449 31 18m78-57 31 18m78-57 31 18m78-57 31 18" />
+    </g>
+  </svg>
+      <div class="foundation-copy">
+        <p class="slide-body">Runtime scaffolding that turns a model into an agent that can work.</p>
+        <ul class="slide-list"><li>Coordinate model and tool calls.</li><li>Maintain task context and state.</li><li>Handle execution boundaries and approvals.</li></ul>
+        <p class="example">Example: <strong>Microsoft Copilot harness in <span class="product-inline"><img class="product-logo" src="images/microsoft-foundry.svg" data-asset="microsoft-foundry.svg" alt="Microsoft Foundry"><span>Microsoft Foundry</span></span></strong>.</p>
+      </div>
+    </div>
+  </div>
+  <aside class="speaker-notes" hidden>
+<p>A harness is software behavior around the model, not another model or merely compute hosting.<br>It drives the execution loop, carries context forward, and handles tools and control decisions according to the implementation.<br>The named example belongs in Microsoft Foundry.<br>Next, show how to inspect outcomes and execution.</p>
+<p><strong>Technical reference, not spoken:</strong><br>Current Foundry documentation names Microsoft Copilot harness for prompt agents and explicitly labels it public preview.<br>Studio separately continues to document GitHub Copilot harness, which is not the GitHub Copilot service.<br>No rename from the Studio name to the Foundry name was established, so no “formerly” history is asserted.<br>Foundry fixes this harness choice at new-agent creation.<br>Its preview limits include unsupported BYOM and Foundry Memory, region/tool requirements, and sandbox-managed state rather than unrestricted durable storage.<br>Foundry manages built-in approval policy during preview, and Shell can independently perform file/network operations when enabled.<br>The generic foundation is not a guarantee of the same defaults across harnesses.</p>
+  </aside>
+  <aside class="slide-provenance" hidden><p>Sources: brief.md, NAMING-V4-01; research\2026-11-01-agent-foundations-v4.md, §3.2, R05; research\2026-11-01-authoring-options-v4.md, §2, L01–L02, L05, L07, L12; https://learn.microsoft.com/agent-framework/concepts/harness; https://learn.microsoft.com/azure/foundry/agents/how-to/use-tools-skills-copilot-harness; research\2026-11-01-product-logo-refresh-v4.md, microsoft-foundry checkpoint 16 and harness-mark exclusion</p></aside>
+</article>
