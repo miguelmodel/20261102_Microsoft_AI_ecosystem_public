@@ -4,18 +4,83 @@
   <div class="slide-content">
     <header class="header"><h1 class="slide-title">Prompts, instructions <span class="gradient-text">and skills</span></h1></header>
     <div class="foundation-body">
-      <svg xmlns="http://www.w3.org/2000/svg" class="part-illustration scene-art" data-art-part="gps" viewBox="770 92 178 140" aria-hidden="true" data-enter="true"><g id="s18-gps" data-part="gps" class="scene-part">
-    <g data-gps-detail="v10">
-    <path class="deep" d="M846 204h26l7 14h-40Z" />
-    <rect class="deep" x="786" y="108" width="146" height="98" rx="16" />
-    <rect class="light" x="797" y="119" width="124" height="76" rx="7" />
-    <path class="gps-street" d="M797 176 921 142M838 119l30 76M797 140l60 18" />
-    <path class="gps-route" data-draw="true" d="M813 183c18-3 30-10 37-20s22-12 45-12" />
-    <circle class="mid" cx="813" cy="183" r="5.5" />
-    <path class="violet" d="M895 113c-8.5 0-15 6.4-15 14.3 0 10.5 15 23.7 15 23.7s15-13.2 15-23.7c0-7.9-6.5-14.3-15-14.3Z" />
-    <circle class="light" cx="895" cy="127.5" r="5" />
-  </g>
-  </g></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" class="part-illustration car-art" data-art-part="gps" viewBox="966 80 168 176" aria-hidden="true" data-enter="true"><defs>
+    <linearGradient id="s18-g-brand" x1="0" y1="0" x2="1" y2="1"><stop offset="0" style="stop-color:var(--art-blue)"/><stop offset="1" style="stop-color:var(--art-violet)"/></linearGradient>
+    <linearGradient id="s18-g-motor" x1="0" y1="0" x2="1" y2="1"><stop offset="0" style="stop-color:var(--art-blue)"/><stop offset="1" style="stop-color:var(--art-violet)"/></linearGradient>
+    <linearGradient id="s18-g-body" x1="0" y1="0" x2="0" y2="1"><stop offset="0" style="stop-color:var(--cs-body-1)"/><stop offset="1" style="stop-color:var(--cs-body-2)"/></linearGradient>
+    <linearGradient id="s18-g-glass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" style="stop-color:var(--cs-glass-1)"/><stop offset="1" style="stop-color:var(--cs-glass-2)"/></linearGradient>
+    <radialGradient id="s18-g-tire" cx=".5" cy=".5" r=".5"><stop offset=".7" style="stop-color:var(--cs-tire-2)"/><stop offset="1" style="stop-color:var(--cs-tire)"/></radialGradient>
+    <linearGradient id="s18-g-rim" x1="0" y1="0" x2="1" y2="1"><stop offset="0" style="stop-color:var(--cs-rim-1)"/><stop offset="1" style="stop-color:var(--cs-rim-2)"/></linearGradient>
+    <radialGradient id="s18-g-rotor" cx=".38" cy=".35" r=".7"><stop offset="0" style="stop-color:var(--cs-rim-1)"/><stop offset="1" style="stop-color:var(--cs-rim-2)"/></radialGradient>
+    <linearGradient id="s18-g-road" x1="0" y1="0" x2="0" y2="1"><stop offset="0" style="stop-color:var(--cs-road-1)"/><stop offset="1" style="stop-color:var(--cs-road-2)"/></linearGradient>
+    <linearGradient id="s18-g-road-far" x1="0" y1="1" x2="0" y2="0"><stop offset="0" style="stop-color:var(--cs-road-1)"/><stop offset=".55" style="stop-color:var(--cs-road-1);stop-opacity:.8"/><stop offset="1" style="stop-color:var(--cs-road-1);stop-opacity:0"/></linearGradient>
+    <linearGradient id="s18-g-road-near" x1="0" y1="0" x2="0" y2="1"><stop offset="0" style="stop-color:var(--cs-road-2)"/><stop offset="1" style="stop-color:var(--cs-road-2);stop-opacity:0"/></linearGradient>
+    <linearGradient id="s18-g-fade-h" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".07" stop-color="#fff"/><stop offset=".93" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <mask id="s18-m-road" maskUnits="userSpaceOnUse" x="0" y="0" width="1600" height="744"><rect width="1600" height="744" fill="url(#s18-g-fade-h)"/></mask>
+    <radialGradient id="s18-g-halo" cx=".5" cy=".5" r=".5"><stop offset="0" style="stop-color:var(--art-blue);stop-opacity:.11"/><stop offset="1" style="stop-color:var(--art-blue);stop-opacity:0"/></radialGradient>
+    <radialGradient id="s18-g-glow" cx=".5" cy=".5" r=".5"><stop offset="0" style="stop-color:var(--art-teal);stop-opacity:.6"/><stop offset=".5" style="stop-color:var(--art-teal);stop-opacity:.2"/><stop offset="1" style="stop-color:var(--art-teal);stop-opacity:0"/></radialGradient>
+    <radialGradient id="s18-g-green-glow" cx=".5" cy=".5" r=".5"><stop offset="0" style="stop-color:var(--cs-green);stop-opacity:.6"/><stop offset="1" style="stop-color:var(--cs-green);stop-opacity:0"/></radialGradient>
+    <linearGradient id="s18-g-housing" x1="0" y1="0" x2="1" y2="0"><stop offset="0" style="stop-color:var(--cs-pole-1)"/><stop offset="1" style="stop-color:var(--cs-pole-2)"/></linearGradient>
+    <linearGradient id="s18-g-pole" x1="0" y1="0" x2="1" y2="0"><stop offset="0" style="stop-color:var(--cs-pole-1)"/><stop offset="1" style="stop-color:var(--cs-pole-2)"/></linearGradient>
+    <linearGradient id="s18-g-gauge" x1="0" y1="0" x2="1" y2="0"><stop offset="0" style="stop-color:var(--art-teal)"/><stop offset=".5" style="stop-color:var(--art-blue)"/><stop offset="1" style="stop-color:var(--art-violet)"/></linearGradient>
+    <linearGradient id="s18-g-route" x1="0" y1="0" x2="1" y2="0"><stop offset="0" style="stop-color:var(--art-blue)"/><stop offset="1" style="stop-color:var(--art-violet)"/></linearGradient>
+    <linearGradient id="s18-g-steer" x1="0" y1="0" x2="0" y2="1"><stop offset="0" style="stop-color:var(--cs-steer-1)"/><stop offset="1" style="stop-color:var(--cs-steer-2)"/></linearGradient>
+    <linearGradient id="s18-g-screen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" style="stop-color:var(--art-teal)"/><stop offset="1" style="stop-color:var(--art-blue)"/></linearGradient>
+    <clipPath id="s18-cp-sill"><rect x="0" y="0" width="1600" height="566"/></clipPath>
+    <clipPath id="s18-cp-window"><path d="M532 424C578 388 638 362 708 352C766 345 822 345 866 352C904 360 938 382 968 410L972 424Z"/></clipPath>
+    <clipPath id="s18-cp-body"><path d="M418 566C402 560 398 540 400 518L404 478C406 460 416 450 434 446L506 432C556 384 626 348 706 338C766 330 826 330 872 338C920 348 962 378 1000 404L1062 420C1092 428 1106 446 1108 474L1110 520C1110 545 1100 560 1080 566L1018 566A71 71 0 0 0 882 566L598 566A71 71 0 0 0 462 566Z"/></clipPath>
+    <clipPath id="s18-cp-screen"><rect x="-44" y="-28" width="88" height="56" rx="7"/></clipPath>
+    <filter id="s18-f-soft" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="10" stdDeviation="11" style="flood-color:var(--cs-drop)"/></filter>
+    <filter id="s18-f-blur" x="-10%" y="-300%" width="120%" height="700%"><feGaussianBlur stdDeviation="8"/></filter>
+    <g id="s18-sym-wheel">
+      <circle r="62" fill="url(#s18-g-tire)"/>
+      <circle r="56" fill="none" style="stroke:var(--cs-tire-2)" stroke-width="1.5" opacity=".9"/>
+      <path d="M-50 -26A56 56 0 0 1 -26 -50" fill="none" stroke="#fff" stroke-opacity=".16" stroke-width="5" stroke-linecap="round"/>
+      <circle r="45" fill="url(#s18-g-rim)"/>
+      <circle r="39" style="fill:var(--cs-disc)"/>
+      <circle r="30" fill="none" style="stroke:var(--cs-rim-2)" stroke-width="1.2" opacity=".55"/>
+      <path d="M14 -26A30 30 0 0 1 29 -8" fill="none" style="stroke:var(--art-violet)" stroke-width="9" stroke-linecap="round"/>
+      <g fill="url(#s18-g-rim)" style="stroke:var(--cs-rim-2)" stroke-width=".8" stroke-linejoin="round">
+        <path d="M-4 -10L4 -10L9 -38Q0 -41 -9 -38Z"/>
+        <path d="M-4 -10L4 -10L9 -38Q0 -41 -9 -38Z" transform="rotate(72)"/>
+        <path d="M-4 -10L4 -10L9 -38Q0 -41 -9 -38Z" transform="rotate(144)"/>
+        <path d="M-4 -10L4 -10L9 -38Q0 -41 -9 -38Z" transform="rotate(216)"/>
+        <path d="M-4 -10L4 -10L9 -38Q0 -41 -9 -38Z" transform="rotate(288)"/>
+      </g>
+      <circle r="12" fill="url(#s18-g-rim)" style="stroke:var(--cs-rim-2)" stroke-width="1.2"/>
+      <circle r="5" fill="url(#s18-g-motor)"/>
+      <path d="M-39 -14A41 41 0 0 1 -14 -39" fill="none" stroke="#fff" stroke-opacity=".55" stroke-width="2.5" stroke-linecap="round"/>
+    </g>
+    <g id="s18-sym-stoplight">
+      <ellipse cx="0" cy="0" rx="24" ry="5" style="fill:var(--cs-shadow)"/>
+      <rect x="-9" y="-10" width="18" height="10" rx="3" style="fill:var(--cs-pole-2)"/>
+      <rect x="-5" y="-200" width="10" height="192" rx="4" fill="url(#s18-g-pole)"/>
+      <rect x="-29" y="-328" width="58" height="140" rx="17" fill="url(#s18-g-housing)"/>
+      <rect x="-23" y="-322" width="46" height="128" rx="13" fill="none" stroke="#fff" stroke-opacity=".14" stroke-width="1.5"/>
+      <circle cy="-293" r="13" style="fill:var(--cs-red)" opacity=".32"/>
+      <circle cy="-258" r="13" style="fill:var(--cs-amber)" opacity=".32"/>
+      <circle class="cs-lit-glow" cy="-223" r="27" fill="url(#s18-g-green-glow)"/>
+      <circle cy="-223" r="13" style="fill:var(--cs-green)"/>
+      <circle cx="-4" cy="-227" r="4" fill="#fff" opacity=".55"/>
+      <path d="M-15 -293a15 15 0 0 1 30 0M-15 -258a15 15 0 0 1 30 0M-15 -223a15 15 0 0 1 30 0" fill="none" style="stroke:var(--cs-pole-2)" stroke-width="5" stroke-linecap="round"/>
+    </g>
+  </defs><g data-part="gps"><g class="cs-callout"><g transform="translate(1050 162)">
+      <circle r="72" class="cs-halo-ring" stroke="url(#s18-g-brand)" />
+      <circle r="64" class="cs-callout-bg" stroke="url(#s18-g-brand)" filter="url(#s18-f-soft)" />
+      <rect x="-50" y="-34" width="100" height="68" rx="12" fill="url(#s18-g-steer)" />
+      <rect x="-44" y="-28" width="88" height="56" rx="7" style="fill:var(--cs-map)" />
+      <g clip-path="url(#s18-cp-screen)">
+        <rect x="-38" y="-23" width="22" height="13" rx="3" style="fill:var(--art-teal)" opacity=".2" />
+        <rect x="12" y="8" width="24" height="16" rx="3" style="fill:var(--art-blue)" opacity=".15" />
+        <path d="M-44 6L44 -14M-14 -28L2 28M-44 -14L-4 -4M16 -28L30 28" fill="none" style="stroke:var(--cs-street)" stroke-width="5" stroke-linecap="round" />
+        <path data-draw="true" d="M-30 16C-18 13 -10 6 -5 -1S12 -13 24 -12" fill="none" stroke="url(#s18-g-route)" stroke-width="5" stroke-linecap="round" />
+        <circle cx="-30" cy="16" r="5" style="fill:var(--art-blue)" stroke="#fff" stroke-width="2" />
+      </g>
+      <path d="M24 -12C19 -18 14 -22 14 -28A10 10 0 0 1 34 -28C34 -22 29 -18 24 -12Z" style="fill:var(--art-violet)" />
+      <circle cx="24" cy="-28" r="3.6" fill="#fff" />
+      <path d="M-10 34H10L14 46H-14Z" style="fill:var(--cs-steer-2)" />
+    </g></g>
+    </g></svg>
       <div class="foundation-copy">
         <p class="slide-body">Give agents clear direction and reusable know-how.</p>
         <ul class="slide-list"><li>Prompts describe the task.</li><li>Instructions guide ongoing behavior.</li><li>Skills package reusable know-how.</li></ul>

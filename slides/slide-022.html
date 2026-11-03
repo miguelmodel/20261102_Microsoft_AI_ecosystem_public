@@ -4,16 +4,85 @@
   <div class="slide-content">
     <header class="header"><h1 class="slide-title">Production <span class="gradient-text">infrastructure</span></h1></header>
     <div class="foundation-body">
-      <svg class="part-illustration scene-art" data-art-part="road-segment" viewBox="60 70 1490 650" aria-hidden="true" data-enter><g xmlns="http://www.w3.org/2000/svg" id="s19-road" data-part="road" class="scene-part">
-    <path class="light" d="M75 465 1190 82 1534 274 418 686Z" />
-    <path class="mid" opacity=".3" d="M418 686 1534 274 1534 293 418 706 75 486 75 465Z" />
-    <path class="light" d="M260 218 451 152 1142 612 951 685Z" />
-    <path class="edge" d="M75 465 1190 82 1534 274 418 686ZM260 218 951 685M451 152 1142 612" />
-    <path class="detail" stroke-dasharray="43 32" opacity=".7" d="M250 548 1360 165M360 188 1045 650" />
-    <path class="detail" opacity=".6" d="m374 383 73-25m-56 39 73-26m-55 40 73-25m-55 39 73-25m-55 39 73-25" />
-    <path class="edge" d="m175 452 301 190m620-526 295 167" />
+      <svg xmlns="http://www.w3.org/2000/svg" class="part-illustration car-art" data-art-part="road" viewBox="-145 -142 290 290" aria-hidden="true" data-enter="true"><defs>
+    <linearGradient id="s22-g-brand" x1="0" y1="0" x2="1" y2="1"><stop offset="0" style="stop-color:var(--art-blue)"/><stop offset="1" style="stop-color:var(--art-violet)"/></linearGradient>
+    <linearGradient id="s22-g-motor" x1="0" y1="0" x2="1" y2="1"><stop offset="0" style="stop-color:var(--art-blue)"/><stop offset="1" style="stop-color:var(--art-violet)"/></linearGradient>
+    <linearGradient id="s22-g-body" x1="0" y1="0" x2="0" y2="1"><stop offset="0" style="stop-color:var(--cs-body-1)"/><stop offset="1" style="stop-color:var(--cs-body-2)"/></linearGradient>
+    <linearGradient id="s22-g-glass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" style="stop-color:var(--cs-glass-1)"/><stop offset="1" style="stop-color:var(--cs-glass-2)"/></linearGradient>
+    <radialGradient id="s22-g-tire" cx=".5" cy=".5" r=".5"><stop offset=".7" style="stop-color:var(--cs-tire-2)"/><stop offset="1" style="stop-color:var(--cs-tire)"/></radialGradient>
+    <linearGradient id="s22-g-rim" x1="0" y1="0" x2="1" y2="1"><stop offset="0" style="stop-color:var(--cs-rim-1)"/><stop offset="1" style="stop-color:var(--cs-rim-2)"/></linearGradient>
+    <radialGradient id="s22-g-rotor" cx=".38" cy=".35" r=".7"><stop offset="0" style="stop-color:var(--cs-rim-1)"/><stop offset="1" style="stop-color:var(--cs-rim-2)"/></radialGradient>
+    <linearGradient id="s22-g-road" x1="0" y1="0" x2="0" y2="1"><stop offset="0" style="stop-color:var(--cs-road-1)"/><stop offset="1" style="stop-color:var(--cs-road-2)"/></linearGradient>
+    <linearGradient id="s22-g-road-far" x1="0" y1="1" x2="0" y2="0"><stop offset="0" style="stop-color:var(--cs-road-1)"/><stop offset=".55" style="stop-color:var(--cs-road-1);stop-opacity:.8"/><stop offset="1" style="stop-color:var(--cs-road-1);stop-opacity:0"/></linearGradient>
+    <linearGradient id="s22-g-road-near" x1="0" y1="0" x2="0" y2="1"><stop offset="0" style="stop-color:var(--cs-road-2)"/><stop offset="1" style="stop-color:var(--cs-road-2);stop-opacity:0"/></linearGradient>
+    <linearGradient id="s22-g-fade-h" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".07" stop-color="#fff"/><stop offset=".93" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <mask id="s22-m-road" maskUnits="userSpaceOnUse" x="0" y="0" width="1600" height="744"><rect width="1600" height="744" fill="url(#s22-g-fade-h)"/></mask>
+    <radialGradient id="s22-g-halo" cx=".5" cy=".5" r=".5"><stop offset="0" style="stop-color:var(--art-blue);stop-opacity:.11"/><stop offset="1" style="stop-color:var(--art-blue);stop-opacity:0"/></radialGradient>
+    <radialGradient id="s22-g-glow" cx=".5" cy=".5" r=".5"><stop offset="0" style="stop-color:var(--art-teal);stop-opacity:.6"/><stop offset=".5" style="stop-color:var(--art-teal);stop-opacity:.2"/><stop offset="1" style="stop-color:var(--art-teal);stop-opacity:0"/></radialGradient>
+    <radialGradient id="s22-g-green-glow" cx=".5" cy=".5" r=".5"><stop offset="0" style="stop-color:var(--cs-green);stop-opacity:.6"/><stop offset="1" style="stop-color:var(--cs-green);stop-opacity:0"/></radialGradient>
+    <linearGradient id="s22-g-housing" x1="0" y1="0" x2="1" y2="0"><stop offset="0" style="stop-color:var(--cs-pole-1)"/><stop offset="1" style="stop-color:var(--cs-pole-2)"/></linearGradient>
+    <linearGradient id="s22-g-pole" x1="0" y1="0" x2="1" y2="0"><stop offset="0" style="stop-color:var(--cs-pole-1)"/><stop offset="1" style="stop-color:var(--cs-pole-2)"/></linearGradient>
+    <linearGradient id="s22-g-gauge" x1="0" y1="0" x2="1" y2="0"><stop offset="0" style="stop-color:var(--art-teal)"/><stop offset=".5" style="stop-color:var(--art-blue)"/><stop offset="1" style="stop-color:var(--art-violet)"/></linearGradient>
+    <linearGradient id="s22-g-route" x1="0" y1="0" x2="1" y2="0"><stop offset="0" style="stop-color:var(--art-blue)"/><stop offset="1" style="stop-color:var(--art-violet)"/></linearGradient>
+    <linearGradient id="s22-g-steer" x1="0" y1="0" x2="0" y2="1"><stop offset="0" style="stop-color:var(--cs-steer-1)"/><stop offset="1" style="stop-color:var(--cs-steer-2)"/></linearGradient>
+    <linearGradient id="s22-g-screen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" style="stop-color:var(--art-teal)"/><stop offset="1" style="stop-color:var(--art-blue)"/></linearGradient>
+    <clipPath id="s22-cp-sill"><rect x="0" y="0" width="1600" height="566"/></clipPath>
+    <clipPath id="s22-cp-window"><path d="M532 424C578 388 638 362 708 352C766 345 822 345 866 352C904 360 938 382 968 410L972 424Z"/></clipPath>
+    <clipPath id="s22-cp-body"><path d="M418 566C402 560 398 540 400 518L404 478C406 460 416 450 434 446L506 432C556 384 626 348 706 338C766 330 826 330 872 338C920 348 962 378 1000 404L1062 420C1092 428 1106 446 1108 474L1110 520C1110 545 1100 560 1080 566L1018 566A71 71 0 0 0 882 566L598 566A71 71 0 0 0 462 566Z"/></clipPath>
+    <clipPath id="s22-cp-screen"><rect x="-44" y="-28" width="88" height="56" rx="7"/></clipPath>
+    <filter id="s22-f-soft" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="10" stdDeviation="11" style="flood-color:var(--cs-drop)"/></filter>
+    <filter id="s22-f-blur" x="-10%" y="-300%" width="120%" height="700%"><feGaussianBlur stdDeviation="8"/></filter>
+    <g id="s22-sym-wheel">
+      <circle r="62" fill="url(#s22-g-tire)"/>
+      <circle r="56" fill="none" style="stroke:var(--cs-tire-2)" stroke-width="1.5" opacity=".9"/>
+      <path d="M-50 -26A56 56 0 0 1 -26 -50" fill="none" stroke="#fff" stroke-opacity=".16" stroke-width="5" stroke-linecap="round"/>
+      <circle r="45" fill="url(#s22-g-rim)"/>
+      <circle r="39" style="fill:var(--cs-disc)"/>
+      <circle r="30" fill="none" style="stroke:var(--cs-rim-2)" stroke-width="1.2" opacity=".55"/>
+      <path d="M14 -26A30 30 0 0 1 29 -8" fill="none" style="stroke:var(--art-violet)" stroke-width="9" stroke-linecap="round"/>
+      <g fill="url(#s22-g-rim)" style="stroke:var(--cs-rim-2)" stroke-width=".8" stroke-linejoin="round">
+        <path d="M-4 -10L4 -10L9 -38Q0 -41 -9 -38Z"/>
+        <path d="M-4 -10L4 -10L9 -38Q0 -41 -9 -38Z" transform="rotate(72)"/>
+        <path d="M-4 -10L4 -10L9 -38Q0 -41 -9 -38Z" transform="rotate(144)"/>
+        <path d="M-4 -10L4 -10L9 -38Q0 -41 -9 -38Z" transform="rotate(216)"/>
+        <path d="M-4 -10L4 -10L9 -38Q0 -41 -9 -38Z" transform="rotate(288)"/>
+      </g>
+      <circle r="12" fill="url(#s22-g-rim)" style="stroke:var(--cs-rim-2)" stroke-width="1.2"/>
+      <circle r="5" fill="url(#s22-g-motor)"/>
+      <path d="M-39 -14A41 41 0 0 1 -14 -39" fill="none" stroke="#fff" stroke-opacity=".55" stroke-width="2.5" stroke-linecap="round"/>
     </g>
-  </svg>
+    <g id="s22-sym-stoplight">
+      <ellipse cx="0" cy="0" rx="24" ry="5" style="fill:var(--cs-shadow)"/>
+      <rect x="-9" y="-10" width="18" height="10" rx="3" style="fill:var(--cs-pole-2)"/>
+      <rect x="-5" y="-200" width="10" height="192" rx="4" fill="url(#s22-g-pole)"/>
+      <rect x="-29" y="-328" width="58" height="140" rx="17" fill="url(#s22-g-housing)"/>
+      <rect x="-23" y="-322" width="46" height="128" rx="13" fill="none" stroke="#fff" stroke-opacity=".14" stroke-width="1.5"/>
+      <circle cy="-293" r="13" style="fill:var(--cs-red)" opacity=".32"/>
+      <circle cy="-258" r="13" style="fill:var(--cs-amber)" opacity=".32"/>
+      <circle class="cs-lit-glow" cy="-223" r="27" fill="url(#s22-g-green-glow)"/>
+      <circle cy="-223" r="13" style="fill:var(--cs-green)"/>
+      <circle cx="-4" cy="-227" r="4" fill="#fff" opacity=".55"/>
+      <path d="M-15 -293a15 15 0 0 1 30 0M-15 -258a15 15 0 0 1 30 0M-15 -223a15 15 0 0 1 30 0" fill="none" style="stroke:var(--cs-pole-2)" stroke-width="5" stroke-linecap="round"/>
+    </g>
+  <radialGradient id="s22-g-vignette" cx=".5" cy=".5" r=".5"><stop offset=".55" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient><mask id="s22-m-vignette" maskUnits="userSpaceOnUse" x="40" y="420" width="520" height="324"><rect x="40" y="420" width="520" height="324" fill="url(#s22-g-vignette)"/></mask><clipPath id="s22-cp-disc"><circle r="119"/></clipPath></defs><g data-part="road"><circle r="132" class="cs-halo-ring" stroke="url(#s22-g-brand)"/>
+<circle r="122" class="cs-callout-bg" stroke="url(#s22-g-brand)" filter="url(#s22-f-soft)"/>
+<g clip-path="url(#s22-cp-disc)">
+<g style="fill:color-mix(in srgb, var(--art-mid) 32%, var(--cs-callout-bg))"><rect x="-104" y="-44" width="34" height="62" rx="5"/><rect x="-66" y="-84" width="32" height="102" rx="5"/><rect x="-30" y="-30" width="38" height="48" rx="5"/><rect x="12" y="-68" width="30" height="86" rx="5"/><rect x="46" y="-40" width="36" height="58" rx="5"/><rect x="86" y="-96" width="30" height="114" rx="5"/></g>
+<g style="fill:var(--cs-callout-bg)" opacity=".75"><rect x="-58" y="-72" width="6" height="8" rx="1.5"/><rect x="-58" y="-56" width="6" height="8" rx="1.5"/><rect x="-58" y="-40" width="6" height="8" rx="1.5"/><rect x="-58" y="-24" width="6" height="8" rx="1.5"/><rect x="-46" y="-72" width="6" height="8" rx="1.5"/><rect x="-46" y="-56" width="6" height="8" rx="1.5"/><rect x="-46" y="-40" width="6" height="8" rx="1.5"/><rect x="-46" y="-24" width="6" height="8" rx="1.5"/><rect x="93" y="-84" width="6" height="8" rx="1.5"/><rect x="93" y="-68" width="6" height="8" rx="1.5"/><rect x="93" y="-52" width="6" height="8" rx="1.5"/><rect x="93" y="-36" width="6" height="8" rx="1.5"/><rect x="93" y="-20" width="6" height="8" rx="1.5"/><rect x="105" y="-84" width="6" height="8" rx="1.5"/><rect x="105" y="-68" width="6" height="8" rx="1.5"/><rect x="105" y="-52" width="6" height="8" rx="1.5"/><rect x="105" y="-36" width="6" height="8" rx="1.5"/><rect x="105" y="-20" width="6" height="8" rx="1.5"/><rect x="19" y="-56" width="6" height="8" rx="1.5"/><rect x="19" y="-40" width="6" height="8" rx="1.5"/><rect x="19" y="-24" width="6" height="8" rx="1.5"/><rect x="31" y="-56" width="6" height="8" rx="1.5"/><rect x="31" y="-40" width="6" height="8" rx="1.5"/><rect x="31" y="-24" width="6" height="8" rx="1.5"/></g>
+<g transform="translate(-96 16)"><circle class="cs-lit-glow" cx="10" cy="-46" r="11" style="fill:var(--cs-amber)" opacity=".35"/>
+<rect x="-2" y="-46" width="4" height="46" rx="2" fill="url(#s22-g-pole)"/><path d="M0 -44q0-6 8-6h4" fill="none" style="stroke:var(--cs-pole-2)" stroke-width="3" stroke-linecap="round"/>
+<rect x="6" y="-50" width="10" height="5" rx="2" style="fill:var(--cs-amber)"/></g><g transform="translate(52 16)"><circle class="cs-lit-glow" cx="10" cy="-46" r="11" style="fill:var(--cs-amber)" opacity=".35"/>
+<rect x="-2" y="-46" width="4" height="46" rx="2" fill="url(#s22-g-pole)"/><path d="M0 -44q0-6 8-6h4" fill="none" style="stroke:var(--cs-pole-2)" stroke-width="3" stroke-linecap="round"/>
+<rect x="6" y="-50" width="10" height="5" rx="2" style="fill:var(--cs-amber)"/></g>
+<rect x="-130" y="16" width="260" height="10" style="fill:var(--cs-sidewalk)"/><path d="M-130 16H130" style="stroke:var(--cs-curb)" stroke-width="2"/>
+<rect x="-130" y="26" width="260" height="58" style="fill:color-mix(in srgb, var(--art-mid) 22%, var(--cs-road-2))"/>
+<path d="M-130 31H130M-130 79H130" style="stroke:var(--cs-road-line)" stroke-width="2" opacity=".85"/>
+<path d="M-130 55H-70M34 55H130" style="stroke:var(--cs-road-line)" stroke-width="4" stroke-dasharray="18 13" stroke-linecap="round"/>
+<g style="fill:var(--cs-road-line)"><rect x="0" y="33" width="26" height="4" rx="1.5"/><rect x="0" y="41" width="26" height="4" rx="1.5"/><rect x="0" y="49" width="26" height="4" rx="1.5"/><rect x="0" y="57" width="26" height="4" rx="1.5"/><rect x="0" y="65" width="26" height="4" rx="1.5"/><rect x="0" y="73" width="26" height="4" rx="1.5"/></g>
+<rect x="-130" y="84" width="260" height="6" style="fill:var(--cs-curb)"/><rect x="-130" y="90" width="260" height="50" style="fill:var(--cs-sidewalk)"/>
+<path d="M-64 84H-12L-2 130H-74Z" style="fill:color-mix(in srgb, var(--art-mid) 22%, var(--cs-road-2))"/>
+<path d="M-38 92V126" style="stroke:var(--cs-road-line)" stroke-width="3" stroke-dasharray="8 7"/>
+</g></g></svg>
       <div class="foundation-copy">
         <p class="slide-body">Keep the whole application available, responsive, and recoverable.</p>
         <div class="grid-3 responsibility-grid">

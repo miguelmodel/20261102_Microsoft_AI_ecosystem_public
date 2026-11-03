@@ -4,16 +4,77 @@
   <div class="slide-content">
     <header class="header"><h1 class="slide-title"><span class="gradient-text">Harness</span></h1></header>
     <div class="foundation-body">
-      <svg class="part-illustration scene-art" data-art-part="chassis" viewBox="520 245 630 300" aria-hidden="true" data-enter><g xmlns="http://www.w3.org/2000/svg" id="s16-chassis" data-part="chassis" class="scene-part">
-    <path class="mid" d="m550 423 455-157 16 11-456 158Z" />
-    <path class="deep" d="m565 435 456-158v20L565 454Z" />
-    <path class="mid" d="m648 485 455-157 16 11-456 158Z" />
-    <path class="deep" d="m663 497 456-158v20L663 517Z" />
-    <path class="light" d="m609 403 18-6 106 64-18 7Zm113-39 18-6 106 64-18 7Zm113-39 18-6 106 64-18 7Zm113-39 18-6 106 64-18 7Z" />
-    <path class="edge" data-draw="true" d="m550 423 455-157 114 73v20L663 517 550 443Zm15 12 456-158M663 497l456-158" />
-    <path class="detail" d="m646 449 31 18m78-57 31 18m78-57 31 18m78-57 31 18" />
+      <svg xmlns="http://www.w3.org/2000/svg" class="part-illustration car-art" data-art-part="chassis" viewBox="50 30 350 280" aria-hidden="true" data-enter="true"><defs>
+    <linearGradient id="s17-g-brand" x1="0" y1="0" x2="1" y2="1"><stop offset="0" style="stop-color:var(--art-blue)"/><stop offset="1" style="stop-color:var(--art-violet)"/></linearGradient>
+    <linearGradient id="s17-g-motor" x1="0" y1="0" x2="1" y2="1"><stop offset="0" style="stop-color:var(--art-blue)"/><stop offset="1" style="stop-color:var(--art-violet)"/></linearGradient>
+    <linearGradient id="s17-g-body" x1="0" y1="0" x2="0" y2="1"><stop offset="0" style="stop-color:var(--cs-body-1)"/><stop offset="1" style="stop-color:var(--cs-body-2)"/></linearGradient>
+    <linearGradient id="s17-g-glass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" style="stop-color:var(--cs-glass-1)"/><stop offset="1" style="stop-color:var(--cs-glass-2)"/></linearGradient>
+    <radialGradient id="s17-g-tire" cx=".5" cy=".5" r=".5"><stop offset=".7" style="stop-color:var(--cs-tire-2)"/><stop offset="1" style="stop-color:var(--cs-tire)"/></radialGradient>
+    <linearGradient id="s17-g-rim" x1="0" y1="0" x2="1" y2="1"><stop offset="0" style="stop-color:var(--cs-rim-1)"/><stop offset="1" style="stop-color:var(--cs-rim-2)"/></linearGradient>
+    <radialGradient id="s17-g-rotor" cx=".38" cy=".35" r=".7"><stop offset="0" style="stop-color:var(--cs-rim-1)"/><stop offset="1" style="stop-color:var(--cs-rim-2)"/></radialGradient>
+    <linearGradient id="s17-g-road" x1="0" y1="0" x2="0" y2="1"><stop offset="0" style="stop-color:var(--cs-road-1)"/><stop offset="1" style="stop-color:var(--cs-road-2)"/></linearGradient>
+    <linearGradient id="s17-g-road-far" x1="0" y1="1" x2="0" y2="0"><stop offset="0" style="stop-color:var(--cs-road-1)"/><stop offset=".55" style="stop-color:var(--cs-road-1);stop-opacity:.8"/><stop offset="1" style="stop-color:var(--cs-road-1);stop-opacity:0"/></linearGradient>
+    <linearGradient id="s17-g-road-near" x1="0" y1="0" x2="0" y2="1"><stop offset="0" style="stop-color:var(--cs-road-2)"/><stop offset="1" style="stop-color:var(--cs-road-2);stop-opacity:0"/></linearGradient>
+    <linearGradient id="s17-g-fade-h" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".07" stop-color="#fff"/><stop offset=".93" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <mask id="s17-m-road" maskUnits="userSpaceOnUse" x="0" y="0" width="1600" height="744"><rect width="1600" height="744" fill="url(#s17-g-fade-h)"/></mask>
+    <radialGradient id="s17-g-halo" cx=".5" cy=".5" r=".5"><stop offset="0" style="stop-color:var(--art-blue);stop-opacity:.11"/><stop offset="1" style="stop-color:var(--art-blue);stop-opacity:0"/></radialGradient>
+    <radialGradient id="s17-g-glow" cx=".5" cy=".5" r=".5"><stop offset="0" style="stop-color:var(--art-teal);stop-opacity:.6"/><stop offset=".5" style="stop-color:var(--art-teal);stop-opacity:.2"/><stop offset="1" style="stop-color:var(--art-teal);stop-opacity:0"/></radialGradient>
+    <radialGradient id="s17-g-green-glow" cx=".5" cy=".5" r=".5"><stop offset="0" style="stop-color:var(--cs-green);stop-opacity:.6"/><stop offset="1" style="stop-color:var(--cs-green);stop-opacity:0"/></radialGradient>
+    <linearGradient id="s17-g-housing" x1="0" y1="0" x2="1" y2="0"><stop offset="0" style="stop-color:var(--cs-pole-1)"/><stop offset="1" style="stop-color:var(--cs-pole-2)"/></linearGradient>
+    <linearGradient id="s17-g-pole" x1="0" y1="0" x2="1" y2="0"><stop offset="0" style="stop-color:var(--cs-pole-1)"/><stop offset="1" style="stop-color:var(--cs-pole-2)"/></linearGradient>
+    <linearGradient id="s17-g-gauge" x1="0" y1="0" x2="1" y2="0"><stop offset="0" style="stop-color:var(--art-teal)"/><stop offset=".5" style="stop-color:var(--art-blue)"/><stop offset="1" style="stop-color:var(--art-violet)"/></linearGradient>
+    <linearGradient id="s17-g-route" x1="0" y1="0" x2="1" y2="0"><stop offset="0" style="stop-color:var(--art-blue)"/><stop offset="1" style="stop-color:var(--art-violet)"/></linearGradient>
+    <linearGradient id="s17-g-steer" x1="0" y1="0" x2="0" y2="1"><stop offset="0" style="stop-color:var(--cs-steer-1)"/><stop offset="1" style="stop-color:var(--cs-steer-2)"/></linearGradient>
+    <linearGradient id="s17-g-screen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" style="stop-color:var(--art-teal)"/><stop offset="1" style="stop-color:var(--art-blue)"/></linearGradient>
+    <clipPath id="s17-cp-sill"><rect x="0" y="0" width="1600" height="566"/></clipPath>
+    <clipPath id="s17-cp-window"><path d="M532 424C578 388 638 362 708 352C766 345 822 345 866 352C904 360 938 382 968 410L972 424Z"/></clipPath>
+    <clipPath id="s17-cp-body"><path d="M418 566C402 560 398 540 400 518L404 478C406 460 416 450 434 446L506 432C556 384 626 348 706 338C766 330 826 330 872 338C920 348 962 378 1000 404L1062 420C1092 428 1106 446 1108 474L1110 520C1110 545 1100 560 1080 566L1018 566A71 71 0 0 0 882 566L598 566A71 71 0 0 0 462 566Z"/></clipPath>
+    <clipPath id="s17-cp-screen"><rect x="-44" y="-28" width="88" height="56" rx="7"/></clipPath>
+    <filter id="s17-f-soft" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="10" stdDeviation="11" style="flood-color:var(--cs-drop)"/></filter>
+    <filter id="s17-f-blur" x="-10%" y="-300%" width="120%" height="700%"><feGaussianBlur stdDeviation="8"/></filter>
+    <g id="s17-sym-wheel">
+      <circle r="62" fill="url(#s17-g-tire)"/>
+      <circle r="56" fill="none" style="stroke:var(--cs-tire-2)" stroke-width="1.5" opacity=".9"/>
+      <path d="M-50 -26A56 56 0 0 1 -26 -50" fill="none" stroke="#fff" stroke-opacity=".16" stroke-width="5" stroke-linecap="round"/>
+      <circle r="45" fill="url(#s17-g-rim)"/>
+      <circle r="39" style="fill:var(--cs-disc)"/>
+      <circle r="30" fill="none" style="stroke:var(--cs-rim-2)" stroke-width="1.2" opacity=".55"/>
+      <path d="M14 -26A30 30 0 0 1 29 -8" fill="none" style="stroke:var(--art-violet)" stroke-width="9" stroke-linecap="round"/>
+      <g fill="url(#s17-g-rim)" style="stroke:var(--cs-rim-2)" stroke-width=".8" stroke-linejoin="round">
+        <path d="M-4 -10L4 -10L9 -38Q0 -41 -9 -38Z"/>
+        <path d="M-4 -10L4 -10L9 -38Q0 -41 -9 -38Z" transform="rotate(72)"/>
+        <path d="M-4 -10L4 -10L9 -38Q0 -41 -9 -38Z" transform="rotate(144)"/>
+        <path d="M-4 -10L4 -10L9 -38Q0 -41 -9 -38Z" transform="rotate(216)"/>
+        <path d="M-4 -10L4 -10L9 -38Q0 -41 -9 -38Z" transform="rotate(288)"/>
+      </g>
+      <circle r="12" fill="url(#s17-g-rim)" style="stroke:var(--cs-rim-2)" stroke-width="1.2"/>
+      <circle r="5" fill="url(#s17-g-motor)"/>
+      <path d="M-39 -14A41 41 0 0 1 -14 -39" fill="none" stroke="#fff" stroke-opacity=".55" stroke-width="2.5" stroke-linecap="round"/>
     </g>
-  </svg>
+    <g id="s17-sym-stoplight">
+      <ellipse cx="0" cy="0" rx="24" ry="5" style="fill:var(--cs-shadow)"/>
+      <rect x="-9" y="-10" width="18" height="10" rx="3" style="fill:var(--cs-pole-2)"/>
+      <rect x="-5" y="-200" width="10" height="192" rx="4" fill="url(#s17-g-pole)"/>
+      <rect x="-29" y="-328" width="58" height="140" rx="17" fill="url(#s17-g-housing)"/>
+      <rect x="-23" y="-322" width="46" height="128" rx="13" fill="none" stroke="#fff" stroke-opacity=".14" stroke-width="1.5"/>
+      <circle cy="-293" r="13" style="fill:var(--cs-red)" opacity=".32"/>
+      <circle cy="-258" r="13" style="fill:var(--cs-amber)" opacity=".32"/>
+      <circle class="cs-lit-glow" cy="-223" r="27" fill="url(#s17-g-green-glow)"/>
+      <circle cy="-223" r="13" style="fill:var(--cs-green)"/>
+      <circle cx="-4" cy="-227" r="4" fill="#fff" opacity=".55"/>
+      <path d="M-15 -293a15 15 0 0 1 30 0M-15 -258a15 15 0 0 1 30 0M-15 -223a15 15 0 0 1 30 0" fill="none" style="stroke:var(--cs-pole-2)" stroke-width="5" stroke-linecap="round"/>
+    </g>
+  </defs><g data-part="chassis"><path d="M70 86C70 70 82 62 100 62H300C344 62 376 98 380 170C376 242 344 278 300 278H100C82 278 70 270 70 254Z" fill="url(#s17-g-body)" opacity=".8" style="stroke:var(--cs-body-stroke)" stroke-width="2.5" stroke-dasharray="8 7"/>
+<g fill="none" style="stroke:var(--cs-body-stroke)" stroke-width="2.5" stroke-dasharray="6 6"><rect x="100" y="44" width="60" height="26" rx="9"/><rect x="100" y="270" width="60" height="26" rx="9"/><rect x="276" y="44" width="60" height="26" rx="9"/><rect x="276" y="270" width="60" height="26" rx="9"/></g>
+<path d="M130 70V270M306 70V270" style="stroke:var(--cs-frame)" stroke-width="7" stroke-linecap="round"/>
+<path d="M86 132H362M86 208H362M86 132V208M362 132V208" fill="none" style="stroke:var(--cs-frame)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="152" y="112" width="132" height="116" rx="14" fill="url(#s17-g-motor)" filter="url(#s17-f-soft)"/>
+<rect x="160" y="118" width="116" height="8" rx="4" fill="#fff" opacity=".3"/>
+<path d="M185 134V218M218 134V218M251 134V218M162 162H274M162 192H274" stroke="#fff" stroke-opacity=".35" stroke-width="2.5" stroke-linecap="round"/>
+<rect x="316" y="144" width="40" height="52" rx="10" fill="url(#s17-g-motor)" opacity=".9"/>
+<path d="M326 154v32M336 154v32M346 154v32" stroke="#fff" stroke-opacity=".35" stroke-width="2.5" stroke-linecap="round"/>
+<path data-draw="true" d="M284 150C300 150 300 156 316 156M284 190C300 190 300 184 316 184M152 170C130 170 112 170 92 170" fill="none" style="stroke:var(--art-teal)" stroke-width="4" stroke-linecap="round"/>
+<g style="fill:var(--art-teal)"><circle cx="284" cy="150" r="5"/><circle cx="284" cy="190" r="5"/><circle cx="152" cy="170" r="5"/><circle cx="92" cy="170" r="5"/></g></g></svg>
       <div class="foundation-copy">
         <p class="slide-body">Runtime scaffolding that turns a model into an agent that can work.</p>
         <ul class="slide-list"><li>Coordinate model and tool calls.</li><li>Maintain task context and state.</li><li>Handle execution boundaries and approvals.</li></ul>

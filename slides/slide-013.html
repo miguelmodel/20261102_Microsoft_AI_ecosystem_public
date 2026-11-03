@@ -3,233 +3,318 @@
   <div class="slide-bg"></div>
   <div class="slide-content">
     <header class="header"><h1 class="slide-title">The same scene, <span class="gradient-text">mapped to AI</span></h1></header>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 740" class="transport-scene scene-art" role="img" aria-labelledby="s13-scene-title s13-scene-desc" data-scene-geometry="transportation-v4-original">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 744" class="car-art car-scene" role="img" aria-labelledby="s13-scene-title s13-scene-desc" data-scene-geometry="transportation-v11-side">
   <title id="s13-scene-title">One vehicle, one connected operating environment</title>
-  <desc id="s13-scene-desc">Original isometric cutaway vehicle with exposed engine, structural chassis, dashboard gauge, GPS, steering wheel, four wheels, intersecting roads, stoplights, traffic signs and a checkpoint.</desc>
-  <g id="s13-road" data-part="road" class="scene-part" data-step="7">
-    <path class="light" d="M75 465 1190 82 1534 274 418 686Z" />
-    <path class="mid" opacity=".3" d="M418 686 1534 274 1534 293 418 706 75 486 75 465Z" />
-    <path class="light" d="M260 218 451 152 1142 612 951 685Z" />
-    <path class="edge" d="M75 465 1190 82 1534 274 418 686ZM260 218 951 685M451 152 1142 612" />
-    <path class="detail" stroke-dasharray="43 32" opacity=".7" d="M250 548 1360 165M360 188 1045 650" />
-    <path class="detail" opacity=".6" d="m374 383 73-25m-56 39 73-26m-55 40 73-25m-55 39 73-25m-55 39 73-25" />
-    <path class="edge" d="m175 452 301 190m620-526 295 167" />
-    <g class="part-label" data-anchor="road">
-      <path class="leader" d="m1210 590-72-45" />
-      <text class="scene-label" x="1215" y="630">Infrastructure</text>
+  <desc id="s13-scene-desc">Side-view glass-cutaway car showing an electric motor, a chassis platform, GPS, wheels, steering wheel and fuel gauge, on intersecting roads with stoplights, traffic signs and a toll checkpoint.</desc>
+  <defs>
+    <linearGradient id="s13-g-brand" x1="0" y1="0" x2="1" y2="1"><stop offset="0" style="stop-color:var(--art-blue)"/><stop offset="1" style="stop-color:var(--art-violet)"/></linearGradient>
+    <linearGradient id="s13-g-motor" x1="0" y1="0" x2="1" y2="1"><stop offset="0" style="stop-color:var(--art-blue)"/><stop offset="1" style="stop-color:var(--art-violet)"/></linearGradient>
+    <linearGradient id="s13-g-body" x1="0" y1="0" x2="0" y2="1"><stop offset="0" style="stop-color:var(--cs-body-1)"/><stop offset="1" style="stop-color:var(--cs-body-2)"/></linearGradient>
+    <linearGradient id="s13-g-glass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" style="stop-color:var(--cs-glass-1)"/><stop offset="1" style="stop-color:var(--cs-glass-2)"/></linearGradient>
+    <radialGradient id="s13-g-tire" cx=".5" cy=".5" r=".5"><stop offset=".7" style="stop-color:var(--cs-tire-2)"/><stop offset="1" style="stop-color:var(--cs-tire)"/></radialGradient>
+    <linearGradient id="s13-g-rim" x1="0" y1="0" x2="1" y2="1"><stop offset="0" style="stop-color:var(--cs-rim-1)"/><stop offset="1" style="stop-color:var(--cs-rim-2)"/></linearGradient>
+    <radialGradient id="s13-g-rotor" cx=".38" cy=".35" r=".7"><stop offset="0" style="stop-color:var(--cs-rim-1)"/><stop offset="1" style="stop-color:var(--cs-rim-2)"/></radialGradient>
+    <linearGradient id="s13-g-road" x1="0" y1="0" x2="0" y2="1"><stop offset="0" style="stop-color:var(--cs-road-1)"/><stop offset="1" style="stop-color:var(--cs-road-2)"/></linearGradient>
+    <linearGradient id="s13-g-road-far" x1="0" y1="1" x2="0" y2="0"><stop offset="0" style="stop-color:var(--cs-road-1)"/><stop offset=".55" style="stop-color:var(--cs-road-1);stop-opacity:.8"/><stop offset="1" style="stop-color:var(--cs-road-1);stop-opacity:0"/></linearGradient>
+    <linearGradient id="s13-g-road-near" x1="0" y1="0" x2="0" y2="1"><stop offset="0" style="stop-color:var(--cs-road-2)"/><stop offset="1" style="stop-color:var(--cs-road-2);stop-opacity:0"/></linearGradient>
+    <linearGradient id="s13-g-fade-h" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".07" stop-color="#fff"/><stop offset=".93" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <mask id="s13-m-road" maskUnits="userSpaceOnUse" x="0" y="0" width="1600" height="744"><rect width="1600" height="744" fill="url(#s13-g-fade-h)"/></mask>
+    <radialGradient id="s13-g-halo" cx=".5" cy=".5" r=".5"><stop offset="0" style="stop-color:var(--art-blue);stop-opacity:.11"/><stop offset="1" style="stop-color:var(--art-blue);stop-opacity:0"/></radialGradient>
+    <radialGradient id="s13-g-glow" cx=".5" cy=".5" r=".5"><stop offset="0" style="stop-color:var(--art-teal);stop-opacity:.6"/><stop offset=".5" style="stop-color:var(--art-teal);stop-opacity:.2"/><stop offset="1" style="stop-color:var(--art-teal);stop-opacity:0"/></radialGradient>
+    <radialGradient id="s13-g-green-glow" cx=".5" cy=".5" r=".5"><stop offset="0" style="stop-color:var(--cs-green);stop-opacity:.6"/><stop offset="1" style="stop-color:var(--cs-green);stop-opacity:0"/></radialGradient>
+    <linearGradient id="s13-g-housing" x1="0" y1="0" x2="1" y2="0"><stop offset="0" style="stop-color:var(--cs-pole-1)"/><stop offset="1" style="stop-color:var(--cs-pole-2)"/></linearGradient>
+    <linearGradient id="s13-g-pole" x1="0" y1="0" x2="1" y2="0"><stop offset="0" style="stop-color:var(--cs-pole-1)"/><stop offset="1" style="stop-color:var(--cs-pole-2)"/></linearGradient>
+    <linearGradient id="s13-g-gauge" x1="0" y1="0" x2="1" y2="0"><stop offset="0" style="stop-color:var(--art-teal)"/><stop offset=".5" style="stop-color:var(--art-blue)"/><stop offset="1" style="stop-color:var(--art-violet)"/></linearGradient>
+    <linearGradient id="s13-g-route" x1="0" y1="0" x2="1" y2="0"><stop offset="0" style="stop-color:var(--art-blue)"/><stop offset="1" style="stop-color:var(--art-violet)"/></linearGradient>
+    <linearGradient id="s13-g-steer" x1="0" y1="0" x2="0" y2="1"><stop offset="0" style="stop-color:var(--cs-steer-1)"/><stop offset="1" style="stop-color:var(--cs-steer-2)"/></linearGradient>
+    <linearGradient id="s13-g-screen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" style="stop-color:var(--art-teal)"/><stop offset="1" style="stop-color:var(--art-blue)"/></linearGradient>
+    <clipPath id="s13-cp-sill"><rect x="0" y="0" width="1600" height="566"/></clipPath>
+    <clipPath id="s13-cp-window"><path d="M532 424C578 388 638 362 708 352C766 345 822 345 866 352C904 360 938 382 968 410L972 424Z"/></clipPath>
+    <clipPath id="s13-cp-body"><path d="M418 566C402 560 398 540 400 518L404 478C406 460 416 450 434 446L506 432C556 384 626 348 706 338C766 330 826 330 872 338C920 348 962 378 1000 404L1062 420C1092 428 1106 446 1108 474L1110 520C1110 545 1100 560 1080 566L1018 566A71 71 0 0 0 882 566L598 566A71 71 0 0 0 462 566Z"/></clipPath>
+    <clipPath id="s13-cp-screen"><rect x="-44" y="-28" width="88" height="56" rx="7"/></clipPath>
+    <filter id="s13-f-soft" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="10" stdDeviation="11" style="flood-color:var(--cs-drop)"/></filter>
+    <filter id="s13-f-blur" x="-10%" y="-300%" width="120%" height="700%"><feGaussianBlur stdDeviation="8"/></filter>
+    <g id="s13-sym-wheel">
+      <circle r="62" fill="url(#s13-g-tire)"/>
+      <circle r="56" fill="none" style="stroke:var(--cs-tire-2)" stroke-width="1.5" opacity=".9"/>
+      <path d="M-50 -26A56 56 0 0 1 -26 -50" fill="none" stroke="#fff" stroke-opacity=".16" stroke-width="5" stroke-linecap="round"/>
+      <circle r="45" fill="url(#s13-g-rim)"/>
+      <circle r="39" style="fill:var(--cs-disc)"/>
+      <circle r="30" fill="none" style="stroke:var(--cs-rim-2)" stroke-width="1.2" opacity=".55"/>
+      <path d="M14 -26A30 30 0 0 1 29 -8" fill="none" style="stroke:var(--art-violet)" stroke-width="9" stroke-linecap="round"/>
+      <g fill="url(#s13-g-rim)" style="stroke:var(--cs-rim-2)" stroke-width=".8" stroke-linejoin="round">
+        <path d="M-4 -10L4 -10L9 -38Q0 -41 -9 -38Z"/>
+        <path d="M-4 -10L4 -10L9 -38Q0 -41 -9 -38Z" transform="rotate(72)"/>
+        <path d="M-4 -10L4 -10L9 -38Q0 -41 -9 -38Z" transform="rotate(144)"/>
+        <path d="M-4 -10L4 -10L9 -38Q0 -41 -9 -38Z" transform="rotate(216)"/>
+        <path d="M-4 -10L4 -10L9 -38Q0 -41 -9 -38Z" transform="rotate(288)"/>
+      </g>
+      <circle r="12" fill="url(#s13-g-rim)" style="stroke:var(--cs-rim-2)" stroke-width="1.2"/>
+      <circle r="5" fill="url(#s13-g-motor)"/>
+      <path d="M-39 -14A41 41 0 0 1 -14 -39" fill="none" stroke="#fff" stroke-opacity=".55" stroke-width="2.5" stroke-linecap="round"/>
+    </g>
+    <g id="s13-sym-stoplight">
+      <ellipse cx="0" cy="0" rx="24" ry="5" style="fill:var(--cs-shadow)"/>
+      <rect x="-9" y="-10" width="18" height="10" rx="3" style="fill:var(--cs-pole-2)"/>
+      <rect x="-5" y="-200" width="10" height="192" rx="4" fill="url(#s13-g-pole)"/>
+      <rect x="-29" y="-328" width="58" height="140" rx="17" fill="url(#s13-g-housing)"/>
+      <rect x="-23" y="-322" width="46" height="128" rx="13" fill="none" stroke="#fff" stroke-opacity=".14" stroke-width="1.5"/>
+      <circle cy="-293" r="13" style="fill:var(--cs-red)" opacity=".32"/>
+      <circle cy="-258" r="13" style="fill:var(--cs-amber)" opacity=".32"/>
+      <circle class="cs-lit-glow" cy="-223" r="27" fill="url(#s13-g-green-glow)"/>
+      <circle cy="-223" r="13" style="fill:var(--cs-green)"/>
+      <circle cx="-4" cy="-227" r="4" fill="#fff" opacity=".55"/>
+      <path d="M-15 -293a15 15 0 0 1 30 0M-15 -258a15 15 0 0 1 30 0M-15 -223a15 15 0 0 1 30 0" fill="none" style="stroke:var(--cs-pole-2)" stroke-width="5" stroke-linecap="round"/>
+    </g>
+  </defs>
+
+  <!-- 7 · Roads -->
+  <g class="scene-part cs-part" data-part="road" data-step="7">
+    <ellipse cx="800" cy="610" rx="790" ry="210" fill="url(#s13-g-halo)"/>
+    <g mask="url(#s13-m-road)">
+      <g style="fill:var(--cs-skyline)">
+        <rect x="330" y="522" width="44" height="54" rx="6"/><rect x="378" y="498" width="38" height="78" rx="6"/>
+        <rect x="420" y="532" width="50" height="44" rx="6"/><rect x="474" y="474" width="42" height="102" rx="6"/>
+        <rect x="520" y="510" width="58" height="66" rx="6"/><rect x="582" y="488" width="36" height="88" rx="6"/>
+        <rect x="622" y="524" width="46" height="52" rx="6"/><rect x="672" y="458" width="48" height="118" rx="6"/>
+        <rect x="724" y="502" width="40" height="74" rx="6"/><rect x="768" y="480" width="54" height="96" rx="6"/>
+        <rect x="826" y="518" width="42" height="58" rx="6"/><rect x="872" y="466" width="40" height="110" rx="6"/>
+        <rect x="916" y="500" width="56" height="76" rx="6"/><rect x="976" y="482" width="42" height="94" rx="6"/>
+        <rect x="1022" y="522" width="48" height="54" rx="6"/><rect x="1074" y="492" width="38" height="84" rx="6"/>
+        <rect x="1116" y="514" width="54" height="62" rx="6"/><rect x="1174" y="476" width="42" height="100" rx="6"/>
+        <rect x="1220" y="508" width="50" height="68" rx="6"/><rect x="1274" y="528" width="40" height="48" rx="6"/>
+        <rect x="1318" y="500" width="36" height="76" rx="6"/>
+      </g>
+      <rect x="0" y="572" width="1600" height="18" style="fill:var(--cs-sidewalk)"/>
+      <path d="M0 572H1600" style="stroke:var(--cs-curb)" stroke-width="2"/>
+      <rect x="0" y="590" width="1600" height="100" fill="url(#s13-g-road)"/>
+      <path d="M0 598H1600M0 682H1600" style="stroke:var(--cs-road-line)" stroke-width="3" opacity=".75"/>
+      <path d="M346 624H1600" style="stroke:var(--cs-road-line)" stroke-width="5" stroke-dasharray="46 30" stroke-linecap="round"/>
+      <rect x="70" y="590" width="180" height="100" fill="url(#s13-g-road)"/>
+      <rect x="0" y="690" width="1600" height="9" style="fill:var(--cs-curb)"/>
+    </g>
+    <path d="M70 572L250 572L198 452L128 452Z" fill="url(#s13-g-road-far)"/>
+    <path d="M160 566L163 466" style="stroke:var(--cs-road-line)" stroke-width="4" stroke-dasharray="16 14" opacity=".85"/>
+    <path d="M70 699L250 699L284 744L36 744Z" fill="url(#s13-g-road-near)"/>
+    <g style="fill:var(--cs-road-line)" opacity=".9">
+      <rect x="264" y="600" width="52" height="7" rx="2"/><rect x="264" y="613" width="52" height="7" rx="2"/>
+      <rect x="264" y="626" width="52" height="7" rx="2"/><rect x="264" y="639" width="52" height="7" rx="2"/>
+      <rect x="264" y="652" width="52" height="7" rx="2"/><rect x="264" y="665" width="52" height="7" rx="2"/>
+      <rect x="264" y="678" width="52" height="7" rx="2"/>
+    </g>
+    <path class="cs-leader" d="M1420 686V708"/>
+    <text class="scene-label cs-label" x="1420" y="734" text-anchor="middle">Infrastructure</text>
+  </g>
+
+  <!-- 2 · Vehicle shadow -->
+  <g class="scene-part cs-part" data-part="shadow" data-step="2">
+    <ellipse cx="760" cy="652" rx="390" ry="14" style="fill:var(--cs-shadow)" filter="url(#s13-f-blur)"/>
+  </g>
+
+  <!-- 8 · Stoplights -->
+  <g class="scene-part cs-part" data-part="stoplights" data-step="8">
+    <g class="cs-stoplight" transform="translate(285 590)"><use href="#s13-sym-stoplight"/></g>
+    <g class="cs-stoplight" transform="translate(52 577) scale(.74)"><use href="#s13-sym-stoplight"/></g>
+    <text class="scene-label cs-label" x="285" y="234" text-anchor="middle">Agent orchestration</text>
+  </g>
+
+  <!-- 9 · Traffic signs -->
+  <g class="scene-part cs-part" data-part="signs" data-step="9">
+    <ellipse cx="1200" cy="590" rx="18" ry="4.5" style="fill:var(--cs-shadow)"/>
+    <rect x="1196" y="340" width="8" height="250" rx="3" fill="url(#s13-g-pole)"/>
+    <rect x="-25" y="-25" width="50" height="50" rx="8" transform="translate(1200 352) rotate(45)" style="fill:var(--cs-amber)" filter="url(#s13-f-soft)"/>
+    <rect x="-20" y="-20" width="40" height="40" rx="5.5" transform="translate(1200 352) rotate(45)" fill="none" style="stroke:var(--cs-sign-ink)" stroke-width="2.5"/>
+    <path d="M1191 370C1191 356 1209 358 1209 342M1201 347L1209 337L1217 347" fill="none" style="stroke:var(--cs-sign-ink)" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="1200" cy="436" r="27" style="fill:var(--cs-sign-blue)" filter="url(#s13-f-soft)"/>
+    <circle cx="1200" cy="436" r="22.5" fill="none" stroke="#fff" stroke-width="2.5" opacity=".9"/>
+    <path d="M1200 451V421M1190 431L1200 420L1210 431" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path class="cs-leader" d="M1200 598V708"/>
+    <text class="scene-label cs-label" x="1200" y="734" text-anchor="middle">Controls</text>
+  </g>
+
+  <!-- 10 · Toll checkpoint -->
+  <g class="scene-part cs-part" data-part="checkpoint" data-step="10">
+    <ellipse cx="1470" cy="591" rx="96" ry="6" style="fill:var(--cs-shadow)"/>
+    <rect x="1428" y="410" width="120" height="180" rx="10" fill="url(#s13-g-body)" style="stroke:var(--cs-body-stroke)" stroke-width="2"/>
+    <rect x="1442" y="428" width="92" height="60" rx="8" fill="url(#s13-g-glass)" style="stroke:var(--cs-body-stroke)" stroke-width="2"/>
+    <path d="M1460 488L1490 428H1502L1472 488Z" style="fill:var(--cs-glare)"/>
+    <rect x="1414" y="392" width="148" height="22" rx="8" fill="url(#s13-g-brand)"/>
+    <rect x="1420" y="395" width="136" height="5" rx="2.5" fill="#fff" opacity=".3"/>
+    <path d="M1488 508L1507 515V530C1507 543 1499 551 1488 556C1477 551 1469 543 1469 530V515Z" fill="url(#s13-g-brand)"/>
+    <path d="M1479 531L1486 538L1498 524" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="1236" y="476" width="172" height="12" rx="6" style="fill:var(--cs-arm);stroke:var(--cs-body-stroke)" stroke-width="1"/>
+    <g style="fill:var(--cs-red)">
+      <path d="M1252 476h12l-8 12h-12Z"/><path d="M1280 476h12l-8 12h-12Z"/><path d="M1308 476h12l-8 12h-12Z"/>
+      <path d="M1336 476h12l-8 12h-12Z"/><path d="M1364 476h12l-8 12h-12Z"/>
+    </g>
+    <circle cx="1243" cy="482" r="3.5" style="fill:var(--cs-red)"/>
+    <rect x="1396" y="468" width="24" height="122" rx="5" fill="url(#s13-g-housing)"/>
+    <circle cx="1408" cy="482" r="7.5" style="fill:var(--cs-rim-1);stroke:var(--cs-pole-2)" stroke-width="2"/>
+    <text class="scene-label cs-label" x="1484" y="366" text-anchor="middle">Governance</text>
+  </g>
+
+  <!-- 2 · Vehicle body, cabin and engine bay -->
+  <g class="scene-part cs-part" data-part="vehicle" data-step="2">
+    <g clip-path="url(#s13-cp-sill)">
+      <circle cx="530" cy="586" r="70" style="fill:var(--cs-tire)" opacity=".5"/>
+      <circle cx="950" cy="586" r="70" style="fill:var(--cs-tire)" opacity=".5"/>
+    </g>
+    <path d="M418 566C402 560 398 540 400 518L404 478C406 460 416 450 434 446L506 432C556 384 626 348 706 338C766 330 826 330 872 338C920 348 962 378 1000 404L1062 420C1092 428 1106 446 1108 474L1110 520C1110 545 1100 560 1080 566L1018 566A71 71 0 0 0 882 566L598 566A71 71 0 0 0 462 566Z" fill="url(#s13-g-body)" style="stroke:var(--cs-body-stroke)" stroke-width="2.5" stroke-linejoin="round" filter="url(#s13-f-soft)"/>
+    <path d="M412 468C560 460 860 452 1102 458" fill="none" style="stroke:var(--cs-body-stroke)" stroke-width="2" opacity=".75"/>
+    <path d="M600 428C596 480 598 528 602 560M762 424V562M966 426C962 470 946 500 924 520" fill="none" style="stroke:var(--cs-body-stroke)" stroke-width="2"/>
+    <rect x="694" y="476" width="28" height="7" rx="3.5" style="fill:var(--cs-body-stroke)"/>
+    <rect x="884" y="472" width="28" height="7" rx="3.5" style="fill:var(--cs-body-stroke)"/>
+    <path d="M401 476L416 474L416 492L402 494Z" style="fill:var(--cs-red)" opacity=".9"/>
+    <g clip-path="url(#s13-cp-body)">
+      <rect x="980" y="430" width="112" height="82" rx="16" style="fill:var(--cs-bay)"/>
+      <rect x="980" y="430" width="112" height="82" rx="16" fill="none" style="stroke:var(--art-edge)" stroke-width="2" stroke-dasharray="6 6"/>
+      <path d="M1094 476L1110 474L1110 488L1095 486Z" style="fill:var(--art-teal)"/>
+    </g>
+    <path d="M962 412L988 405C997 403 1001 413 993 417L968 424Z" fill="url(#s13-g-body)" style="stroke:var(--cs-body-stroke)" stroke-width="2" stroke-linejoin="round"/>
+    <g clip-path="url(#s13-cp-window)">
+      <path d="M640 430L624 384" style="stroke:var(--art-mid)" stroke-width="20" stroke-linecap="round" opacity=".42"/>
+      <rect x="608" y="360" width="24" height="17" rx="7" style="fill:var(--art-mid)" opacity=".42"/>
+      <path d="M824 430L806 384" style="stroke:var(--art-mid)" stroke-width="20" stroke-linecap="round" opacity=".42"/>
+      <rect x="790" y="360" width="24" height="17" rx="7" style="fill:var(--art-mid)" opacity=".42"/>
+      <path d="M856 426C872 412 916 405 966 408L972 428H856Z" style="fill:var(--cs-steer-2)" opacity=".55"/>
     </g>
   </g>
-  <ellipse class="scene-shadow scene-part" data-step="2" cx="803" cy="463" rx="340" ry="92" transform="rotate(-18 803 463)" />
-  <g id="s13-checkpoint" data-part="checkpoint" class="scene-part" data-step="10">
-    <path class="light" d="m1360 149 73-24 64 37-73 26Z" />
-    <path class="mid" d="m1360 149 64 39v87l-64-39Z" />
-    <path class="deep" d="m1424 188 73-26v87l-73 26Z" />
-    <path class="light" d="m1373 172 37 22v31l-37-23Zm63 24 48-17v32l-48 18Z" />
-    <path class="edge" d="m1360 149 73-24 64 37v87l-73 26-64-39Z" />
-    <path class="mid" d="m1170 220 16-6 10 6v91l-16 6-10-6Z" />
-    <path class="deep" d="m1186 214 10 6v91l-16 6v-91Z" />
-    <path class="light" d="m1180 220 194-67 4 14-194 67Z" />
-    <path class="color-line" d="m1183 226 190-66" />
-    <path class="detail" stroke-dasharray="12 15" d="m1193 226 172-60" />
-    <ellipse class="mid" cx="1186" cy="226" rx="11" ry="8" />
-    <path class="edge" d="m1331 139-22-15" />
-    <g class="part-label" data-anchor="checkpoint">
-      <path class="leader" d="M1374 124V80" />
-      <text class="scene-label" x="1300" y="62">Governance</text>
+
+  <!-- In-cabin parts (under glass) -->
+  <g class="scene-part cs-part" data-part="gps" data-step="3">
+    <g clip-path="url(#s13-cp-window)">
+      <path d="M908 396V410" style="stroke:var(--cs-steer-2)" stroke-width="3"/>
+      <g transform="rotate(-10 908 390)"><rect x="897" y="381" width="23" height="17" rx="3" style="fill:var(--cs-steer-2)"/><rect x="899.5" y="383.5" width="18" height="12" rx="2" fill="url(#s13-g-screen)"/></g>
     </g>
   </g>
-  <g id="s13-wheels" data-part="wheels" class="scene-part" data-step="4">
-    <g transform="translate(689 347)">
-      <g data-wheel-detail="v10">
-    <path class="deep" d="M-16-51 8-59C35-63 56-34 56 1S36 62 8 57L-16 51Z" />
-    <path class="wheel-tread" d="M21-46l12 6M34-30l12 6M42-9l11 4M42 14l11 1M32 36l10-1" />
-    <g transform="rotate(13)">
-      <ellipse class="deep" cx="-16" cy="0" rx="35" ry="51" />
-      <ellipse class="wheel-sidewall" cx="-16" cy="0" rx="30" ry="44" />
-      <ellipse class="light wheel-rim" cx="-16" cy="0" rx="24" ry="36" />
-      <ellipse class="wheel-rim-face" cx="-16" cy="0" rx="20.5" ry="31" />
-      <path class="wheel-spokes" d="M-16-10V-29M-9.3-3.1 2.4-9M-11.9 8.1-4.6 23.6M-20.1 8.1-27.4 23.6M-22.7-3.1-34.4-9" />
-      <ellipse class="wheel-hub" cx="-16" cy="0" rx="7.5" ry="11" />
-      <ellipse class="light" cx="-16" cy="0" rx="3" ry="4.5" />
-      <path class="wheel-rim-highlight" d="M-33-18c3-10 9-16 16-18" />
+  <g class="scene-part cs-part" data-part="gauge" data-step="6">
+    <g clip-path="url(#s13-cp-window)">
+      <rect x="872" y="377" width="21" height="14" rx="4" style="fill:var(--cs-steer-2)"/>
+      <path d="M877 388a5.5 5.5 0 0 1 11 0" fill="none" style="stroke:var(--art-teal)" stroke-width="2.5" stroke-linecap="round"/>
     </g>
   </g>
-</g>
-    <g transform="translate(1018 233)">
-      <g data-wheel-detail="v10">
-    <path class="deep" d="M-16-51 8-59C35-63 56-34 56 1S36 62 8 57L-16 51Z" />
-    <path class="wheel-tread" d="M21-46l12 6M34-30l12 6M42-9l11 4M42 14l11 1M32 36l10-1" />
-    <g transform="rotate(13)">
-      <ellipse class="deep" cx="-16" cy="0" rx="35" ry="51" />
-      <ellipse class="wheel-sidewall" cx="-16" cy="0" rx="30" ry="44" />
-      <ellipse class="light wheel-rim" cx="-16" cy="0" rx="24" ry="36" />
-      <ellipse class="wheel-rim-face" cx="-16" cy="0" rx="20.5" ry="31" />
-      <path class="wheel-spokes" d="M-16-10V-29M-9.3-3.1 2.4-9M-11.9 8.1-4.6 23.6M-20.1 8.1-27.4 23.6M-22.7-3.1-34.4-9" />
-      <ellipse class="wheel-hub" cx="-16" cy="0" rx="7.5" ry="11" />
-      <ellipse class="light" cx="-16" cy="0" rx="3" ry="4.5" />
-      <path class="wheel-rim-highlight" d="M-33-18c3-10 9-16 16-18" />
+  <g class="scene-part cs-part" data-part="steering" data-step="5">
+    <g clip-path="url(#s13-cp-window)">
+      <path d="M870 400L904 421" style="stroke:var(--cs-steer-2)" stroke-width="6" stroke-linecap="round"/>
+      <ellipse cx="866" cy="398" rx="6" ry="23" transform="rotate(-20 866 398)" fill="none" style="stroke:var(--cs-steer-1)" stroke-width="6"/>
     </g>
   </g>
-</g>
-    <g transform="translate(651 503)">
-      <g data-wheel-detail="v10">
-    <path class="deep" d="M-16-51 8-59C35-63 56-34 56 1S36 62 8 57L-16 51Z" />
-    <path class="wheel-tread" d="M21-46l12 6M34-30l12 6M42-9l11 4M42 14l11 1M32 36l10-1" />
-    <g transform="rotate(13)">
-      <ellipse class="deep" cx="-16" cy="0" rx="35" ry="51" />
-      <ellipse class="wheel-sidewall" cx="-16" cy="0" rx="30" ry="44" />
-      <ellipse class="light wheel-rim" cx="-16" cy="0" rx="24" ry="36" />
-      <ellipse class="wheel-rim-face" cx="-16" cy="0" rx="20.5" ry="31" />
-      <path class="wheel-spokes" d="M-16-10V-29M-9.3-3.1 2.4-9M-11.9 8.1-4.6 23.6M-20.1 8.1-27.4 23.6M-22.7-3.1-34.4-9" />
-      <ellipse class="wheel-hub" cx="-16" cy="0" rx="7.5" ry="11" />
-      <ellipse class="light" cx="-16" cy="0" rx="3" ry="4.5" />
-      <path class="wheel-rim-highlight" d="M-33-18c3-10 9-16 16-18" />
+
+  <!-- 2 · Glass -->
+  <g class="scene-part cs-part" data-part="vehicle" data-step="2">
+    <path d="M532 424C578 388 638 362 708 352C766 345 822 345 866 352C904 360 938 382 968 410L972 424Z" fill="url(#s13-g-glass)" style="stroke:var(--cs-body-stroke)" stroke-width="2.5" stroke-linejoin="round"/>
+    <g clip-path="url(#s13-cp-window)">
+      <path d="M664 430L736 344H760L688 430Z" style="fill:var(--cs-glare)" opacity=".6"/>
+      <path d="M700 430L772 344H782L710 430Z" style="fill:var(--cs-glare)" opacity=".45"/>
     </g>
+    <path d="M754 347L766 346L768 424H756Z" fill="url(#s13-g-body)" style="stroke:var(--cs-body-stroke)" stroke-width="2" stroke-linejoin="round"/>
   </g>
-</g>
-    <g transform="translate(1015 380)">
-      <g data-wheel-detail="v10">
-    <path class="deep" d="M-16-51 8-59C35-63 56-34 56 1S36 62 8 57L-16 51Z" />
-    <path class="wheel-tread" d="M21-46l12 6M34-30l12 6M42-9l11 4M42 14l11 1M32 36l10-1" />
-    <g transform="rotate(13)">
-      <ellipse class="deep" cx="-16" cy="0" rx="35" ry="51" />
-      <ellipse class="wheel-sidewall" cx="-16" cy="0" rx="30" ry="44" />
-      <ellipse class="light wheel-rim" cx="-16" cy="0" rx="24" ry="36" />
-      <ellipse class="wheel-rim-face" cx="-16" cy="0" rx="20.5" ry="31" />
-      <path class="wheel-spokes" d="M-16-10V-29M-9.3-3.1 2.4-9M-11.9 8.1-4.6 23.6M-20.1 8.1-27.4 23.6M-22.7-3.1-34.4-9" />
-      <ellipse class="wheel-hub" cx="-16" cy="0" rx="7.5" ry="11" />
-      <ellipse class="light" cx="-16" cy="0" rx="3" ry="4.5" />
-      <path class="wheel-rim-highlight" d="M-33-18c3-10 9-16 16-18" />
-    </g>
+
+  <!-- 2 · Chassis platform -->
+  <g class="scene-part cs-part" data-part="chassis" data-step="2">
+    <path d="M446 554H1080" style="stroke:var(--cs-frame)" stroke-width="9" stroke-linecap="round"/>
+    <path d="M556 554L534 584M926 554L946 584" style="stroke:var(--cs-frame)" stroke-width="7" stroke-linecap="round"/>
+    <rect x="606" y="532" width="268" height="30" rx="10" fill="url(#s13-g-motor)"/>
+    <rect x="614" y="536" width="252" height="5" rx="2.5" fill="#fff" opacity=".32"/>
+    <path d="M644 545v12M680 545v12M716 545v12M752 545v12M788 545v12M824 545v12" stroke="#fff" stroke-opacity=".4" stroke-width="2.5" stroke-linecap="round"/>
+    <path data-draw="true" d="M986 496C952 504 902 516 876 538" fill="none" style="stroke:var(--art-teal)" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="446" cy="554" r="6.5" style="fill:var(--cs-frame)"/>
+    <circle cx="1080" cy="554" r="6.5" style="fill:var(--cs-frame)"/>
+    <path class="cs-leader" d="M740 568V708"/>
+    <text class="scene-label cs-label" x="740" y="734" text-anchor="middle">Harness</text>
   </g>
-</g>
-    <g class="part-label" data-anchor="wheels">
-      <path class="leader" d="m594 557-37 35" />
-      <text class="scene-label" x="391" y="628">Data grounding</text>
-    </g>
+
+  <!-- 4 · Wheels -->
+  <g class="scene-part cs-part" data-part="wheels" data-step="4">
+    <ellipse cx="530" cy="648" rx="58" ry="6" style="fill:var(--cs-shadow)"/>
+    <ellipse cx="950" cy="648" rx="58" ry="6" style="fill:var(--cs-shadow)"/>
+    <g class="cs-wheel" transform="translate(530 586)"><use href="#s13-sym-wheel"/></g>
+    <g class="cs-wheel" transform="translate(950 586)"><use href="#s13-sym-wheel"/></g>
+    <path class="cs-leader" d="M530 656V708"/>
+    <text class="scene-label cs-label" x="530" y="734" text-anchor="middle">Data grounding</text>
   </g>
-  <g id="s13-chassis" data-part="chassis" class="scene-part" data-step="2">
-    <path class="mid" d="m550 423 455-157 16 11-456 158Z" />
-    <path class="deep" d="m565 435 456-158v20L565 454Z" />
-    <path class="mid" d="m648 485 455-157 16 11-456 158Z" />
-    <path class="deep" d="m663 497 456-158v20L663 517Z" />
-    <path class="light" d="m609 403 18-6 106 64-18 7Zm113-39 18-6 106 64-18 7Zm113-39 18-6 106 64-18 7Zm113-39 18-6 106 64-18 7Z" />
-    <path class="edge" data-draw="true" d="m550 423 455-157 114 73v20L663 517 550 443Zm15 12 456-158M663 497l456-158" />
-    <path class="detail" d="m646 449 31 18m78-57 31 18m78-57 31 18m78-57 31 18" />
-    <g class="part-label" data-anchor="chassis">
-      <path class="leader" d="M836 472v82l40 23" />
-      <text class="scene-label" x="862" y="612">Harness</text>
-    </g>
+
+  <!-- 1 · Motor -->
+  <g class="scene-part cs-part" data-part="engine" data-step="1">
+    <circle class="cs-glow" cx="1056" cy="471" r="50" fill="url(#s13-g-glow)"/>
+    <rect x="990" y="500" width="13" height="10" rx="2" style="fill:var(--cs-frame)"/>
+    <rect x="1058" y="500" width="13" height="10" rx="2" style="fill:var(--cs-frame)"/>
+    <rect x="984" y="438" width="96" height="66" rx="15" fill="url(#s13-g-motor)"/>
+    <rect x="990" y="442" width="84" height="9" rx="4.5" fill="#fff" opacity=".28"/>
+    <path d="M998 459v32M1007 459v32M1016 459v32M1025 459v32" stroke="#fff" stroke-opacity=".38" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="1056" cy="471" r="23" fill="url(#s13-g-rotor)" style="stroke:var(--cs-frame)" stroke-width="2"/>
+    <path d="M1063 471h10M1059.5 477.1l5 8.6M1052.5 477.1l-5 8.6M1049 471h-10M1052.5 464.9l-5-8.6M1059.5 464.9l5-8.6" style="stroke:var(--art-blue)" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="1056" cy="471" r="6" style="fill:var(--art-teal)"/>
+    <path class="cs-leader" d="M1094 312L1068 432"/>
+    <text class="scene-label cs-label" x="1100" y="300" text-anchor="middle">Model</text>
   </g>
-  <g id="s13-vehicle-shell" class="scene-part" data-step="2">
-    <path class="scene-shell" d="m500 388 79-74 179-62 93 58-180 62-27 79-92-54Z" />
-    <path class="scene-shell" d="m500 388 52 9 92 54 27-79 180-62 24 21-180 63-21 75-81 27-93-57Z" />
-    <path class="scene-shell" d="m601 312 30-58 113-39 102 59-87 30-104 37Z" />
-    <path fill="none" stroke="var(--art-edge)" stroke-width="2" opacity=".6" d="m631 254 26 74m87-113 15 89m-104 37 104-37 87-30" />
-    <path class="scene-shell" d="m875 331 169-59 70 42 14 35-41 15-30-26-151 52-28 33-49 17 20-53Z" />
-    <path fill="none" stroke="var(--border-card)" stroke-width="2" d="m510 424 70 42m102-1 135-47m210-93 65 38" />
-    <path class="scene-shell" d="m1096 316 21 12v15l-22-12Z" />
+
+  <!-- 3 · GPS callout -->
+  <g class="scene-part cs-part cs-callout-part" data-part="gps" data-step="3">
+    <path class="cs-leader" d="M1016 216L908 388"/>
+    <circle class="cs-target" cx="908" cy="388" r="5"/>
+    <g class="cs-callout"><g transform="translate(1050 162)">
+      <circle r="72" class="cs-halo-ring" stroke="url(#s13-g-brand)"/>
+      <circle r="64" class="cs-callout-bg" stroke="url(#s13-g-brand)" filter="url(#s13-f-soft)"/>
+      <rect x="-50" y="-34" width="100" height="68" rx="12" fill="url(#s13-g-steer)"/>
+      <rect x="-44" y="-28" width="88" height="56" rx="7" style="fill:var(--cs-map)"/>
+      <g clip-path="url(#s13-cp-screen)">
+        <rect x="-38" y="-23" width="22" height="13" rx="3" style="fill:var(--art-teal)" opacity=".2"/>
+        <rect x="12" y="8" width="24" height="16" rx="3" style="fill:var(--art-blue)" opacity=".15"/>
+        <path d="M-44 6L44 -14M-14 -28L2 28M-44 -14L-4 -4M16 -28L30 28" fill="none" style="stroke:var(--cs-street)" stroke-width="5" stroke-linecap="round"/>
+        <path data-draw="true" d="M-30 16C-18 13 -10 6 -5 -1S12 -13 24 -12" fill="none" stroke="url(#s13-g-route)" stroke-width="5" stroke-linecap="round"/>
+        <circle cx="-30" cy="16" r="5" style="fill:var(--art-blue)" stroke="#fff" stroke-width="2"/>
+      </g>
+      <path d="M24 -12C19 -18 14 -22 14 -28A10 10 0 0 1 34 -28C34 -22 29 -18 24 -12Z" style="fill:var(--art-violet)"/>
+      <circle cx="24" cy="-28" r="3.6" fill="#fff"/>
+      <path d="M-10 34H10L14 46H-14Z" style="fill:var(--cs-steer-2)"/>
+    </g></g>
+    <text class="scene-label cs-label" x="1072" y="24" text-anchor="middle"><tspan x="1072">Prompts, instructions</tspan><tspan x="1072" dy="33">and skills</tspan></text>
   </g>
-  <g id="s13-engine" data-part="engine" class="scene-part" data-step="1">
-    <path class="deep" d="m876 294 119-42 74 43v58l-119 42-74-43Z" />
-    <path class="mid" d="m876 294 119-42 74 43-119 43Z" />
-    <path class="light" d="m876 294 74 44v57l-74-43Z" />
-    <path class="teal" d="m950 338 119-43v58l-119 42Z" />
-    <path class="edge" d="m876 294 119-42 74 43v58l-119 42-74-43Zm74 44 119-43" />
-    <g data-pop="true">
-      <path class="light" d="m901 263 80-28 26 15-80 29Z" />
-      <path class="mid" d="m901 263 26 16v22l-26-15Zm26 16 80-29v23l-80 28Z" />
-      <path class="light" d="m945 286 80-28 26 15-80 29Z" />
-      <path class="mid" d="m945 286 26 16v22l-26-15Zm26 16 80-29v23l-80 28Z" />
-      <path class="detail" d="m916 265 50-17m-6 41 50-17" />
-      <path class="deep" d="m939 234 28-10 27 16v27l-28 10-27-16Z" />
-      <path class="light" d="m939 234 28-10 27 16-28 10Z" />
-      <path class="detail" d="m970 232 15 8" />
-    </g>
-    <ellipse class="deep" cx="899" cy="332" rx="16" ry="23" transform="rotate(-25 899 332)" />
-    <ellipse class="mid" cx="899" cy="332" rx="9" ry="15" transform="rotate(-25 899 332)" />
-    <path class="color-line" data-draw="true" d="M881 317c-29-17-30-51-7-56l21-7m113 91 33-12" />
-    <g class="part-label" data-anchor="engine">
-      <path class="leader" d="m1024 239 28-45v-30" />
-      <text class="scene-label" x="1008" y="142">Model</text>
-    </g>
+
+  <!-- 5 · Steering wheel callout -->
+  <g class="scene-part cs-part cs-callout-part" data-part="steering" data-step="5">
+    <path class="cs-leader" d="M624 203L862 404"/>
+    <circle class="cs-target" cx="862" cy="404" r="5"/>
+    <g class="cs-callout"><g transform="translate(575 162)">
+      <circle r="72" class="cs-halo-ring" stroke="url(#s13-g-brand)"/>
+      <circle r="64" class="cs-callout-bg" stroke="url(#s13-g-brand)" filter="url(#s13-f-soft)"/>
+      <circle r="40" fill="none" stroke="url(#s13-g-steer)" stroke-width="13"/>
+      <path d="M-30 -27A40 40 0 0 1 30 -27" fill="none" stroke="#fff" stroke-opacity=".3" stroke-width="3" stroke-linecap="round"/>
+      <path d="M-35 2L-13 -3V9L-33 15Z" style="fill:var(--cs-steer-2)"/>
+      <path d="M35 2L13 -3V9L33 15Z" style="fill:var(--cs-steer-2)"/>
+      <path d="M-7 12H7L9 37H-9Z" style="fill:var(--cs-steer-2)"/>
+      <circle r="16" fill="url(#s13-g-motor)"/>
+      <circle r="16" fill="none" stroke="#fff" stroke-opacity=".3" stroke-width="1.5"/>
+      <circle r="4.5" fill="#fff" opacity=".85"/>
+    </g></g>
+    <text class="scene-label cs-label" x="575" y="24" text-anchor="middle"><tspan x="575">Tools, MCP</tspan><tspan x="575" dy="33">and plugins</tspan></text>
   </g>
-  <g id="s13-gauge" data-part="gauge" class="scene-part" data-step="6">
-    <path class="leader" d="m722 296-30-48" />
-    <g data-gauge-detail="v8">
-    <rect class="deep" x="541" y="156" width="198" height="111" rx="14" />
-    <rect class="light" x="556" y="170" width="168" height="81" rx="5" />
-    <path class="gauge-track" d="M589 232a52 52 0 0 1 104 0" />
-    <path class="color-line" data-draw="true" d="M589 232a52 52 0 0 1 104 0" />
-    <path class="gauge-ticks" d="m591 226 7-2m6-25 5 5m32-22v8m32 9-5 5m22 22-7-2" />
-    <path class="color-line" d="m641 232 28-28" />
-    <circle class="deep" cx="641" cy="232" r="8" />
-    <circle class="mid" cx="641" cy="232" r="4" />
-  </g>
-<g class="part-label" data-anchor="gauge">
-      <path class="leader" d="M640 151V112" />
-      <text class="scene-label" x="560" y="88">Observability</text>
-    </g>
-  </g>
-  <g id="s13-stoplights" data-part="stoplights" class="scene-part" data-step="8">
-    <ellipse class="light" cx="335" cy="321" rx="38" ry="13" />
-    <path class="mid" d="m329 175 13-5v151l-13 5Z" />
-    <path class="deep" d="m305 123 46-16 26 16v96l-46 16-26-16Z" />
-    <path class="mid" d="m305 123 26 16v96l-26-16Z" />
-    <path class="light" d="m331 139 46-16v96l-46 16Z" />
-    <ellipse class="violet" cx="355" cy="150" rx="12" ry="14" transform="rotate(18 355 150)" />
-    <ellipse class="mid" cx="355" cy="178" rx="12" ry="14" transform="rotate(18 355 178)" />
-    <ellipse class="teal" cx="355" cy="207" rx="12" ry="14" transform="rotate(18 355 207)" />
-    <path class="edge" data-draw="true" d="m331 139 46-16v96l-46 16Z" />
-    <g class="part-label" data-anchor="stoplights">
-      <path class="leader" d="M302 130h-62l-25-25" />
-      <text class="scene-label" x="78" y="84">Agent orchestration</text>
-    </g>
-  </g>
-  <g id="s13-signs" data-part="signs" class="scene-part" data-step="9">
-    <ellipse class="light" cx="1312" cy="475" rx="36" ry="12" />
-    <path class="deep" d="m1309 369 9-3v111l-9 3Z" />
-    <path class="light" d="m1309 302 43 23-43 73-43-23Z" />
-    <path class="color-line" data-draw="true" d="m1309 302 43 23-43 73-43-23Z" />
-    <path class="detail" d="m1295 366 25-43m-25 16 25-16 4 23" />
-    <g class="part-label" data-anchor="signs">
-      <path class="leader" d="m1352 355 41 25v54" />
-      <text class="scene-label" x="1290" y="523">Controls</text>
-    </g>
-  </g>
-  <g id="s13-gps" data-part="gps" class="scene-part" data-step="3">
-    <path class="leader" d="M857 220l-48 34" />
-    <g data-gps-detail="v10">
-    <path class="deep" d="M846 204h26l7 14h-40Z" />
-    <rect class="deep" x="786" y="108" width="146" height="98" rx="16" />
-    <rect class="light" x="797" y="119" width="124" height="76" rx="7" />
-    <path class="gps-street" d="M797 176 921 142M838 119l30 76M797 140l60 18" />
-    <path class="gps-route" data-draw="true" d="M813 183c18-3 30-10 37-20s22-12 45-12" />
-    <circle class="mid" cx="813" cy="183" r="5.5" />
-    <path class="violet" d="M895 113c-8.5 0-15 6.4-15 14.3 0 10.5 15 23.7 15 23.7s15-13.2 15-23.7c0-7.9-6.5-14.3-15-14.3Z" />
-    <circle class="light" cx="895" cy="127.5" r="5" />
-  </g>
-    <g class="part-label" data-anchor="gps">
-      <path class="leader" d="M928 112l18-16" />
-      <text class="scene-label" x="952" y="58" text-anchor="start"><tspan x="952">Prompts, instructions</tspan><tspan x="952" dy="33">and skills</tspan></text>
-    </g>
-  </g>
-  <g id="s13-steering" data-part="steering" class="scene-part" data-step="5">
-    <path class="leader" d="m496 276 84 50" />
-    <g data-steering-detail="v10">
-    <path class="mid" d="m459 276h14l5 26h-24Z" />
-    <ellipse class="steer-rim" cx="466" cy="236" rx="44" ry="41" />
-    <path class="deep" d="M424 240c14-3 26-8 34-8h16c8 0 20 5 34 8v-12c-14-3-26-6-34-6h-16c-8 0-20 3-34 6Z" />
-    <path class="deep" d="m459 246h14l3 30h-20Z" />
-    <ellipse class="mid" cx="466" cy="236" rx="15" ry="14" />
-    <ellipse class="light" cx="466" cy="236" rx="6" ry="5.5" />
-    <path class="steer-highlight" d="M431 214c8-12 20-18 35-19" />
-    <path class="color-line" data-draw="true" d="M429 220a44 41 0 0 1 74 0" />
-  </g>
-    <g class="part-label" data-anchor="steering">
-      <path class="leader" d="M466 164v22" />
-      <text class="scene-label" x="466" y="122" text-anchor="middle"><tspan x="466">Tools, MCP</tspan><tspan x="466" dy="33">and plugins</tspan></text>
-    </g>
+
+  <!-- 6 · Fuel gauge callout -->
+  <g class="scene-part cs-part cs-callout-part" data-part="gauge" data-step="6">
+    <path class="cs-leader" d="M826 222L882 380"/>
+    <circle class="cs-target" cx="882" cy="380" r="5"/>
+    <g class="cs-callout"><g transform="translate(805 162)">
+      <circle r="72" class="cs-halo-ring" stroke="url(#s13-g-brand)"/>
+      <circle r="64" class="cs-callout-bg" stroke="url(#s13-g-brand)" filter="url(#s13-f-soft)"/>
+      <g transform="translate(0 10)">
+        <path d="M-42 0A42 42 0 0 1 42 0" fill="none" style="stroke:var(--cs-track)" stroke-width="10" stroke-linecap="round"/>
+        <path data-draw="true" d="M-42 0A42 42 0 0 1 29.7 -29.7" fill="none" stroke="url(#s13-g-gauge)" stroke-width="10" stroke-linecap="round"/>
+        <path d="M-30 0H-25M-21.2 -21.2L-17.7 -17.7M0 -30V-25M21.2 -21.2L17.7 -17.7M30 0H25" style="stroke:var(--cs-steer-1)" stroke-width="2.5" stroke-linecap="round"/>
+        <text class="cs-mini" x="-42" y="20" text-anchor="middle">E</text>
+        <text class="cs-mini" x="42" y="20" text-anchor="middle">F</text>
+        <path d="M2.3 2.3L22.6 -22.6L-2.3 -2.3Z" style="fill:var(--art-violet);stroke:var(--art-violet)" stroke-width="2" stroke-linejoin="round"/>
+        <circle r="6.5" style="fill:var(--cs-steer-2)"/>
+        <circle r="2.5" style="fill:var(--cs-callout-bg)"/>
+        <g transform="translate(-7 16)">
+          <rect width="11" height="15" rx="2" style="fill:var(--art-edge)"/>
+          <rect x="2.5" y="2.5" width="6" height="4" rx="1" style="fill:var(--cs-callout-bg)"/>
+          <path d="M11 4h3l2 3v7a1.6 1.6 0 0 1-3.2 0V10H11" fill="none" style="stroke:var(--art-edge)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+      </g>
+    </g></g>
+    <text class="scene-label cs-label" x="793" y="58" text-anchor="middle">Observability</text>
   </g>
 </svg>
   </div>
