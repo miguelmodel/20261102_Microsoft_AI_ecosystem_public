@@ -1,46 +1,31 @@
 <!-- HAND-CRAFTED OVERRIDE — do not regenerate -->
-<article class="slide control-plane-layout" data-number="22" data-type="boxes" data-section="Seven production foundations" data-steps="6" data-initial-step="0" data-min-step="0" data-max-step="5">
+<article class="slide foundation" data-number="22" data-type="boxes" data-section="Nine production foundations" data-steps="4" data-initial-step="0" data-min-step="0" data-max-step="3">
   <div class="slide-bg"></div>
   <div class="slide-content">
-    <header class="header"><h1 class="slide-title">Control plane <span class="gradient-text">for AI</span></h1></header>
-    <div class="control-plane-panel">
-      <div class="control-columns">
-        <section class="control-column" data-step="1">
-          <h2 class="control-question">Who, or what, is acting?</h2>
-          <svg class="control-arrow" viewBox="0 0 52 52" width="52" aria-hidden="true"><path d="M26 5v33m-12-12 12 12 12-12" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          <div class="control-service" data-product="microsoft-entra">
-            <div class="product-name"><img class="product-logo" src="images/microsoft-entra.svg" data-asset="microsoft-entra.svg" alt="Microsoft Entra"><span>Microsoft Entra</span></div>
-            <p>Identity and access for people and agents.</p>
-          </div>
-        </section>
-        <section class="control-column" data-step="2">
-          <h2 class="control-question">What data can it access and share?</h2>
-          <svg class="control-arrow" viewBox="0 0 52 52" width="52" aria-hidden="true"><path d="M26 5v33m-12-12 12 12 12-12" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          <div class="control-service" data-product="microsoft-purview">
-            <div class="product-name"><img class="product-logo" src="images/microsoft-purview.png" data-asset="microsoft-purview.png" alt="Microsoft Purview"><span>Microsoft Purview</span></div>
-            <p>Data protection and compliance.</p>
-          </div>
-        </section>
-        <section class="control-column" data-step="3">
-          <h2 class="control-question">Is it being attacked or misbehaving?</h2>
-          <svg class="control-arrow" viewBox="0 0 52 52" width="52" aria-hidden="true"><path d="M26 5v33m-12-12 12 12 12-12" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          <div class="control-service" data-product="microsoft-defender">
-            <div class="product-name"><img class="product-logo" src="images/microsoft-defender.png" data-asset="microsoft-defender.png" alt="Microsoft Defender"><span>Microsoft Defender</span></div>
-            <p>Threat protection for agents and their work.</p>
-          </div>
-        </section>
-      </div>
-      <div class="agent-oversight" data-step="4">
-        <div class="product-name"><img class="product-logo" src="images/microsoft-agent-365.svg" data-asset="microsoft-agent-365.svg" alt="Microsoft Agent 365"><span>Microsoft Agent 365</span></div>
-        <p>Visibility, governance and oversight across agents.</p>
+    <header class="header"><h1 class="slide-title">Production <span class="gradient-text">infrastructure</span></h1></header>
+    <div class="foundation-body">
+      <svg class="part-illustration scene-art" data-art-part="road-segment" viewBox="60 70 1490 650" aria-hidden="true" data-enter><g xmlns="http://www.w3.org/2000/svg" id="s19-road" data-part="road" class="scene-part">
+    <path class="light" d="M75 465 1190 82 1534 274 418 686Z" />
+    <path class="mid" opacity=".3" d="M418 686 1534 274 1534 293 418 706 75 486 75 465Z" />
+    <path class="light" d="M260 218 451 152 1142 612 951 685Z" />
+    <path class="edge" d="M75 465 1190 82 1534 274 418 686ZM260 218 951 685M451 152 1142 612" />
+    <path class="detail" stroke-dasharray="43 32" opacity=".7" d="M250 548 1360 165M360 188 1045 650" />
+    <path class="detail" opacity=".6" d="m374 383 73-25m-56 39 73-26m-55 40 73-25m-55 39 73-25m-55 39 73-25" />
+    <path class="edge" d="m175 452 301 190m620-526 295 167" />
+    </g>
+  </svg>
+      <div class="foundation-copy">
+        <p class="slide-body">Keep the whole application available, responsive, and recoverable.</p>
+        <div class="grid-3 responsibility-grid">
+          <section class="card" data-step="1"><h2>Capacity</h2><p>Test realistic load</p></section>
+          <section class="card" data-step="2"><h2>Failure handling</h2><p>Handle dependency failures</p></section>
+          <section class="card" data-step="3"><h2>Recovery</h2><p>Preserve progress where needed</p></section>
+        </div>
       </div>
     </div>
-    <p class="takeaway" data-step="5">Limit allowed actions. Keep accountable ownership.</p>
   </div>
   <aside class="speaker-notes" hidden>
-<p>Controls enforce boundaries on access, data use, tools, and actions.<br>Governance supplies purpose, ownership, reviews, and lifecycle oversight.<br>Entra addresses identity/access, Purview data security/compliance, Defender threat protection, and Agent 365 oversight through complementary services.<br>This is not one switch, policy, or license that protects every agent identically.</p>
-<p>Follow user → agent → tool → data/action and ask whose credentials and permissions apply at every connection.<br>Least privilege means granting only task-needed access.<br>A signed-in chat user does not settle all downstream authority.<br>The standard Studio event-trigger path uses maker credentials, and the Fabric tool&#x27;s User/Maker choices differ.<br>An approval does not create missing authority, and a prompt instruction is not a permission boundary.<br>Keep traceable ownership, scoped actions, and a revocation/recovery path.<br>These responsibilities apply throughout operation, not only at a final checkpoint.<br>Now locate the product layers.</p>
-<p><strong>Technical reference, not spoken:</strong><br>Entra Agent ID is GA, while agent-user targeting and agent risk are preview.<br>Conditional Access targets the actual token subject, and API-key access bypasses it.<br>Agent 365 Purview controls require documented sharing/policy scope, and new Agent 365 content does not inherit source labels.<br>Cowork has a separate matrix.<br>Defender&#x27;s default real-time rule audits, not blocks, and blocking needs scoped rules.<br>Studio/Foundry runtime routes and detection/investigation have preview boundaries.<br>Agent 365 is Commercial GA from May 1, 2026, licensed per user.<br>Registry visibility includes unmanaged agents without its risk protection/observability.<br>Onboarding, policies, supported integrations, and gradual rollout still need checking.</p>
+<p>Infrastructure includes hosting, storage, networks, and dependent services, not just a model endpoint.<br>Test capacity across retrieval, tools, and application dependencies.<br>Use deliberate timeouts, appropriate retries, and graceful degradation rather than hiding errors.<br>Preserve state where needed and test interrupted work.<br>Managed hosting reduces burden but does not remove end-to-end customer design and integration responsibilities.<br>No unlimited capacity, universal private-network claim, or cross-product SLA is implied.<br>Next, coordinate the work that runs on that infrastructure.</p>
   </aside>
-  <aside class="slide-provenance" hidden><p>Sources: research\2026-11-01-agent-foundations-v4.md, §§3.7–5; research\2026-10-31-agent-security-governance.md, §§1–4, 6, R01–R13; research\2026-10-30-ai-ecosystem-foundations.md, §5, S04–S05, S24; research\2026-10-30-copilot-studio.md, §§3, 6, R12–R13; research\2026-10-30-m365-copilot-cowork.md, §6.1, R10; https://learn.microsoft.com/security/security-for-ai/agent-365-security; https://learn.microsoft.com/security/zero-trust/sfi/least-privilege-for-ai-agents; research\2026-11-01-microsoft-ai-product-logos.md, unchanged security mappings; research\2026-11-01-product-logo-refresh-v4.md, all four authorized service marks; brief.md, GRANT-LOGOS-V4-02 and LOGOS-V4-COMPLETE-01; brief.md, CONTROL-V8-01 and the user-supplied Control Plane for AI layout reference</p></aside>
+  <aside class="slide-provenance" hidden><p>Sources: research\2026-11-01-agent-foundations-v4.md, §3.5, R04, R08, R15; research\2026-10-30-foundry.md, §4, R6, R10; https://learn.microsoft.com/azure/well-architected/ai/design-principles</p></aside>
 </article>

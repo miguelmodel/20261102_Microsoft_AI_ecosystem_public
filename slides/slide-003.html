@@ -3,53 +3,63 @@
   <div class="slide-bg"></div>
   <div class="slide-content">
     <header class="header compact"><h1 class="slide-title">From chatbot to <span class="gradient-text">coordinated agentic systems</span></h1></header>
+    <svg class="concept-defs" width="0" height="0" aria-hidden="true" focusable="false">
+      <defs>
+        <linearGradient id="s3-person" x1="0" y1="0" x2=".55" y2="1"><stop offset="0" style="stop-color:var(--art-blue)"/><stop offset="1" style="stop-color:var(--art-deep)"/></linearGradient>
+        <radialGradient id="s3-orb" cx="34%" cy="28%" r="80%"><stop offset="0" style="stop-color:color-mix(in srgb,#fff 72%,var(--art-blue))"/><stop offset=".38" style="stop-color:var(--art-blue)"/><stop offset=".82" style="stop-color:var(--art-violet)"/><stop offset="1" style="stop-color:color-mix(in srgb,var(--art-violet) 78%,var(--art-deep))"/></radialGradient>
+        <radialGradient id="s3-glow"><stop offset="0" style="stop-color:var(--art-blue);stop-opacity:.26"/><stop offset=".6" style="stop-color:var(--art-violet);stop-opacity:.08"/><stop offset="1" style="stop-color:var(--art-violet);stop-opacity:0"/></radialGradient>
+        <linearGradient id="s3-stroke" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2687da"/><stop offset=".65" stop-color="#7448ce"/><stop offset="1" stop-color="#a645b9"/></linearGradient>
+        <linearGradient id="s3-paper" x1="0" y1="0" x2="0" y2="1"><stop offset="0" style="stop-color:var(--bg-primary)"/><stop offset="1" style="stop-color:color-mix(in srgb,var(--art-violet) 12%,var(--bg-primary))"/></linearGradient>
+        <filter id="s3-shadow" x="-40%" y="-40%" width="180%" height="190%"><feDropShadow dx="0" dy="7" stdDeviation="8" flood-color="#283c66" flood-opacity=".16"/></filter>
+      </defs>
+    </svg>
     <div class="grid-4 progression">
       <section class="card" data-step="1" data-enter>
         <svg class="concept-art" viewBox="0 0 330 245" aria-hidden="true">
-          <defs>
-            <radialGradient id="timeline-orb" cx="32%" cy="24%" r="80%"><stop offset="0" stop-color="#d9efff"/><stop offset=".4" stop-color="var(--art-blue)"/><stop offset="1" stop-color="var(--art-violet)"/></radialGradient>
-            <radialGradient id="timeline-glow"><stop offset="0" stop-color="var(--art-blue)" stop-opacity=".22"/><stop offset="1" stop-color="var(--art-violet)" stop-opacity="0"/></radialGradient>
-          </defs>
-          <ellipse class="halo" cx="91" cy="225" rx="70" ry="9"/>
-          <g data-pop><circle class="person" cx="77" cy="121" r="22"/><path class="person" d="M35 221c0-47 15-70 42-70s42 23 42 70Z"/></g>
-          <path class="paper" data-draw d="M159 40h120q22 0 22 22v66q0 22-22 22h-77l-37 29 7-29h-13q-22 0-22-22V62q0-22 22-22Z"/>
-          <path class="connector" d="M153 48h125q16 0 16 16"/>
-          <g data-pop><circle class="solid" cx="178" cy="96" r="7"/><circle class="purple" cx="218" cy="96" r="7"/><circle class="teal" cx="258" cy="96" r="7"/></g>
+          <ellipse class="ground" cx="77" cy="225" rx="56" ry="8"/>
+          <g data-pop><circle class="person" cx="77" cy="116" r="23"/><path class="person" d="M35 222v-12c0-34 18-55 42-55s42 21 42 55v12Z"/></g>
+          <path class="bubble" data-draw d="M160 36h118q22 0 22 22v66q0 22-22 22h-76l-36 30 7-30h-13q-22 0-22-22V58q0-22 22-22Z"/>
+          <g data-pop><circle class="dot-1" cx="181" cy="91" r="8"/><circle class="dot-2" cx="219" cy="91" r="8"/><circle class="dot-3" cx="257" cy="91" r="8"/></g>
         </svg>
         <h2>Chatbot</h2><p>Answer a question</p>
       </section>
       <section class="card" data-step="2">
         <svg class="concept-art" viewBox="0 0 330 245" aria-hidden="true">
-          <g data-pop><circle class="person" cx="48" cy="123" r="19"/><path class="person" d="M15 221c0-45 12-68 33-68s34 23 34 68Z"/></g>
-          <path class="connector" data-draw d="M83 171Q111 119 155 119M223 83l38-39m-30 98 37 39"/>
-          <g data-pop><circle cx="200" cy="117" r="88" fill="url(#timeline-glow)"/><circle cx="200" cy="117" r="43" fill="url(#timeline-orb)"/><circle class="highlight" cx="188" cy="101" r="11"/></g>
-          <g data-pop><rect class="paper" x="248" y="20" width="56" height="47" rx="12"/><path class="ink" d="M263 36h25m-25 12h17"/>
-          <circle class="paper" cx="277" cy="191" r="25"/><path class="ink" d="m265 191 8 8 16-19"/></g>
+          <ellipse class="ground" cx="48" cy="225" rx="42" ry="7"/>
+          <g data-pop><circle class="person" cx="48" cy="120" r="20"/><path class="person" d="M14 222v-11c0-30 15-49 34-49s34 19 34 49v11Z"/></g>
+          <path class="connector" data-draw d="M84 172Q110 118 150 117M233 79l20-19M234 155l24 21"/>
+          <g data-pop><circle cx="200" cy="117" r="88" fill="url(#s3-glow)"/><circle class="orb-ring" cx="200" cy="117" r="55"/><circle class="orb" cx="200" cy="117" r="42"/><ellipse class="highlight" cx="185" cy="99" rx="13" ry="8" transform="rotate(-32 185 99)"/></g>
+          <g data-pop><rect class="paper" x="250" y="14" width="60" height="52" rx="13"/><path class="ink" d="M265 32h30m-30 14h19"/>
+          <circle class="badge" cx="280" cy="192" r="26"/><path class="ink-light" d="m268 192 8 8 16-18"/></g>
         </svg>
         <h2>Agent</h2><p>Work toward a task</p>
       </section>
       <section class="card" data-step="3">
         <svg class="concept-art" viewBox="0 0 330 245" aria-hidden="true">
-          <g data-pop><circle class="person" cx="44" cy="123" r="19"/><path class="person" d="M12 221c0-45 12-68 32-68s33 23 33 68Z"/></g>
-          <path class="connector" data-draw d="M80 167Q117 66 182 55M80 167q110-4 197-38M80 167q42 45 100 36"/>
-          <g data-pop><circle cx="189" cy="56" r="58" fill="url(#timeline-glow)"/><circle cx="189" cy="56" r="29" fill="url(#timeline-orb)"/><circle class="highlight" cx="180" cy="46" r="7"/>
-          <circle cx="277" cy="130" r="58" fill="url(#timeline-glow)"/><circle cx="277" cy="130" r="29" fill="url(#timeline-orb)"/><circle class="highlight" cx="268" cy="120" r="7"/>
-          <circle cx="189" cy="204" r="58" fill="url(#timeline-glow)"/><circle cx="189" cy="204" r="29" fill="url(#timeline-orb)"/><circle class="highlight" cx="180" cy="194" r="7"/></g>
+          <ellipse class="ground" cx="44" cy="225" rx="40" ry="7"/>
+          <g data-pop><circle class="person" cx="44" cy="120" r="20"/><path class="person" d="M11 222v-11c0-30 15-49 33-49s33 19 33 49v11Z"/></g>
+          <path class="connector" data-draw d="M80 167Q117 66 160 57M80 167q100-4 168-33M80 167q42 45 80 38"/>
+          <path class="link" d="M204 80l46 30M250 152l-46 30"/>
+          <g data-pop><circle cx="189" cy="56" r="58" fill="url(#s3-glow)"/><circle class="orb-ring" cx="189" cy="56" r="37"/><circle class="orb" cx="189" cy="56" r="28"/><ellipse class="highlight" cx="179" cy="44" rx="8" ry="5" transform="rotate(-32 179 44)"/>
+          <circle cx="277" cy="130" r="58" fill="url(#s3-glow)"/><circle class="orb-ring" cx="277" cy="130" r="37"/><circle class="orb" cx="277" cy="130" r="28"/><ellipse class="highlight" cx="267" cy="118" rx="8" ry="5" transform="rotate(-32 267 118)"/>
+          <circle cx="189" cy="204" r="58" fill="url(#s3-glow)"/><circle class="orb-ring" cx="189" cy="204" r="37"/><circle class="orb" cx="189" cy="204" r="28"/><ellipse class="highlight" cx="179" cy="192" rx="8" ry="5" transform="rotate(-32 179 192)"/></g>
         </svg>
         <h2>Multiple agents</h2><p>Divide responsibilities</p>
       </section>
       <section class="card" data-step="4">
         <svg class="concept-art" viewBox="0 0 330 245" aria-hidden="true">
-          <g data-pop><circle class="person" cx="43" cy="123" r="19"/><path class="person" d="M11 221c0-45 12-68 32-68s33 23 33 68Z"/></g>
-          <path class="connector" data-draw d="M78 168 113 140"/>
-          <circle class="connector" cx="219" cy="129" r="96" stroke-dasharray="7 9" data-draw/>
+          <ellipse class="ground" cx="43" cy="225" rx="40" ry="7"/>
+          <g data-pop><circle class="person" cx="43" cy="120" r="20"/><path class="person" d="M10 222v-11c0-30 15-49 33-49s33 19 33 49v11Z"/></g>
+          <path class="connector" data-draw d="M80 168 116 142"/>
+          <circle cx="219" cy="129" r="104" fill="url(#s3-glow)"/>
+          <circle class="system-ring" cx="219" cy="129" r="96" data-draw/>
           <path class="connector" data-draw d="m219 75-45 84h90Zm-45 84q45 31 90 0"/>
-          <g data-pop><circle cx="219" cy="75" r="26" fill="url(#timeline-orb)"/><circle class="highlight" cx="212" cy="66" r="6"/>
-          <circle cx="174" cy="159" r="26" fill="url(#timeline-orb)"/><circle class="highlight" cx="167" cy="150" r="6"/>
-          <circle cx="264" cy="159" r="26" fill="url(#timeline-orb)"/><circle class="highlight" cx="257" cy="150" r="6"/>
-          <path class="paper" d="m219 9 22 10v17q0 19-22 32-22-13-22-32V19Z"/><path class="ink" d="m208 34 8 8 15-17"/></g>
+          <g data-pop><circle class="orb" cx="219" cy="75" r="25"/><ellipse class="highlight" cx="210" cy="64" rx="7" ry="4.5" transform="rotate(-32 210 64)"/>
+          <circle class="orb" cx="174" cy="159" r="25"/><ellipse class="highlight" cx="165" cy="148" rx="7" ry="4.5" transform="rotate(-32 165 148)"/>
+          <circle class="orb" cx="264" cy="159" r="25"/><ellipse class="highlight" cx="255" cy="148" rx="7" ry="4.5" transform="rotate(-32 255 148)"/>
+          <path class="badge" d="m281 21 25 11v19q0 22-25 36-25-14-25-36V32Z"/><path class="ink-light" d="m270 52 8 8 15-17"/></g>
         </svg>
-        <h2>Coordinated agentic system</h2><p>Coordinate an end-to-end outcome</p>
+        <h2>Coordinated agentic system</h2><p>Coordinate an <span class="nowrap">end-to-end outcome</span></p>
       </section>
     </div>
   </div>

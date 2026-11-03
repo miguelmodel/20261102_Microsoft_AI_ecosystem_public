@@ -1,34 +1,34 @@
 <!-- HAND-CRAFTED OVERRIDE — do not regenerate -->
-<article class="slide foundation" data-number="21" data-type="diagram" data-section="Seven production foundations" data-steps="5" data-initial-step="0" data-min-step="0" data-max-step="4">
+<article class="slide observability" data-number="21" data-type="diagram" data-section="Nine production foundations" data-steps="5" data-initial-step="0" data-min-step="0" data-max-step="4">
   <div class="slide-bg"></div>
   <div class="slide-content">
-    <header class="header"><h1 class="slide-title">Agent <span class="gradient-text">orchestration</span></h1></header>
-    <div class="foundation-body">
-      <svg class="part-illustration scene-art" data-art-part="stoplights" viewBox="275 90 125 255" aria-hidden="true" data-enter><g xmlns="http://www.w3.org/2000/svg" id="s20-stoplights" data-part="stoplights" class="scene-part">
-    <ellipse class="light" cx="335" cy="321" rx="38" ry="13" />
-    <path class="mid" d="m329 175 13-5v151l-13 5Z" />
-    <path class="deep" d="m305 123 46-16 26 16v96l-46 16-26-16Z" />
-    <path class="mid" d="m305 123 26 16v96l-26-16Z" />
-    <path class="light" d="m331 139 46-16v96l-46 16Z" />
-    <ellipse class="violet" cx="355" cy="150" rx="12" ry="14" transform="rotate(18 355 150)" />
-    <ellipse class="mid" cx="355" cy="178" rx="12" ry="14" transform="rotate(18 355 178)" />
-    <ellipse class="teal" cx="355" cy="207" rx="12" ry="14" transform="rotate(18 355 207)" />
-    <path class="edge" data-draw="true" d="m331 139 46-16v96l-46 16Z" />
-    </g>
+    <header class="header"><h1 class="slide-title">AI model and agent <span class="gradient-text">observability</span></h1></header>
+    <svg xmlns="http://www.w3.org/2000/svg" class="part-illustration scene-art" data-art-part="gauge" viewBox="510 135 260 155" aria-hidden="true" data-enter="true"><g id="s17-gauge" data-part="gauge" class="scene-part">
+    <g data-gauge-detail="v8">
+    <rect class="deep" x="541" y="156" width="198" height="111" rx="14" />
+    <rect class="light" x="556" y="170" width="168" height="81" rx="5" />
+    <path class="gauge-track" d="M589 232a52 52 0 0 1 104 0" />
+    <path class="color-line" data-draw="true" d="M589 232a52 52 0 0 1 104 0" />
+    <path class="gauge-ticks" d="m591 226 7-2m6-25 5 5m32-22v8m32 9-5 5m22 22-7-2" />
+    <path class="color-line" d="m641 232 28-28" />
+    <circle class="deep" cx="641" cy="232" r="8" />
+    <circle class="mid" cx="641" cy="232" r="4" />
+  </g>
+</g>
   </svg>
-      <div class="foundation-copy">
-        <p class="slide-body">Coordinate who does what, in what order, and with what context.</p>
-        <div class="flow-container">
-          <div class="flow-step" data-step="1">Route work</div><div class="flow-connector" aria-hidden="true" data-step="2">→</div>
-          <div class="flow-step" data-step="2">Pass context</div><div class="flow-connector" aria-hidden="true" data-step="3">→</div>
-          <div class="flow-step" data-step="3">Validate results</div>
-        </div>
-        <p class="control-rail" data-step="4">Human checkpoints where needed.</p>
+    <div class="activity-loop">
+      <div class="grid-3">
+        <section class="card soft-depth" data-step="1"><h2>Evaluate</h2><p>Did it perform the intended task?</p></section>
+        <section class="card soft-depth" data-step="2"><h2>Trace</h2><p>Which model and tool calls occurred?</p></section>
+        <section class="card soft-depth" data-step="3"><h2>Monitor</h2><p>How are quality, latency, cost, and failures changing?</p></section>
       </div>
+      <svg class="loop-rail" viewBox="0 0 1640 85" aria-hidden="true" data-enter data-step="4"><path data-draw d="M70 0v30q0 28 28 28h1444q28 0 28-28V0m-9 10 9-10 9 10" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+      <p class="loop-owner" data-step="4">Human ownership</p>
     </div>
   </div>
   <aside class="speaker-notes" hidden>
-<p>Dependent steps may run in sequence, independent steps in parallel, and a specialist can receive a handoff.<br>Define completion conditions, context/state transfer, output validation, and escalation.<br>Orchestration can organize one agent, multiple agents, and deterministic workflow logic.<br>It is not synonymous with maximum autonomy.<br>Additional agents add operational overhead, so choose the simplest coordination that meets the job.<br>Next, pair enforced boundaries with accountable ownership.</p>
+<p>Evaluation tests intended behavior, tracing records model and tool calls, and monitoring follows quality and operation over time.<br>Traces are execution evidence, not guaranteed visibility into every internal reasoning step.<br>Studio makers also have test chat, repeatable evaluations, and Monitor production metrics.<br>Test representative user access, denied requests, tool failures, and hostile instructions embedded in retrieved content.<br>A passing score is not a guarantee of correctness.<br>Assign an owner who can investigate or pause operation.<br>Next, consider the dependable environment around them.</p>
+<p><strong>Technical reference, not spoken:</strong><br>Foundry core evaluation and prompt/hosted-agent tracing are GA, while monitoring and agent guardrails remain preview.<br>Individual evaluators and external/workflow tracing have separate preview labels.<br>Studio standard evaluation core is GA, while the GitHub Copilot harness Evaluate experience is production-ready preview.<br>Studio Monitor supplies documented production metrics, not a blanket GA assertion here.<br>Foundry agent guardrails do not automatically protect externally registered agents.<br>Captured prompts, outputs, and traces can be sensitive data and need governance.<br>Cowork Purview support is capability-specific.<br>Sensitive-prompt blocking is preview/rolling out, direct prompt-file uploads are not scanned by that control, and calendar invites are excluded from labeled-file/email coverage.</p>
   </aside>
-  <aside class="slide-provenance" hidden><p>Sources: research\2026-11-01-agent-foundations-v4.md, §3.6, R02–R04; https://learn.microsoft.com/azure/architecture/ai-ml/guide/ai-agent-design-patterns</p></aside>
+  <aside class="slide-provenance" hidden><p>Sources: research\2026-11-01-agent-foundations-v4.md, §3.3 and §5, R06, R15; research\2026-10-30-ai-ecosystem-foundations.md, §5, S04–S05; research\2026-10-30-foundry.md, §§5, 7, R3, R8–R9, R11; research\2026-10-30-copilot-studio.md, §5, R05, R18–R20; research\2026-10-30-m365-copilot-cowork.md, §6.4, R12, R22; https://learn.microsoft.com/azure/foundry/concepts/observability; https://learn.microsoft.com/azure/foundry/concepts/general-availability</p></aside>
 </article>

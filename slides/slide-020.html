@@ -1,31 +1,30 @@
 <!-- HAND-CRAFTED OVERRIDE — do not regenerate -->
-<article class="slide foundation" data-number="20" data-type="boxes" data-section="Seven production foundations" data-steps="4" data-initial-step="0" data-min-step="0" data-max-step="3">
+<article class="slide foundation" data-number="20" data-type="list" data-section="Nine production foundations">
   <div class="slide-bg"></div>
   <div class="slide-content">
-    <header class="header"><h1 class="slide-title">Production <span class="gradient-text">infrastructure</span></h1></header>
+    <header class="header"><h1 class="slide-title">Tools, MCP <span class="gradient-text">and plugins</span></h1></header>
     <div class="foundation-body">
-      <svg class="part-illustration scene-art" data-art-part="road-segment" viewBox="60 70 1490 650" aria-hidden="true" data-enter><g xmlns="http://www.w3.org/2000/svg" id="s19-road" data-part="road" class="scene-part">
-    <path class="light" d="M75 465 1190 82 1534 274 418 686Z" />
-    <path class="mid" opacity=".3" d="M418 686 1534 274 1534 293 418 706 75 486 75 465Z" />
-    <path class="light" d="M260 218 451 152 1142 612 951 685Z" />
-    <path class="edge" d="M75 465 1190 82 1534 274 418 686ZM260 218 951 685M451 152 1142 612" />
-    <path class="detail" stroke-dasharray="43 32" opacity=".7" d="M250 548 1360 165M360 188 1045 650" />
-    <path class="detail" opacity=".6" d="m374 383 73-25m-56 39 73-26m-55 40 73-25m-55 39 73-25m-55 39 73-25" />
-    <path class="edge" d="m175 452 301 190m620-526 295 167" />
-    </g>
-  </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" class="part-illustration scene-art" data-art-part="steering" viewBox="400 176 132 140" aria-hidden="true" data-enter="true"><g id="s20-steering" data-part="steering" class="scene-part">
+    <g data-steering-detail="v10">
+    <path class="mid" d="m459 276h14l5 26h-24Z" />
+    <ellipse class="steer-rim" cx="466" cy="236" rx="44" ry="41" />
+    <path class="deep" d="M424 240c14-3 26-8 34-8h16c8 0 20 5 34 8v-12c-14-3-26-6-34-6h-16c-8 0-20 3-34 6Z" />
+    <path class="deep" d="m459 246h14l3 30h-20Z" />
+    <ellipse class="mid" cx="466" cy="236" rx="15" ry="14" />
+    <ellipse class="light" cx="466" cy="236" rx="6" ry="5.5" />
+    <path class="steer-highlight" d="M431 214c8-12 20-18 35-19" />
+    <path class="color-line" data-draw="true" d="M429 220a44 41 0 0 1 74 0" />
+  </g>
+  </g></svg>
       <div class="foundation-copy">
-        <p class="slide-body">Keep the whole application available, responsive, and recoverable.</p>
-        <div class="grid-3 responsibility-grid">
-          <section class="card" data-step="1"><h2>Capacity</h2><p>Test realistic load</p></section>
-          <section class="card" data-step="2"><h2>Failure handling</h2><p>Handle dependency failures</p></section>
-          <section class="card" data-step="3"><h2>Recovery</h2><p>Preserve progress where needed</p></section>
-        </div>
+        <p class="slide-body">Turn agent decisions into actions across connected systems.</p>
+        <ul class="slide-list"><li>Tools call functions and take actions.</li><li>MCP standardizes connections to tools and data.</li><li>Plugins and connectors package integrations.</li></ul>
+        <p class="example">Example: <strong>MCP servers in <span class="product-inline"><img class="product-logo" src="images/microsoft-foundry.svg" data-asset="microsoft-foundry.svg" alt="Microsoft Foundry"><span>Microsoft Foundry</span></span></strong>.</p>
       </div>
     </div>
   </div>
   <aside class="speaker-notes" hidden>
-<p>Infrastructure includes hosting, storage, networks, and dependent services, not just a model endpoint.<br>Test capacity across retrieval, tools, and application dependencies.<br>Use deliberate timeouts, appropriate retries, and graceful degradation rather than hiding errors.<br>Preserve state where needed and test interrupted work.<br>Managed hosting reduces burden but does not remove end-to-end customer design and integration responsibilities.<br>No unlimited capacity, universal private-network claim, or cross-product SLA is implied.<br>Next, coordinate the work that runs on that infrastructure.</p>
+<p>The steering wheel represents how an agent acts on the world.<br>A tool can retrieve relevant knowledge or perform an action.<br>MCP standardizes connections to servers that expose tools and data.<br>Plugins package extensions, while connectors integrate specific services.<br>Choose appropriate tools, limit access, and require approvals for consequential actions.<br>Permissions and approval behavior vary by product.<br>Next, show how to inspect outcomes and execution.</p>
   </aside>
-  <aside class="slide-provenance" hidden><p>Sources: research\2026-11-01-agent-foundations-v4.md, §3.5, R04, R08, R15; research\2026-10-30-foundry.md, §4, R6, R10; https://learn.microsoft.com/azure/well-architected/ai/design-principles</p></aside>
+  <aside class="slide-provenance" hidden><p>Sources: brief.md, SCENE-V10-01 and NUMBERING-V10-01; research\2026-11-03-tools-mcp-plugins.md, §§2, 4–6, [1][4][5][7][8][14][23][26][28]; steering-wheel miniature from the shared transportation scene</p></aside>
 </article>

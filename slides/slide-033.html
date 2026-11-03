@@ -1,22 +1,22 @@
 <!-- HAND-CRAFTED OVERRIDE — do not regenerate -->
-<article class="slide knowledge-layout" data-number="33" data-type="diagram" data-section="The three IQs covered here" data-steps="6" data-initial-step="0" data-min-step="0" data-max-step="5">
+<article class="slide work-iq-layout" data-number="33" data-type="diagram" data-section="The three IQs covered here" data-steps="6" data-initial-step="0" data-min-step="0" data-max-step="5">
   <div class="slide-bg"></div>
   <div class="slide-content">
-    <header class="header compact"><h1 class="slide-title"><span class="product-name"><img class="product-logo" src="images/foundry-iq.svg" data-asset="foundry-iq.svg" alt="Foundry IQ"><span>Foundry IQ makes curated knowledge <span class="gradient-text">reusable</span></span></span></h1></header>
-    <div class="body-region">
+    <header class="header compact"><h1 class="slide-title"><span class="product-name"><img class="product-logo" src="images/copilot-family.png" data-asset="copilot-family.png" alt="Work IQ"><span>Work IQ brings <span class="gradient-text">permitted work context</span></span></span></h1></header>
+    <div class="permission-boundary">
       <div class="flow-container">
-        <div class="flow-step" data-step="1">Approved sources</div><div class="flow-connector" aria-hidden="true" data-step="2">→</div>
-        <div class="flow-step knowledge-base" data-step="2">Knowledge base powered by <span class="product-name"><img class="product-logo" src="images/azure-ai-search.svg" data-asset="azure-ai-search.svg" alt="Azure AI Search"><span>Azure AI Search</span></span></div><div class="flow-connector" aria-hidden="true" data-step="3">→</div>
-        <div class="flow-step" data-step="3">Application or agent</div>
+        <div class="flow-step" data-step="1">Work activity and connected context</div><div class="flow-connector" aria-hidden="true" data-step="2">→</div>
+        <div class="flow-step" data-step="2"><span class="product-name"><img class="product-logo" src="images/copilot-family.png" data-asset="copilot-family.png" alt="Work IQ"><span>Work IQ</span></span></div><div class="flow-connector" aria-hidden="true" data-step="3">→</div>
+        <div class="flow-step" data-step="3">Assistant or agent</div>
       </div>
-      <p class="control-rail" data-step="4">Verify permissions for each source and configuration.</p>
-      <p class="takeaway" data-step="5">Retrieve relevant knowledge with references.</p>
+      <p class="control-rail" data-step="4">Uses a signed-in user's permissions, not an app acting alone.</p>
     </div>
+    <p class="takeaway" data-step="5">Understand relevant work and use appropriate tools.</p>
   </div>
   <aside class="speaker-notes" hidden>
-<p>A knowledge base is a reusable retrieval capability over selected organizational sources.<br>Foundry IQ supplies relevant information and references rather than training a model on all company data.<br>Azure AI Search is required; not every consuming application needs Foundry Agent Service.</p>
-<p>Verify source permissions rather than assuming access checks are universally automatic.<br>Availability has two boundaries: limited information lookup through the stable retrieval API is GA, while portal access and the documented Foundry-agent connection use preview components.<br>Do not treat that as an end-to-end GA agent solution.<br>Now apply these context choices to customer jobs.</p>
-<p><strong>Technical reference, not spoken:</strong><br>Foundry IQ readiness label: Partial GA at API level; portal access Preview.<br>The stable Search REST contract covers minimal, extractive retrieval, not all planning or answer synthesis.<br>It does not establish GA for the Foundry Agent Service MCP route, which uses a preview SDK or API and a preview <code>RemoteTool</code> connection.<br>Advanced planning and cross-IQ adapters retain separate preview qualifications.</p>
+<p>Work IQ can bring meeting discussions, emails, and specification documents into a supported task.<br>It can also expose permitted operations, so it is not simply a read-only document connector.<br>The signed-in user&#x27;s context is required; calling something an agent does not give it authority across the tenant.</p>
+<p>Its core developer connections are generally available, but one remote tool for fetching grounding information remains public preview.<br>That is why availability must be checked for the specific capability.<br>Next, move from workplace context to shared business definitions.</p>
+<p><strong>Technical reference, not spoken:</strong><br>Work IQ API family (A2A, remote MCP, REST): GA.<br>Remote MCP <code>retrieve</code> tool: public preview.<br>MCP is Model Context Protocol, used to connect tools and context.<br>APIs require delegated user authentication; application-only authentication is unsupported.</p>
   </aside>
-  <aside class="slide-provenance" hidden><p>Sources: research\2026-10-30-ai-ecosystem-foundations.md, §§3–4 and §8 item 4, S27–S31, S38, S39; https://learn.microsoft.com/azure/foundry/agents/concepts/what-is-foundry-iq; https://learn.microsoft.com/azure/search/agentic-retrieval-how-to-migrate; https://learn.microsoft.com/azure/foundry/agents/how-to/foundry-iq-connect; research\2026-11-01-microsoft-ai-product-logos.md, Coverage, L02, L06, L15; research\2026-11-01-product-logo-refresh-v4.md, distinct Foundry IQ and Azure AI Search mappings</p></aside>
+  <aside class="slide-provenance" hidden><p>Sources: research\2026-10-30-ai-ecosystem-foundations.md, §§3–4, S07–S10, S14; https://learn.microsoft.com/microsoft-365/copilot/extensibility/work-iq/; https://learn.microsoft.com/microsoft-365/copilot/extensibility/work-iq/api-overview; https://learn.microsoft.com/microsoft-365/copilot/extensibility/work-iq/mcp/overview; research\2026-11-01-microsoft-ai-product-logos.md, Coverage, L05, L06; research\2026-11-01-product-logo-refresh-v4.md, work-iq shared glyph mapping</p></aside>
 </article>

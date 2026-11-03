@@ -1,24 +1,46 @@
-<article class="slide table-layout" data-number="24" data-type="table" data-section="Four complementary layers" data-steps="5" data-initial-step="0" data-min-step="0" data-max-step="4">
+<!-- HAND-CRAFTED OVERRIDE — do not regenerate -->
+<article class="slide control-plane-layout" data-number="24" data-type="boxes" data-section="Nine production foundations" data-steps="6" data-initial-step="0" data-min-step="0" data-max-step="5">
   <div class="slide-bg"></div>
   <div class="slide-content">
-    <header class="header compact">
-      <h1 class="slide-title"><span class="product-name"><img class="product-logo" src="images/copilot-family.png" data-asset="copilot-family.png" alt="Microsoft 365 Copilot"><span>Microsoft 365 Copilot supports <span class="gradient-text">everyday work</span></span></span></h1>
-    </header>
-    <div class="body-region">
-      <table class="slide-table"><thead><tr><th>Work outcome</th><th>Familiar examples</th></tr></thead><tbody>
-        <tr data-step="1"><td class="work-outcome">Catch up</td><td>Meeting summaries and email-thread summaries</td></tr>
-        <tr data-step="2"><td class="work-outcome">Create</td><td>Draft documents, messages, and presentations</td></tr>
-        <tr data-step="3"><td class="work-outcome">Analyze</td><td>Explore spreadsheet information and explain findings</td></tr>
-      </tbody></table>
-      <p class="takeaway" data-step="4">Use permitted organizational context where the experience supports it.</p>
+    <header class="header"><h1 class="slide-title">Control plane <span class="gradient-text">for AI</span></h1></header>
+    <div class="control-plane-panel">
+      <div class="control-columns">
+        <section class="control-column" data-step="1">
+          <h2 class="control-question">Who, or what, is acting?</h2>
+          <svg class="control-arrow" viewBox="0 0 52 52" width="52" aria-hidden="true"><path d="M26 5v33m-12-12 12 12 12-12" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <div class="control-service" data-product="microsoft-entra">
+            <div class="product-name"><img class="product-logo" src="images/microsoft-entra.svg" data-asset="microsoft-entra.svg" alt="Microsoft Entra"><span>Microsoft Entra</span></div>
+            <p>Identity and access for people and agents.</p>
+          </div>
+        </section>
+        <section class="control-column" data-step="2">
+          <h2 class="control-question">What data can it access and share?</h2>
+          <svg class="control-arrow" viewBox="0 0 52 52" width="52" aria-hidden="true"><path d="M26 5v33m-12-12 12 12 12-12" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <div class="control-service" data-product="microsoft-purview">
+            <div class="product-name"><img class="product-logo" src="images/microsoft-purview.png" data-asset="microsoft-purview.png" alt="Microsoft Purview"><span>Microsoft Purview</span></div>
+            <p>Data protection and compliance.</p>
+          </div>
+        </section>
+        <section class="control-column" data-step="3">
+          <h2 class="control-question">Is it being attacked or misbehaving?</h2>
+          <svg class="control-arrow" viewBox="0 0 52 52" width="52" aria-hidden="true"><path d="M26 5v33m-12-12 12 12 12-12" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <div class="control-service" data-product="microsoft-defender">
+            <div class="product-name"><img class="product-logo" src="images/microsoft-defender.png" data-asset="microsoft-defender.png" alt="Microsoft Defender"><span>Microsoft Defender</span></div>
+            <p>Threat protection for agents and their work.</p>
+          </div>
+        </section>
+      </div>
+      <div class="agent-oversight" data-step="4">
+        <div class="product-name"><img class="product-logo" src="images/microsoft-agent-365.svg" data-asset="microsoft-agent-365.svg" alt="Microsoft Agent 365"><span>Microsoft Agent 365</span></div>
+        <p>Visibility, governance and oversight across agents.</p>
+      </div>
     </div>
+    <p class="takeaway" data-step="5">Limit allowed actions. Keep accountable ownership.</p>
   </div>
   <aside class="speaker-notes" hidden>
-<p>Start with familiar outcomes: catch up after a meeting, improve a draft, or explain spreadsheet findings.<br>App capabilities and entitlements differ; these examples are not a promise of identical support everywhere.</p>
-<p>We use Microsoft 365 Copilot as the pillar name.<br>Current documentation calls its app Microsoft Copilot.<br>An app label alone does not establish a user&#x27;s entitlement.</p>
-<p>Copilot Chat is not universally web-only: supported Outlook experiences have bounded organizational grounding.<br>The broader licensed experience can use accessible work content, but neither grants unrestricted access to all company information.</p>
-<p>Agent Builder is a guided way to configure a focused agent inside Microsoft 365 Copilot.<br>It may suit a knowledge task without a custom application; external-service actions call for a different authoring option.</p>
-<p>Review the facts and source permissions.<br>Copilot does not repair information already shared too broadly.<br>Next, move from help with an output to a delegated work package.</p>
+<p>Controls enforce boundaries on access, data use, tools, and actions.<br>Governance supplies purpose, ownership, reviews, and lifecycle oversight.<br>Entra addresses identity/access, Purview data security/compliance, Defender threat protection, and Agent 365 oversight through complementary services.<br>This is not one switch, policy, or license that protects every agent identically.</p>
+<p>Follow user → agent → tool → data/action and ask whose credentials and permissions apply at every connection.<br>Least privilege means granting only task-needed access.<br>A signed-in chat user does not settle all downstream authority.<br>The standard Studio event-trigger path uses maker credentials, and the Fabric tool&#x27;s User/Maker choices differ.<br>An approval does not create missing authority, and a prompt instruction is not a permission boundary.<br>Keep traceable ownership, scoped actions, and a revocation/recovery path.<br>These responsibilities apply throughout operation, not only at a final checkpoint.<br>Now locate the product layers.</p>
+<p><strong>Technical reference, not spoken:</strong><br>Entra Agent ID is GA, while agent-user targeting and agent risk are preview.<br>Conditional Access targets the actual token subject, and API-key access bypasses it.<br>Agent 365 Purview controls require documented sharing/policy scope, and new Agent 365 content does not inherit source labels.<br>Cowork has a separate matrix.<br>Defender&#x27;s default real-time rule audits, not blocks, and blocking needs scoped rules.<br>Studio/Foundry runtime routes and detection/investigation have preview boundaries.<br>Agent 365 is Commercial GA from May 1, 2026, licensed per user.<br>Registry visibility includes unmanaged agents without its risk protection/observability.<br>Onboarding, policies, supported integrations, and gradual rollout still need checking.</p>
   </aside>
-  <aside class="slide-provenance" hidden><p>Sources: research\2026-10-30-m365-copilot-cowork.md, §§2–4, 6.1, R01, R02, R10, R14, R15, R25; https://learn.microsoft.com/en-us/microsoft-365/copilot/copilot-overview; https://learn.microsoft.com/copilot/overview; https://learn.microsoft.com/microsoft-365/copilot/extensibility/copilot-studio-experience; research\2026-11-01-microsoft-ai-product-logos.md, Coverage, L05, L11; research\2026-11-01-product-logo-refresh-v4.md, m365-copilot shared glyph mapping</p></aside>
+  <aside class="slide-provenance" hidden><p>Sources: research\2026-11-01-agent-foundations-v4.md, §§3.7–5; research\2026-10-31-agent-security-governance.md, §§1–4, 6, R01–R13; research\2026-10-30-ai-ecosystem-foundations.md, §5, S04–S05, S24; research\2026-10-30-copilot-studio.md, §§3, 6, R12–R13; research\2026-10-30-m365-copilot-cowork.md, §6.1, R10; https://learn.microsoft.com/security/security-for-ai/agent-365-security; https://learn.microsoft.com/security/zero-trust/sfi/least-privilege-for-ai-agents; research\2026-11-01-microsoft-ai-product-logos.md, unchanged security mappings; research\2026-11-01-product-logo-refresh-v4.md, all four authorized service marks; brief.md, GRANT-LOGOS-V4-02 and LOGOS-V4-COMPLETE-01; brief.md, CONTROL-V8-01 and the user-supplied Control Plane for AI layout reference</p></aside>
 </article>
